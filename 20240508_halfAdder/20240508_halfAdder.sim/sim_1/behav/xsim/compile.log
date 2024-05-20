@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ish/verilog/vivadoWS/20240508_halfAdder/20240508_halfAdder.srcs/sources_1/new/halfAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fullAdderfour
+INFO: [VRFC 10-311] analyzing module fullAdder
+INFO: [VRFC 10-311] analyzing module halfAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ish/verilog/vivadoWS/20240508_halfAdder/20240508_halfAdder.srcs/sim_1/new/tb_halfAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_halfAdder
+WARNING: [VRFC 10-159] /* in comment [D:/ish/verilog/vivadoWS/20240508_halfAdder/20240508_halfAdder.srcs/sim_1/new/tb_halfAdder.v:88]

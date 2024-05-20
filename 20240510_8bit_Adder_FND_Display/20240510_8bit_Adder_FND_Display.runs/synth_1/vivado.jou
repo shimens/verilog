@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri May 10 14:26:31 2024
+# Process ID: 3528
+# Current directory: D:/ish/verilog/vivadoWS/20240510_8bit_Adder_FND_Display/20240510_8bit_Adder_FND_Display.runs/synth_1
+# Command line: vivado.exe -log adder_fnd.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source adder_fnd.tcl
+# Log file: D:/ish/verilog/vivadoWS/20240510_8bit_Adder_FND_Display/20240510_8bit_Adder_FND_Display.runs/synth_1/adder_fnd.vds
+# Journal file: D:/ish/verilog/vivadoWS/20240510_8bit_Adder_FND_Display/20240510_8bit_Adder_FND_Display.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source adder_fnd.tcl -notrace

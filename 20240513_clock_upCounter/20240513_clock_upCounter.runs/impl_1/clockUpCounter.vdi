@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May 13 17:24:43 2024
+# Process ID: 20228
+# Current directory: D:/ish/verilog/vivadoWS/20240513_clock_upCounter/20240513_clock_upCounter.runs/impl_1
+# Command line: vivado.exe -log clockUpCounter.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source clockUpCounter.tcl -notrace
+# Log file: D:/ish/verilog/vivadoWS/20240513_clock_upCounter/20240513_clock_upCounter.runs/impl_1/clockUpCounter.vdi
+# Journal file: D:/ish/verilog/vivadoWS/20240513_clock_upCounter/20240513_clock_upCounter.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source clockUpCounter.tcl -notrace
+Command: link_design -top clockUpCounter -part xc7a35tcpg236-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1105.328 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 45 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/ish/verilog/vivadoWS/20240513_clock_upCounter/20240513_clock_upCounter.srcs/constrs_1/imports/user_util/MY_Basys-3-Master.xdc]
+Finished Parsing XDC File [D:/ish/verilog/vivadoWS/20240513_clock_upCounter/20240513_clock_upCounter.srcs/constrs_1/imports/user_util/MY_Basys-3-Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1105.328 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+7 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1105.328 ; gain = 0.000
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U_clock/U_fndController/U_Counter_2bit/fndCom_OBUF[0] has multiple drivers: U_clock/U_fndController/U_Counter_2bit/fndCom_OBUF[1]_inst_i_1/O, and fndCom_OBUF[1]_inst_i_2/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U_clock/U_fndController/U_Counter_2bit/fndCom_OBUF[1] has multiple drivers: U_clock/U_fndController/U_Counter_2bit/fndCom_OBUF[2]_inst_i_1/O, and fndCom_OBUF[2]_inst_i_2/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U_clock/U_fndController/U_Counter_2bit/fndCom_OBUF[2] has multiple drivers: U_clock/U_fndController/U_Counter_2bit/fndCom_OBUF[3]_inst_i_1/O, and fndCom_OBUF[3]_inst_i_2/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net fndCom_OBUF[0] has multiple drivers: fndCom_OBUF[0]_inst_i_1/O, and fndCom_OBUF[0]_inst_i_2/O.
+INFO: [Project 1-461] DRC finished with 4 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.596 . Memory (MB): peak = 1105.328 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+12 Infos, 0 Warnings, 0 Critical Warnings and 5 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Mon May 13 17:24:51 2024...

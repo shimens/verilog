@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May 13 17:24:03 2024
+# Process ID: 4636
+# Current directory: D:/ish/verilog/vivadoWS/20240513_clock_upCounter/20240513_clock_upCounter.runs/synth_1
+# Command line: vivado.exe -log clockUpCounter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clockUpCounter.tcl
+# Log file: D:/ish/verilog/vivadoWS/20240513_clock_upCounter/20240513_clock_upCounter.runs/synth_1/clockUpCounter.vds
+# Journal file: D:/ish/verilog/vivadoWS/20240513_clock_upCounter/20240513_clock_upCounter.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source clockUpCounter.tcl -notrace

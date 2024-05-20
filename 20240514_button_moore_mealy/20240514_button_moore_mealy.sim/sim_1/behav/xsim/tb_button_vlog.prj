@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../20240514_button_moore_mealy.srcs/sources_1/new/button.v" \
+"../../../../20240514_button_moore_mealy.srcs/sim_1/new/tb_button.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

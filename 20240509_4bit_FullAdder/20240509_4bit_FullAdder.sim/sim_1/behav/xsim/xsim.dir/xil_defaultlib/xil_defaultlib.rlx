@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/ish/verilog/vivadoWS/20240509_4bit_FullAdder/20240509_4bit_FullAdder.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/20240509_4bit_FullAdder/20240509_4bit_FullAdder.srcs/sim_1/new/tb_adder.v,1715221581,verilog,,,,tb_adder,,,,,,,,
+D:/ish/verilog/vivadoWS/20240509_4bit_FullAdder/20240509_4bit_FullAdder.srcs/sim_1/new/tb_adder_sv.sv,1715227945,systemVerilog,,,,$unit_tb_adder_sv_sv;tb_adder_sv,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/20240509_4bit_FullAdder/20240509_4bit_FullAdder.srcs/sources_1/new/Adder.v,1715221160,verilog,,D:/ish/verilog/vivadoWS/20240509_4bit_FullAdder/20240509_4bit_FullAdder.srcs/sim_1/new/tb_adder.v,,Adder;fullAdder;halfAdder,,uvm,,,,,,

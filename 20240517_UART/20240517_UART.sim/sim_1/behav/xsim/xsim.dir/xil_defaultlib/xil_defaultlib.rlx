@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/ish/verilog/vivadoWS/20240517_UART/20240517_UART.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/ish/verilog/vivadoWS/20240517_UART/20240517_UART.srcs/sim_1/new/tb_uart.v,1715910500,verilog,,,,tb_uart,,,,,,,,
+D:/ish/verilog/vivadoWS/20240517_UART/20240517_UART.srcs/sources_1/new/uart.v,1715910229,verilog,,D:/ish/verilog/vivadoWS/20240517_UART/20240517_UART.srcs/sim_1/new/tb_uart.v,,baudrate_generator;transmitter;uart,,,,,,,,

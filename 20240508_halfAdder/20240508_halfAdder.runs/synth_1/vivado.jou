@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed May  8 17:30:41 2024
+# Process ID: 11628
+# Current directory: D:/ish/verilog/vivadoWS/20240508_halfAdder/20240508_halfAdder.runs/synth_1
+# Command line: vivado.exe -log fullAdder_4bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fullAdder_4bit.tcl
+# Log file: D:/ish/verilog/vivadoWS/20240508_halfAdder/20240508_halfAdder.runs/synth_1/fullAdder_4bit.vds
+# Journal file: D:/ish/verilog/vivadoWS/20240508_halfAdder/20240508_halfAdder.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source fullAdder_4bit.tcl -notrace
