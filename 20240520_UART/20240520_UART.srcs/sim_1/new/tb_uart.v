@@ -14,20 +14,22 @@ module tb_uart ();
     wire [7:0] rx_data;
     wire       rx_done;
 
+    wire w_tx_rx;
+
     uart dut (
         .clk(clk),
         .reset(reset),
         .start(start),
         .tx_data(tx_data),
-        .tx(tx),
+        .tx(w_tx_rx),
         .tx_done(tx_done),
-        .rx(rx),
+        .rx(w_tx_rx),
         .rx_data(rx_data),
         .rx_done(rx_done)
     );
 
     always #5 clk = ~clk;
-    
+
     initial begin
         clk   = 1'b0;
         reset = 1'b1;

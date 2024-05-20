@@ -64,8 +64,8 @@ module baudrate_generator (
 
     always @(*) begin
         counter_next = counter_reg;
-        //if (counter_reg == 100_000_000 / 9600 / 16 - 1) begin
-        if (counter_reg == 3) begin  // for simulation
+        if (counter_reg == 100_000_000 / 9600 / 16 - 1) begin
+        //if (counter_reg == 3) begin  // for simulation
             counter_next = 0;
             tick_next    = 1'b1;
         end else begin
