@@ -1,0 +1,5012 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+[GEN] a:15, b: 8, carry:x, sum: x
+[DRV] a:15, b: 8, carry:x, sum: x
+[MON] a:15, b: 8, carry:1, sum: 7
+[SCB] a:15, b: 8, carry:1, sum: 7
+  --> PASS ! 15 +  8 = 23
+[GEN] a: 3, b: 5, carry:x, sum: x
+[DRV] a: 3, b: 5, carry:x, sum: x
+[MON] a: 3, b: 5, carry:0, sum: 8
+[SCB] a: 3, b: 5, carry:0, sum: 8
+  --> PASS !  3 +  5 =  8
+[GEN] a:11, b: 8, carry:x, sum: x
+[DRV] a:11, b: 8, carry:x, sum: x
+[MON] a:11, b: 8, carry:1, sum: 3
+[SCB] a:11, b: 8, carry:1, sum: 3
+  --> PASS ! 11 +  8 = 19
+[GEN] a:13, b:10, carry:x, sum: x
+[DRV] a:13, b:10, carry:x, sum: x
+[MON] a:13, b:10, carry:1, sum: 7
+[SCB] a:13, b:10, carry:1, sum: 7
+  --> PASS ! 13 + 10 = 23
+[GEN] a: 0, b: 1, carry:x, sum: x
+[DRV] a: 0, b: 1, carry:x, sum: x
+[MON] a: 0, b: 1, carry:0, sum: 1
+[SCB] a: 0, b: 1, carry:0, sum: 1
+  --> PASS !  0 +  1 =  1
+[GEN] a:15, b:11, carry:x, sum: x
+[DRV] a:15, b:11, carry:x, sum: x
+[MON] a:15, b:11, carry:1, sum:10
+[SCB] a:15, b:11, carry:1, sum:10
+  --> PASS ! 15 + 11 = 26
+[GEN] a: 9, b:13, carry:x, sum: x
+[DRV] a: 9, b:13, carry:x, sum: x
+[MON] a: 9, b:13, carry:1, sum: 6
+[SCB] a: 9, b:13, carry:1, sum: 6
+  --> PASS !  9 + 13 = 22
+[GEN] a: 5, b:10, carry:x, sum: x
+[DRV] a: 5, b:10, carry:x, sum: x
+[MON] a: 5, b:10, carry:0, sum:15
+[SCB] a: 5, b:10, carry:0, sum:15
+  --> PASS !  5 + 10 = 15
+[GEN] a:14, b: 5, carry:x, sum: x
+[DRV] a:14, b: 5, carry:x, sum: x
+[MON] a:14, b: 5, carry:1, sum: 3
+[SCB] a:14, b: 5, carry:1, sum: 3
+  --> PASS ! 14 +  5 = 19
+[GEN] a: 5, b: 7, carry:x, sum: x
+[DRV] a: 5, b: 7, carry:x, sum: x
+[MON] a: 5, b: 7, carry:0, sum:12
+[SCB] a: 5, b: 7, carry:0, sum:12
+  --> PASS !  5 +  7 = 12
+[GEN] a: 2, b:11, carry:x, sum: x
+[DRV] a: 2, b:11, carry:x, sum: x
+[MON] a: 2, b:11, carry:0, sum:13
+[SCB] a: 2, b:11, carry:0, sum:13
+  --> PASS !  2 + 11 = 13
+[GEN] a: 1, b: 0, carry:x, sum: x
+[DRV] a: 1, b: 0, carry:x, sum: x
+[MON] a: 1, b: 0, carry:0, sum: 1
+[SCB] a: 1, b: 0, carry:0, sum: 1
+  --> PASS !  1 +  0 =  1
+[GEN] a: 0, b: 7, carry:x, sum: x
+[DRV] a: 0, b: 7, carry:x, sum: x
+[MON] a: 0, b: 7, carry:0, sum: 7
+[SCB] a: 0, b: 7, carry:0, sum: 7
+  --> PASS !  0 +  7 =  7
+[GEN] a: 7, b: 2, carry:x, sum: x
+[DRV] a: 7, b: 2, carry:x, sum: x
+[MON] a: 7, b: 2, carry:0, sum: 9
+[SCB] a: 7, b: 2, carry:0, sum: 9
+  --> PASS !  7 +  2 =  9
+[GEN] a: 2, b: 9, carry:x, sum: x
+[DRV] a: 2, b: 9, carry:x, sum: x
+[MON] a: 2, b: 9, carry:0, sum:11
+[SCB] a: 2, b: 9, carry:0, sum:11
+  --> PASS !  2 +  9 = 11
+[GEN] a: 2, b: 2, carry:x, sum: x
+[DRV] a: 2, b: 2, carry:x, sum: x
+[MON] a: 2, b: 2, carry:0, sum: 4
+[SCB] a: 2, b: 2, carry:0, sum: 4
+  --> PASS !  2 +  2 =  4
+[GEN] a: 0, b: 9, carry:x, sum: x
+[DRV] a: 0, b: 9, carry:x, sum: x
+[MON] a: 0, b: 9, carry:0, sum: 9
+[SCB] a: 0, b: 9, carry:0, sum: 9
+  --> PASS !  0 +  9 =  9
+[GEN] a: 4, b: 2, carry:x, sum: x
+[DRV] a: 4, b: 2, carry:x, sum: x
+[MON] a: 4, b: 2, carry:0, sum: 6
+[SCB] a: 4, b: 2, carry:0, sum: 6
+  --> PASS !  4 +  2 =  6
+[GEN] a: 2, b: 6, carry:x, sum: x
+[DRV] a: 2, b: 6, carry:x, sum: x
+[MON] a: 2, b: 6, carry:0, sum: 8
+[SCB] a: 2, b: 6, carry:0, sum: 8
+  --> PASS !  2 +  6 =  8
+[GEN] a: 4, b: 2, carry:x, sum: x
+[DRV] a: 4, b: 2, carry:x, sum: x
+[MON] a: 4, b: 2, carry:0, sum: 6
+[SCB] a: 4, b: 2, carry:0, sum: 6
+  --> PASS !  4 +  2 =  6
+[GEN] a:15, b: 8, carry:x, sum: x
+[DRV] a:15, b: 8, carry:x, sum: x
+[MON] a:15, b: 8, carry:1, sum: 7
+[SCB] a:15, b: 8, carry:1, sum: 7
+  --> PASS ! 15 +  8 = 23
+[GEN] a: 4, b: 2, carry:x, sum: x
+[DRV] a: 4, b: 2, carry:x, sum: x
+[MON] a: 4, b: 2, carry:0, sum: 6
+[SCB] a: 4, b: 2, carry:0, sum: 6
+  --> PASS !  4 +  2 =  6
+[GEN] a:14, b: 8, carry:x, sum: x
+[DRV] a:14, b: 8, carry:x, sum: x
+[MON] a:14, b: 8, carry:1, sum: 6
+[SCB] a:14, b: 8, carry:1, sum: 6
+  --> PASS ! 14 +  8 = 22
+[GEN] a: 4, b:13, carry:x, sum: x
+[DRV] a: 4, b:13, carry:x, sum: x
+[MON] a: 4, b:13, carry:1, sum: 1
+[SCB] a: 4, b:13, carry:1, sum: 1
+  --> PASS !  4 + 13 = 17
+[GEN] a: 0, b: 9, carry:x, sum: x
+[DRV] a: 0, b: 9, carry:x, sum: x
+[MON] a: 0, b: 9, carry:0, sum: 9
+[SCB] a: 0, b: 9, carry:0, sum: 9
+  --> PASS !  0 +  9 =  9
+[GEN] a:15, b:14, carry:x, sum: x
+[DRV] a:15, b:14, carry:x, sum: x
+[MON] a:15, b:14, carry:1, sum:13
+[SCB] a:15, b:14, carry:1, sum:13
+  --> PASS ! 15 + 14 = 29
+[GEN] a: 1, b: 4, carry:x, sum: x
+[DRV] a: 1, b: 4, carry:x, sum: x
+[MON] a: 1, b: 4, carry:0, sum: 5
+[SCB] a: 1, b: 4, carry:0, sum: 5
+  --> PASS !  1 +  4 =  5
+[GEN] a:12, b: 2, carry:x, sum: x
+[DRV] a:12, b: 2, carry:x, sum: x
+[MON] a:12, b: 2, carry:0, sum:14
+[SCB] a:12, b: 2, carry:0, sum:14
+  --> PASS ! 12 +  2 = 14
+[GEN] a:13, b:11, carry:x, sum: x
+[DRV] a:13, b:11, carry:x, sum: x
+[MON] a:13, b:11, carry:1, sum: 8
+[SCB] a:13, b:11, carry:1, sum: 8
+  --> PASS ! 13 + 11 = 24
+[GEN] a: 0, b:14, carry:x, sum: x
+[DRV] a: 0, b:14, carry:x, sum: x
+[MON] a: 0, b:14, carry:0, sum:14
+[SCB] a: 0, b:14, carry:0, sum:14
+  --> PASS !  0 + 14 = 14
+[GEN] a:15, b:12, carry:x, sum: x
+[DRV] a:15, b:12, carry:x, sum: x
+[MON] a:15, b:12, carry:1, sum:11
+[SCB] a:15, b:12, carry:1, sum:11
+  --> PASS ! 15 + 12 = 27
+[GEN] a: 0, b:12, carry:x, sum: x
+[DRV] a: 0, b:12, carry:x, sum: x
+[MON] a: 0, b:12, carry:0, sum:12
+[SCB] a: 0, b:12, carry:0, sum:12
+  --> PASS !  0 + 12 = 12
+[GEN] a: 8, b: 1, carry:x, sum: x
+[DRV] a: 8, b: 1, carry:x, sum: x
+[MON] a: 8, b: 1, carry:0, sum: 9
+[SCB] a: 8, b: 1, carry:0, sum: 9
+  --> PASS !  8 +  1 =  9
+[GEN] a:11, b: 7, carry:x, sum: x
+[DRV] a:11, b: 7, carry:x, sum: x
+[MON] a:11, b: 7, carry:1, sum: 2
+[SCB] a:11, b: 7, carry:1, sum: 2
+  --> PASS ! 11 +  7 = 18
+[GEN] a:13, b:11, carry:x, sum: x
+[DRV] a:13, b:11, carry:x, sum: x
+[MON] a:13, b:11, carry:1, sum: 8
+[SCB] a:13, b:11, carry:1, sum: 8
+  --> PASS ! 13 + 11 = 24
+[GEN] a: 4, b: 5, carry:x, sum: x
+[DRV] a: 4, b: 5, carry:x, sum: x
+[MON] a: 4, b: 5, carry:0, sum: 9
+[SCB] a: 4, b: 5, carry:0, sum: 9
+  --> PASS !  4 +  5 =  9
+[GEN] a:12, b:15, carry:x, sum: x
+[DRV] a:12, b:15, carry:x, sum: x
+[MON] a:12, b:15, carry:1, sum:11
+[SCB] a:12, b:15, carry:1, sum:11
+  --> PASS ! 12 + 15 = 27
+[GEN] a:13, b:10, carry:x, sum: x
+[DRV] a:13, b:10, carry:x, sum: x
+[MON] a:13, b:10, carry:1, sum: 7
+[SCB] a:13, b:10, carry:1, sum: 7
+  --> PASS ! 13 + 10 = 23
+[GEN] a:10, b: 1, carry:x, sum: x
+[DRV] a:10, b: 1, carry:x, sum: x
+[MON] a:10, b: 1, carry:0, sum:11
+[SCB] a:10, b: 1, carry:0, sum:11
+  --> PASS ! 10 +  1 = 11
+[GEN] a:15, b: 7, carry:x, sum: x
+[DRV] a:15, b: 7, carry:x, sum: x
+[MON] a:15, b: 7, carry:1, sum: 6
+[SCB] a:15, b: 7, carry:1, sum: 6
+  --> PASS ! 15 +  7 = 22
+[GEN] a: 0, b:12, carry:x, sum: x
+[DRV] a: 0, b:12, carry:x, sum: x
+[MON] a: 0, b:12, carry:0, sum:12
+[SCB] a: 0, b:12, carry:0, sum:12
+  --> PASS !  0 + 12 = 12
+[GEN] a: 1, b:10, carry:x, sum: x
+[DRV] a: 1, b:10, carry:x, sum: x
+[MON] a: 1, b:10, carry:0, sum:11
+[SCB] a: 1, b:10, carry:0, sum:11
+  --> PASS !  1 + 10 = 11
+[GEN] a:13, b: 0, carry:x, sum: x
+[DRV] a:13, b: 0, carry:x, sum: x
+[MON] a:13, b: 0, carry:0, sum:13
+[SCB] a:13, b: 0, carry:0, sum:13
+  --> PASS ! 13 +  0 = 13
+[GEN] a: 1, b:13, carry:x, sum: x
+[DRV] a: 1, b:13, carry:x, sum: x
+[MON] a: 1, b:13, carry:0, sum:14
+[SCB] a: 1, b:13, carry:0, sum:14
+  --> PASS !  1 + 13 = 14
+[GEN] a:13, b: 2, carry:x, sum: x
+[DRV] a:13, b: 2, carry:x, sum: x
+[MON] a:13, b: 2, carry:0, sum:15
+[SCB] a:13, b: 2, carry:0, sum:15
+  --> PASS ! 13 +  2 = 15
+[GEN] a: 8, b:10, carry:x, sum: x
+[DRV] a: 8, b:10, carry:x, sum: x
+[MON] a: 8, b:10, carry:1, sum: 2
+[SCB] a: 8, b:10, carry:1, sum: 2
+  --> PASS !  8 + 10 = 18
+[GEN] a: 3, b: 9, carry:x, sum: x
+[DRV] a: 3, b: 9, carry:x, sum: x
+[MON] a: 3, b: 9, carry:0, sum:12
+[SCB] a: 3, b: 9, carry:0, sum:12
+  --> PASS !  3 +  9 = 12
+[GEN] a: 8, b: 0, carry:x, sum: x
+[DRV] a: 8, b: 0, carry:x, sum: x
+[MON] a: 8, b: 0, carry:0, sum: 8
+[SCB] a: 8, b: 0, carry:0, sum: 8
+  --> PASS !  8 +  0 =  8
+[GEN] a:12, b: 0, carry:x, sum: x
+[DRV] a:12, b: 0, carry:x, sum: x
+[MON] a:12, b: 0, carry:0, sum:12
+[SCB] a:12, b: 0, carry:0, sum:12
+  --> PASS ! 12 +  0 = 12
+[GEN] a:10, b:15, carry:x, sum: x
+[DRV] a:10, b:15, carry:x, sum: x
+[MON] a:10, b:15, carry:1, sum: 9
+[SCB] a:10, b:15, carry:1, sum: 9
+  --> PASS ! 10 + 15 = 25
+[GEN] a: 9, b: 2, carry:x, sum: x
+[DRV] a: 9, b: 2, carry:x, sum: x
+[MON] a: 9, b: 2, carry:0, sum:11
+[SCB] a: 9, b: 2, carry:0, sum:11
+  --> PASS !  9 +  2 = 11
+[GEN] a:15, b: 5, carry:x, sum: x
+[DRV] a:15, b: 5, carry:x, sum: x
+[MON] a:15, b: 5, carry:1, sum: 4
+[SCB] a:15, b: 5, carry:1, sum: 4
+  --> PASS ! 15 +  5 = 20
+[GEN] a: 2, b: 9, carry:x, sum: x
+[DRV] a: 2, b: 9, carry:x, sum: x
+[MON] a: 2, b: 9, carry:0, sum:11
+[SCB] a: 2, b: 9, carry:0, sum:11
+  --> PASS !  2 +  9 = 11
+[GEN] a: 4, b:12, carry:x, sum: x
+[DRV] a: 4, b:12, carry:x, sum: x
+[MON] a: 4, b:12, carry:1, sum: 0
+[SCB] a: 4, b:12, carry:1, sum: 0
+  --> PASS !  4 + 12 = 16
+[GEN] a:12, b: 3, carry:x, sum: x
+[DRV] a:12, b: 3, carry:x, sum: x
+[MON] a:12, b: 3, carry:0, sum:15
+[SCB] a:12, b: 3, carry:0, sum:15
+  --> PASS ! 12 +  3 = 15
+[GEN] a: 1, b:14, carry:x, sum: x
+[DRV] a: 1, b:14, carry:x, sum: x
+[MON] a: 1, b:14, carry:0, sum:15
+[SCB] a: 1, b:14, carry:0, sum:15
+  --> PASS !  1 + 14 = 15
+[GEN] a:13, b: 6, carry:x, sum: x
+[DRV] a:13, b: 6, carry:x, sum: x
+[MON] a:13, b: 6, carry:1, sum: 3
+[SCB] a:13, b: 6, carry:1, sum: 3
+  --> PASS ! 13 +  6 = 19
+[GEN] a:10, b: 9, carry:x, sum: x
+[DRV] a:10, b: 9, carry:x, sum: x
+[MON] a:10, b: 9, carry:1, sum: 3
+[SCB] a:10, b: 9, carry:1, sum: 3
+  --> PASS ! 10 +  9 = 19
+[GEN] a: 9, b:12, carry:x, sum: x
+[DRV] a: 9, b:12, carry:x, sum: x
+[MON] a: 9, b:12, carry:1, sum: 5
+[SCB] a: 9, b:12, carry:1, sum: 5
+  --> PASS !  9 + 12 = 21
+[GEN] a: 7, b: 6, carry:x, sum: x
+[DRV] a: 7, b: 6, carry:x, sum: x
+[MON] a: 7, b: 6, carry:0, sum:13
+[SCB] a: 7, b: 6, carry:0, sum:13
+  --> PASS !  7 +  6 = 13
+[GEN] a: 2, b: 2, carry:x, sum: x
+[DRV] a: 2, b: 2, carry:x, sum: x
+[MON] a: 2, b: 2, carry:0, sum: 4
+[SCB] a: 2, b: 2, carry:0, sum: 4
+  --> PASS !  2 +  2 =  4
+[GEN] a:15, b:11, carry:x, sum: x
+[DRV] a:15, b:11, carry:x, sum: x
+[MON] a:15, b:11, carry:1, sum:10
+[SCB] a:15, b:11, carry:1, sum:10
+  --> PASS ! 15 + 11 = 26
+[GEN] a:14, b: 7, carry:x, sum: x
+[DRV] a:14, b: 7, carry:x, sum: x
+[MON] a:14, b: 7, carry:1, sum: 5
+[SCB] a:14, b: 7, carry:1, sum: 5
+  --> PASS ! 14 +  7 = 21
+[GEN] a: 2, b: 0, carry:x, sum: x
+[DRV] a: 2, b: 0, carry:x, sum: x
+[MON] a: 2, b: 0, carry:0, sum: 2
+[SCB] a: 2, b: 0, carry:0, sum: 2
+  --> PASS !  2 +  0 =  2
+[GEN] a: 9, b: 1, carry:x, sum: x
+[DRV] a: 9, b: 1, carry:x, sum: x
+[MON] a: 9, b: 1, carry:0, sum:10
+[SCB] a: 9, b: 1, carry:0, sum:10
+  --> PASS !  9 +  1 = 10
+[GEN] a:11, b: 7, carry:x, sum: x
+[DRV] a:11, b: 7, carry:x, sum: x
+[MON] a:11, b: 7, carry:1, sum: 2
+[SCB] a:11, b: 7, carry:1, sum: 2
+  --> PASS ! 11 +  7 = 18
+[GEN] a: 8, b:13, carry:x, sum: x
+[DRV] a: 8, b:13, carry:x, sum: x
+[MON] a: 8, b:13, carry:1, sum: 5
+[SCB] a: 8, b:13, carry:1, sum: 5
+  --> PASS !  8 + 13 = 21
+[GEN] a: 7, b: 1, carry:x, sum: x
+[DRV] a: 7, b: 1, carry:x, sum: x
+[MON] a: 7, b: 1, carry:0, sum: 8
+[SCB] a: 7, b: 1, carry:0, sum: 8
+  --> PASS !  7 +  1 =  8
+[GEN] a:15, b: 2, carry:x, sum: x
+[DRV] a:15, b: 2, carry:x, sum: x
+[MON] a:15, b: 2, carry:1, sum: 1
+[SCB] a:15, b: 2, carry:1, sum: 1
+  --> PASS ! 15 +  2 = 17
+[GEN] a: 8, b: 7, carry:x, sum: x
+[DRV] a: 8, b: 7, carry:x, sum: x
+[MON] a: 8, b: 7, carry:0, sum:15
+[SCB] a: 8, b: 7, carry:0, sum:15
+  --> PASS !  8 +  7 = 15
+[GEN] a: 0, b:15, carry:x, sum: x
+[DRV] a: 0, b:15, carry:x, sum: x
+[MON] a: 0, b:15, carry:0, sum:15
+[SCB] a: 0, b:15, carry:0, sum:15
+  --> PASS !  0 + 15 = 15
+[GEN] a: 9, b:15, carry:x, sum: x
+[DRV] a: 9, b:15, carry:x, sum: x
+[MON] a: 9, b:15, carry:1, sum: 8
+[SCB] a: 9, b:15, carry:1, sum: 8
+  --> PASS !  9 + 15 = 24
+[GEN] a: 2, b: 1, carry:x, sum: x
+[DRV] a: 2, b: 1, carry:x, sum: x
+[MON] a: 2, b: 1, carry:0, sum: 3
+[SCB] a: 2, b: 1, carry:0, sum: 3
+  --> PASS !  2 +  1 =  3
+[GEN] a: 6, b: 2, carry:x, sum: x
+[DRV] a: 6, b: 2, carry:x, sum: x
+[MON] a: 6, b: 2, carry:0, sum: 8
+[SCB] a: 6, b: 2, carry:0, sum: 8
+  --> PASS !  6 +  2 =  8
+[GEN] a: 1, b:15, carry:x, sum: x
+[DRV] a: 1, b:15, carry:x, sum: x
+[MON] a: 1, b:15, carry:1, sum: 0
+[SCB] a: 1, b:15, carry:1, sum: 0
+  --> PASS !  1 + 15 = 16
+[GEN] a: 1, b: 3, carry:x, sum: x
+[DRV] a: 1, b: 3, carry:x, sum: x
+[MON] a: 1, b: 3, carry:0, sum: 4
+[SCB] a: 1, b: 3, carry:0, sum: 4
+  --> PASS !  1 +  3 =  4
+[GEN] a: 1, b: 7, carry:x, sum: x
+[DRV] a: 1, b: 7, carry:x, sum: x
+[MON] a: 1, b: 7, carry:0, sum: 8
+[SCB] a: 1, b: 7, carry:0, sum: 8
+  --> PASS !  1 +  7 =  8
+[GEN] a: 5, b: 2, carry:x, sum: x
+[DRV] a: 5, b: 2, carry:x, sum: x
+[MON] a: 5, b: 2, carry:0, sum: 7
+[SCB] a: 5, b: 2, carry:0, sum: 7
+  --> PASS !  5 +  2 =  7
+[GEN] a: 7, b: 6, carry:x, sum: x
+[DRV] a: 7, b: 6, carry:x, sum: x
+[MON] a: 7, b: 6, carry:0, sum:13
+[SCB] a: 7, b: 6, carry:0, sum:13
+  --> PASS !  7 +  6 = 13
+[GEN] a: 5, b: 8, carry:x, sum: x
+[DRV] a: 5, b: 8, carry:x, sum: x
+[MON] a: 5, b: 8, carry:0, sum:13
+[SCB] a: 5, b: 8, carry:0, sum:13
+  --> PASS !  5 +  8 = 13
+[GEN] a:13, b:10, carry:x, sum: x
+[DRV] a:13, b:10, carry:x, sum: x
+[MON] a:13, b:10, carry:1, sum: 7
+[SCB] a:13, b:10, carry:1, sum: 7
+  --> PASS ! 13 + 10 = 23
+[GEN] a:10, b: 4, carry:x, sum: x
+[DRV] a:10, b: 4, carry:x, sum: x
+[MON] a:10, b: 4, carry:0, sum:14
+[SCB] a:10, b: 4, carry:0, sum:14
+  --> PASS ! 10 +  4 = 14
+[GEN] a: 0, b:15, carry:x, sum: x
+[DRV] a: 0, b:15, carry:x, sum: x
+[MON] a: 0, b:15, carry:0, sum:15
+[SCB] a: 0, b:15, carry:0, sum:15
+  --> PASS !  0 + 15 = 15
+[GEN] a:12, b:13, carry:x, sum: x
+[DRV] a:12, b:13, carry:x, sum: x
+[MON] a:12, b:13, carry:1, sum: 9
+[SCB] a:12, b:13, carry:1, sum: 9
+  --> PASS ! 12 + 13 = 25
+[GEN] a: 9, b: 6, carry:x, sum: x
+[DRV] a: 9, b: 6, carry:x, sum: x
+[MON] a: 9, b: 6, carry:0, sum:15
+[SCB] a: 9, b: 6, carry:0, sum:15
+  --> PASS !  9 +  6 = 15
+[GEN] a: 2, b: 9, carry:x, sum: x
+[DRV] a: 2, b: 9, carry:x, sum: x
+[MON] a: 2, b: 9, carry:0, sum:11
+[SCB] a: 2, b: 9, carry:0, sum:11
+  --> PASS !  2 +  9 = 11
+[GEN] a: 5, b:14, carry:x, sum: x
+[DRV] a: 5, b:14, carry:x, sum: x
+[MON] a: 5, b:14, carry:1, sum: 3
+[SCB] a: 5, b:14, carry:1, sum: 3
+  --> PASS !  5 + 14 = 19
+[GEN] a: 6, b:14, carry:x, sum: x
+[DRV] a: 6, b:14, carry:x, sum: x
+[MON] a: 6, b:14, carry:1, sum: 4
+[SCB] a: 6, b:14, carry:1, sum: 4
+  --> PASS !  6 + 14 = 20
+[GEN] a: 5, b: 8, carry:x, sum: x
+[DRV] a: 5, b: 8, carry:x, sum: x
+[MON] a: 5, b: 8, carry:0, sum:13
+[SCB] a: 5, b: 8, carry:0, sum:13
+  --> PASS !  5 +  8 = 13
+[GEN] a: 7, b:10, carry:x, sum: x
+[DRV] a: 7, b:10, carry:x, sum: x
+[MON] a: 7, b:10, carry:1, sum: 1
+[SCB] a: 7, b:10, carry:1, sum: 1
+  --> PASS !  7 + 10 = 17
+[GEN] a: 7, b:14, carry:x, sum: x
+[DRV] a: 7, b:14, carry:x, sum: x
+[MON] a: 7, b:14, carry:1, sum: 5
+[SCB] a: 7, b:14, carry:1, sum: 5
+  --> PASS !  7 + 14 = 21
+[GEN] a: 9, b:12, carry:x, sum: x
+[DRV] a: 9, b:12, carry:x, sum: x
+[MON] a: 9, b:12, carry:1, sum: 5
+[SCB] a: 9, b:12, carry:1, sum: 5
+  --> PASS !  9 + 12 = 21
+[GEN] a: 6, b: 0, carry:x, sum: x
+[DRV] a: 6, b: 0, carry:x, sum: x
+[MON] a: 6, b: 0, carry:0, sum: 6
+[SCB] a: 6, b: 0, carry:0, sum: 6
+  --> PASS !  6 +  0 =  6
+[GEN] a: 6, b:13, carry:x, sum: x
+[DRV] a: 6, b:13, carry:x, sum: x
+[MON] a: 6, b:13, carry:1, sum: 3
+[SCB] a: 6, b:13, carry:1, sum: 3
+  --> PASS !  6 + 13 = 19
+[GEN] a:14, b:15, carry:x, sum: x
+[DRV] a:14, b:15, carry:x, sum: x
+[MON] a:14, b:15, carry:1, sum:13
+[SCB] a:14, b:15, carry:1, sum:13
+  --> PASS ! 14 + 15 = 29
+[GEN] a: 9, b: 5, carry:x, sum: x
+[DRV] a: 9, b: 5, carry:x, sum: x
+[MON] a: 9, b: 5, carry:0, sum:14
+[SCB] a: 9, b: 5, carry:0, sum:14
+  --> PASS !  9 +  5 = 14
+[GEN] a: 0, b: 0, carry:x, sum: x
+[DRV] a: 0, b: 0, carry:x, sum: x
+[MON] a: 0, b: 0, carry:0, sum: 0
+[SCB] a: 0, b: 0, carry:0, sum: 0
+  --> PASS !  0 +  0 =  0
+[GEN] a: 2, b:14, carry:x, sum: x
+[DRV] a: 2, b:14, carry:x, sum: x
+[MON] a: 2, b:14, carry:1, sum: 0
+[SCB] a: 2, b:14, carry:1, sum: 0
+  --> PASS !  2 + 14 = 16
+[GEN] a:15, b:12, carry:x, sum: x
+[DRV] a:15, b:12, carry:x, sum: x
+[MON] a:15, b:12, carry:1, sum:11
+[SCB] a:15, b:12, carry:1, sum:11
+  --> PASS ! 15 + 12 = 27
+[GEN] a: 3, b:15, carry:x, sum: x
+[DRV] a: 3, b:15, carry:x, sum: x
+[MON] a: 3, b:15, carry:1, sum: 2
+[SCB] a: 3, b:15, carry:1, sum: 2
+  --> PASS !  3 + 15 = 18
+[GEN] a:12, b: 6, carry:x, sum: x
+[DRV] a:12, b: 6, carry:x, sum: x
+[MON] a:12, b: 6, carry:1, sum: 2
+[SCB] a:12, b: 6, carry:1, sum: 2
+  --> PASS ! 12 +  6 = 18
+[GEN] a:14, b:11, carry:x, sum: x
+[DRV] a:14, b:11, carry:x, sum: x
+[MON] a:14, b:11, carry:1, sum: 9
+[SCB] a:14, b:11, carry:1, sum: 9
+  --> PASS ! 14 + 11 = 25
+[GEN] a: 2, b: 1, carry:x, sum: x
+[DRV] a: 2, b: 1, carry:x, sum: x
+[MON] a: 2, b: 1, carry:0, sum: 3
+[SCB] a: 2, b: 1, carry:0, sum: 3
+  --> PASS !  2 +  1 =  3
+[GEN] a:11, b:14, carry:x, sum: x
+[DRV] a:11, b:14, carry:x, sum: x
+[MON] a:11, b:14, carry:1, sum: 9
+[SCB] a:11, b:14, carry:1, sum: 9
+  --> PASS ! 11 + 14 = 25
+[GEN] a: 7, b: 9, carry:x, sum: x
+[DRV] a: 7, b: 9, carry:x, sum: x
+[MON] a: 7, b: 9, carry:1, sum: 0
+[SCB] a: 7, b: 9, carry:1, sum: 0
+  --> PASS !  7 +  9 = 16
+[GEN] a: 9, b: 9, carry:x, sum: x
+[DRV] a: 9, b: 9, carry:x, sum: x
+[MON] a: 9, b: 9, carry:1, sum: 2
+[SCB] a: 9, b: 9, carry:1, sum: 2
+  --> PASS !  9 +  9 = 18
+[GEN] a:10, b: 4, carry:x, sum: x
+[DRV] a:10, b: 4, carry:x, sum: x
+[MON] a:10, b: 4, carry:0, sum:14
+[SCB] a:10, b: 4, carry:0, sum:14
+  --> PASS ! 10 +  4 = 14
+[GEN] a: 7, b: 2, carry:x, sum: x
+[DRV] a: 7, b: 2, carry:x, sum: x
+[MON] a: 7, b: 2, carry:0, sum: 9
+[SCB] a: 7, b: 2, carry:0, sum: 9
+  --> PASS !  7 +  2 =  9
+[GEN] a:13, b: 1, carry:x, sum: x
+[DRV] a:13, b: 1, carry:x, sum: x
+[MON] a:13, b: 1, carry:0, sum:14
+[SCB] a:13, b: 1, carry:0, sum:14
+  --> PASS ! 13 +  1 = 14
+[GEN] a:11, b: 8, carry:x, sum: x
+[DRV] a:11, b: 8, carry:x, sum: x
+[MON] a:11, b: 8, carry:1, sum: 3
+[SCB] a:11, b: 8, carry:1, sum: 3
+  --> PASS ! 11 +  8 = 19
+[GEN] a: 5, b: 3, carry:x, sum: x
+[DRV] a: 5, b: 3, carry:x, sum: x
+[MON] a: 5, b: 3, carry:0, sum: 8
+[SCB] a: 5, b: 3, carry:0, sum: 8
+  --> PASS !  5 +  3 =  8
+[GEN] a:10, b: 3, carry:x, sum: x
+[DRV] a:10, b: 3, carry:x, sum: x
+[MON] a:10, b: 3, carry:0, sum:13
+[SCB] a:10, b: 3, carry:0, sum:13
+  --> PASS ! 10 +  3 = 13
+[GEN] a: 4, b: 5, carry:x, sum: x
+[DRV] a: 4, b: 5, carry:x, sum: x
+[MON] a: 4, b: 5, carry:0, sum: 9
+[SCB] a: 4, b: 5, carry:0, sum: 9
+  --> PASS !  4 +  5 =  9
+[GEN] a:11, b: 9, carry:x, sum: x
+[DRV] a:11, b: 9, carry:x, sum: x
+[MON] a:11, b: 9, carry:1, sum: 4
+[SCB] a:11, b: 9, carry:1, sum: 4
+  --> PASS ! 11 +  9 = 20
+[GEN] a: 8, b: 5, carry:x, sum: x
+[DRV] a: 8, b: 5, carry:x, sum: x
+[MON] a: 8, b: 5, carry:0, sum:13
+[SCB] a: 8, b: 5, carry:0, sum:13
+  --> PASS !  8 +  5 = 13
+[GEN] a:12, b:12, carry:x, sum: x
+[DRV] a:12, b:12, carry:x, sum: x
+[MON] a:12, b:12, carry:1, sum: 8
+[SCB] a:12, b:12, carry:1, sum: 8
+  --> PASS ! 12 + 12 = 24
+[GEN] a:10, b: 7, carry:x, sum: x
+[DRV] a:10, b: 7, carry:x, sum: x
+[MON] a:10, b: 7, carry:1, sum: 1
+[SCB] a:10, b: 7, carry:1, sum: 1
+  --> PASS ! 10 +  7 = 17
+[GEN] a: 6, b: 3, carry:x, sum: x
+[DRV] a: 6, b: 3, carry:x, sum: x
+[MON] a: 6, b: 3, carry:0, sum: 9
+[SCB] a: 6, b: 3, carry:0, sum: 9
+  --> PASS !  6 +  3 =  9
+[GEN] a:12, b: 2, carry:x, sum: x
+[DRV] a:12, b: 2, carry:x, sum: x
+[MON] a:12, b: 2, carry:0, sum:14
+[SCB] a:12, b: 2, carry:0, sum:14
+  --> PASS ! 12 +  2 = 14
+[GEN] a:15, b: 7, carry:x, sum: x
+[DRV] a:15, b: 7, carry:x, sum: x
+[MON] a:15, b: 7, carry:1, sum: 6
+[SCB] a:15, b: 7, carry:1, sum: 6
+  --> PASS ! 15 +  7 = 22
+[GEN] a:10, b: 5, carry:x, sum: x
+[DRV] a:10, b: 5, carry:x, sum: x
+[MON] a:10, b: 5, carry:0, sum:15
+[SCB] a:10, b: 5, carry:0, sum:15
+  --> PASS ! 10 +  5 = 15
+[GEN] a:10, b: 6, carry:x, sum: x
+[DRV] a:10, b: 6, carry:x, sum: x
+[MON] a:10, b: 6, carry:1, sum: 0
+[SCB] a:10, b: 6, carry:1, sum: 0
+  --> PASS ! 10 +  6 = 16
+[GEN] a: 8, b: 9, carry:x, sum: x
+[DRV] a: 8, b: 9, carry:x, sum: x
+[MON] a: 8, b: 9, carry:1, sum: 1
+[SCB] a: 8, b: 9, carry:1, sum: 1
+  --> PASS !  8 +  9 = 17
+[GEN] a:13, b: 2, carry:x, sum: x
+[DRV] a:13, b: 2, carry:x, sum: x
+[MON] a:13, b: 2, carry:0, sum:15
+[SCB] a:13, b: 2, carry:0, sum:15
+  --> PASS ! 13 +  2 = 15
+[GEN] a:15, b: 7, carry:x, sum: x
+[DRV] a:15, b: 7, carry:x, sum: x
+[MON] a:15, b: 7, carry:1, sum: 6
+[SCB] a:15, b: 7, carry:1, sum: 6
+  --> PASS ! 15 +  7 = 22
+[GEN] a: 8, b: 7, carry:x, sum: x
+[DRV] a: 8, b: 7, carry:x, sum: x
+[MON] a: 8, b: 7, carry:0, sum:15
+[SCB] a: 8, b: 7, carry:0, sum:15
+  --> PASS !  8 +  7 = 15
+[GEN] a: 1, b: 6, carry:x, sum: x
+[DRV] a: 1, b: 6, carry:x, sum: x
+[MON] a: 1, b: 6, carry:0, sum: 7
+[SCB] a: 1, b: 6, carry:0, sum: 7
+  --> PASS !  1 +  6 =  7
+[GEN] a: 9, b: 0, carry:x, sum: x
+[DRV] a: 9, b: 0, carry:x, sum: x
+[MON] a: 9, b: 0, carry:0, sum: 9
+[SCB] a: 9, b: 0, carry:0, sum: 9
+  --> PASS !  9 +  0 =  9
+[GEN] a:13, b: 1, carry:x, sum: x
+[DRV] a:13, b: 1, carry:x, sum: x
+[MON] a:13, b: 1, carry:0, sum:14
+[SCB] a:13, b: 1, carry:0, sum:14
+  --> PASS ! 13 +  1 = 14
+[GEN] a: 7, b:14, carry:x, sum: x
+[DRV] a: 7, b:14, carry:x, sum: x
+[MON] a: 7, b:14, carry:1, sum: 5
+[SCB] a: 7, b:14, carry:1, sum: 5
+  --> PASS !  7 + 14 = 21
+[GEN] a: 7, b: 0, carry:x, sum: x
+[DRV] a: 7, b: 0, carry:x, sum: x
+[MON] a: 7, b: 0, carry:0, sum: 7
+[SCB] a: 7, b: 0, carry:0, sum: 7
+  --> PASS !  7 +  0 =  7
+[GEN] a:14, b: 5, carry:x, sum: x
+[DRV] a:14, b: 5, carry:x, sum: x
+[MON] a:14, b: 5, carry:1, sum: 3
+[SCB] a:14, b: 5, carry:1, sum: 3
+  --> PASS ! 14 +  5 = 19
+[GEN] a: 1, b: 5, carry:x, sum: x
+[DRV] a: 1, b: 5, carry:x, sum: x
+[MON] a: 1, b: 5, carry:0, sum: 6
+[SCB] a: 1, b: 5, carry:0, sum: 6
+  --> PASS !  1 +  5 =  6
+[GEN] a: 3, b: 9, carry:x, sum: x
+[DRV] a: 3, b: 9, carry:x, sum: x
+[MON] a: 3, b: 9, carry:0, sum:12
+[SCB] a: 3, b: 9, carry:0, sum:12
+  --> PASS !  3 +  9 = 12
+[GEN] a: 5, b: 2, carry:x, sum: x
+[DRV] a: 5, b: 2, carry:x, sum: x
+[MON] a: 5, b: 2, carry:0, sum: 7
+[SCB] a: 5, b: 2, carry:0, sum: 7
+  --> PASS !  5 +  2 =  7
+[GEN] a:14, b: 7, carry:x, sum: x
+[DRV] a:14, b: 7, carry:x, sum: x
+[MON] a:14, b: 7, carry:1, sum: 5
+[SCB] a:14, b: 7, carry:1, sum: 5
+  --> PASS ! 14 +  7 = 21
+[GEN] a: 7, b: 1, carry:x, sum: x
+[DRV] a: 7, b: 1, carry:x, sum: x
+[MON] a: 7, b: 1, carry:0, sum: 8
+[SCB] a: 7, b: 1, carry:0, sum: 8
+  --> PASS !  7 +  1 =  8
+[GEN] a: 0, b:13, carry:x, sum: x
+[DRV] a: 0, b:13, carry:x, sum: x
+[MON] a: 0, b:13, carry:0, sum:13
+[SCB] a: 0, b:13, carry:0, sum:13
+  --> PASS !  0 + 13 = 13
+[GEN] a: 3, b:14, carry:x, sum: x
+[DRV] a: 3, b:14, carry:x, sum: x
+[MON] a: 3, b:14, carry:1, sum: 1
+[SCB] a: 3, b:14, carry:1, sum: 1
+  --> PASS !  3 + 14 = 17
+[GEN] a: 4, b:11, carry:x, sum: x
+[DRV] a: 4, b:11, carry:x, sum: x
+[MON] a: 4, b:11, carry:0, sum:15
+[SCB] a: 4, b:11, carry:0, sum:15
+  --> PASS !  4 + 11 = 15
+[GEN] a:15, b: 4, carry:x, sum: x
+[DRV] a:15, b: 4, carry:x, sum: x
+[MON] a:15, b: 4, carry:1, sum: 3
+[SCB] a:15, b: 4, carry:1, sum: 3
+  --> PASS ! 15 +  4 = 19
+[GEN] a: 8, b: 3, carry:x, sum: x
+[DRV] a: 8, b: 3, carry:x, sum: x
+[MON] a: 8, b: 3, carry:0, sum:11
+[SCB] a: 8, b: 3, carry:0, sum:11
+  --> PASS !  8 +  3 = 11
+[GEN] a: 2, b:12, carry:x, sum: x
+[DRV] a: 2, b:12, carry:x, sum: x
+[MON] a: 2, b:12, carry:0, sum:14
+[SCB] a: 2, b:12, carry:0, sum:14
+  --> PASS !  2 + 12 = 14
+[GEN] a:14, b: 1, carry:x, sum: x
+[DRV] a:14, b: 1, carry:x, sum: x
+[MON] a:14, b: 1, carry:0, sum:15
+[SCB] a:14, b: 1, carry:0, sum:15
+  --> PASS ! 14 +  1 = 15
+[GEN] a: 0, b: 6, carry:x, sum: x
+[DRV] a: 0, b: 6, carry:x, sum: x
+[MON] a: 0, b: 6, carry:0, sum: 6
+[SCB] a: 0, b: 6, carry:0, sum: 6
+  --> PASS !  0 +  6 =  6
+[GEN] a: 4, b: 2, carry:x, sum: x
+[DRV] a: 4, b: 2, carry:x, sum: x
+[MON] a: 4, b: 2, carry:0, sum: 6
+[SCB] a: 4, b: 2, carry:0, sum: 6
+  --> PASS !  4 +  2 =  6
+[GEN] a: 2, b: 2, carry:x, sum: x
+[DRV] a: 2, b: 2, carry:x, sum: x
+[MON] a: 2, b: 2, carry:0, sum: 4
+[SCB] a: 2, b: 2, carry:0, sum: 4
+  --> PASS !  2 +  2 =  4
+[GEN] a: 3, b: 2, carry:x, sum: x
+[DRV] a: 3, b: 2, carry:x, sum: x
+[MON] a: 3, b: 2, carry:0, sum: 5
+[SCB] a: 3, b: 2, carry:0, sum: 5
+  --> PASS !  3 +  2 =  5
+[GEN] a: 8, b: 8, carry:x, sum: x
+[DRV] a: 8, b: 8, carry:x, sum: x
+[MON] a: 8, b: 8, carry:1, sum: 0
+[SCB] a: 8, b: 8, carry:1, sum: 0
+  --> PASS !  8 +  8 = 16
+[GEN] a: 4, b:10, carry:x, sum: x
+[DRV] a: 4, b:10, carry:x, sum: x
+[MON] a: 4, b:10, carry:0, sum:14
+[SCB] a: 4, b:10, carry:0, sum:14
+  --> PASS !  4 + 10 = 14
+[GEN] a:10, b: 7, carry:x, sum: x
+[DRV] a:10, b: 7, carry:x, sum: x
+[MON] a:10, b: 7, carry:1, sum: 1
+[SCB] a:10, b: 7, carry:1, sum: 1
+  --> PASS ! 10 +  7 = 17
+[GEN] a:12, b: 3, carry:x, sum: x
+[DRV] a:12, b: 3, carry:x, sum: x
+[MON] a:12, b: 3, carry:0, sum:15
+[SCB] a:12, b: 3, carry:0, sum:15
+  --> PASS ! 12 +  3 = 15
+[GEN] a:15, b: 0, carry:x, sum: x
+[DRV] a:15, b: 0, carry:x, sum: x
+[MON] a:15, b: 0, carry:0, sum:15
+[SCB] a:15, b: 0, carry:0, sum:15
+  --> PASS ! 15 +  0 = 15
+[GEN] a:13, b:10, carry:x, sum: x
+[DRV] a:13, b:10, carry:x, sum: x
+[MON] a:13, b:10, carry:1, sum: 7
+[SCB] a:13, b:10, carry:1, sum: 7
+  --> PASS ! 13 + 10 = 23
+[GEN] a: 8, b:10, carry:x, sum: x
+[DRV] a: 8, b:10, carry:x, sum: x
+[MON] a: 8, b:10, carry:1, sum: 2
+[SCB] a: 8, b:10, carry:1, sum: 2
+  --> PASS !  8 + 10 = 18
+[GEN] a:13, b: 7, carry:x, sum: x
+[DRV] a:13, b: 7, carry:x, sum: x
+[MON] a:13, b: 7, carry:1, sum: 4
+[SCB] a:13, b: 7, carry:1, sum: 4
+  --> PASS ! 13 +  7 = 20
+[GEN] a:10, b:10, carry:x, sum: x
+[DRV] a:10, b:10, carry:x, sum: x
+[MON] a:10, b:10, carry:1, sum: 4
+[SCB] a:10, b:10, carry:1, sum: 4
+  --> PASS ! 10 + 10 = 20
+[GEN] a: 1, b: 2, carry:x, sum: x
+[DRV] a: 1, b: 2, carry:x, sum: x
+[MON] a: 1, b: 2, carry:0, sum: 3
+[SCB] a: 1, b: 2, carry:0, sum: 3
+  --> PASS !  1 +  2 =  3
+[GEN] a: 4, b:14, carry:x, sum: x
+[DRV] a: 4, b:14, carry:x, sum: x
+[MON] a: 4, b:14, carry:1, sum: 2
+[SCB] a: 4, b:14, carry:1, sum: 2
+  --> PASS !  4 + 14 = 18
+[GEN] a:10, b:15, carry:x, sum: x
+[DRV] a:10, b:15, carry:x, sum: x
+[MON] a:10, b:15, carry:1, sum: 9
+[SCB] a:10, b:15, carry:1, sum: 9
+  --> PASS ! 10 + 15 = 25
+[GEN] a: 9, b:11, carry:x, sum: x
+[DRV] a: 9, b:11, carry:x, sum: x
+[MON] a: 9, b:11, carry:1, sum: 4
+[SCB] a: 9, b:11, carry:1, sum: 4
+  --> PASS !  9 + 11 = 20
+[GEN] a: 1, b:13, carry:x, sum: x
+[DRV] a: 1, b:13, carry:x, sum: x
+[MON] a: 1, b:13, carry:0, sum:14
+[SCB] a: 1, b:13, carry:0, sum:14
+  --> PASS !  1 + 13 = 14
+[GEN] a:10, b:11, carry:x, sum: x
+[DRV] a:10, b:11, carry:x, sum: x
+[MON] a:10, b:11, carry:1, sum: 5
+[SCB] a:10, b:11, carry:1, sum: 5
+  --> PASS ! 10 + 11 = 21
+[GEN] a:12, b: 3, carry:x, sum: x
+[DRV] a:12, b: 3, carry:x, sum: x
+[MON] a:12, b: 3, carry:0, sum:15
+[SCB] a:12, b: 3, carry:0, sum:15
+  --> PASS ! 12 +  3 = 15
+[GEN] a: 7, b:14, carry:x, sum: x
+[DRV] a: 7, b:14, carry:x, sum: x
+[MON] a: 7, b:14, carry:1, sum: 5
+[SCB] a: 7, b:14, carry:1, sum: 5
+  --> PASS !  7 + 14 = 21
+[GEN] a: 0, b: 1, carry:x, sum: x
+[DRV] a: 0, b: 1, carry:x, sum: x
+[MON] a: 0, b: 1, carry:0, sum: 1
+[SCB] a: 0, b: 1, carry:0, sum: 1
+  --> PASS !  0 +  1 =  1
+[GEN] a: 9, b:13, carry:x, sum: x
+[DRV] a: 9, b:13, carry:x, sum: x
+[MON] a: 9, b:13, carry:1, sum: 6
+[SCB] a: 9, b:13, carry:1, sum: 6
+  --> PASS !  9 + 13 = 22
+[GEN] a: 4, b: 0, carry:x, sum: x
+[DRV] a: 4, b: 0, carry:x, sum: x
+[MON] a: 4, b: 0, carry:0, sum: 4
+[SCB] a: 4, b: 0, carry:0, sum: 4
+  --> PASS !  4 +  0 =  4
+[GEN] a:11, b: 4, carry:x, sum: x
+[DRV] a:11, b: 4, carry:x, sum: x
+[MON] a:11, b: 4, carry:0, sum:15
+[SCB] a:11, b: 4, carry:0, sum:15
+  --> PASS ! 11 +  4 = 15
+[GEN] a: 1, b: 4, carry:x, sum: x
+[DRV] a: 1, b: 4, carry:x, sum: x
+[MON] a: 1, b: 4, carry:0, sum: 5
+[SCB] a: 1, b: 4, carry:0, sum: 5
+  --> PASS !  1 +  4 =  5
+[GEN] a: 1, b: 5, carry:x, sum: x
+[DRV] a: 1, b: 5, carry:x, sum: x
+[MON] a: 1, b: 5, carry:0, sum: 6
+[SCB] a: 1, b: 5, carry:0, sum: 6
+  --> PASS !  1 +  5 =  6
+[GEN] a: 5, b:12, carry:x, sum: x
+[DRV] a: 5, b:12, carry:x, sum: x
+[MON] a: 5, b:12, carry:1, sum: 1
+[SCB] a: 5, b:12, carry:1, sum: 1
+  --> PASS !  5 + 12 = 17
+[GEN] a:10, b: 6, carry:x, sum: x
+[DRV] a:10, b: 6, carry:x, sum: x
+[MON] a:10, b: 6, carry:1, sum: 0
+[SCB] a:10, b: 6, carry:1, sum: 0
+  --> PASS ! 10 +  6 = 16
+[GEN] a: 1, b:11, carry:x, sum: x
+[DRV] a: 1, b:11, carry:x, sum: x
+[MON] a: 1, b:11, carry:0, sum:12
+[SCB] a: 1, b:11, carry:0, sum:12
+  --> PASS !  1 + 11 = 12
+[GEN] a:12, b: 6, carry:x, sum: x
+[DRV] a:12, b: 6, carry:x, sum: x
+[MON] a:12, b: 6, carry:1, sum: 2
+[SCB] a:12, b: 6, carry:1, sum: 2
+  --> PASS ! 12 +  6 = 18
+[GEN] a: 8, b: 6, carry:x, sum: x
+[DRV] a: 8, b: 6, carry:x, sum: x
+[MON] a: 8, b: 6, carry:0, sum:14
+[SCB] a: 8, b: 6, carry:0, sum:14
+  --> PASS !  8 +  6 = 14
+[GEN] a:12, b: 9, carry:x, sum: x
+[DRV] a:12, b: 9, carry:x, sum: x
+[MON] a:12, b: 9, carry:1, sum: 5
+[SCB] a:12, b: 9, carry:1, sum: 5
+  --> PASS ! 12 +  9 = 21
+[GEN] a: 1, b: 8, carry:x, sum: x
+[DRV] a: 1, b: 8, carry:x, sum: x
+[MON] a: 1, b: 8, carry:0, sum: 9
+[SCB] a: 1, b: 8, carry:0, sum: 9
+  --> PASS !  1 +  8 =  9
+[GEN] a:15, b: 9, carry:x, sum: x
+[DRV] a:15, b: 9, carry:x, sum: x
+[MON] a:15, b: 9, carry:1, sum: 8
+[SCB] a:15, b: 9, carry:1, sum: 8
+  --> PASS ! 15 +  9 = 24
+[GEN] a:14, b:11, carry:x, sum: x
+[DRV] a:14, b:11, carry:x, sum: x
+[MON] a:14, b:11, carry:1, sum: 9
+[SCB] a:14, b:11, carry:1, sum: 9
+  --> PASS ! 14 + 11 = 25
+[GEN] a: 2, b: 0, carry:x, sum: x
+[DRV] a: 2, b: 0, carry:x, sum: x
+[MON] a: 2, b: 0, carry:0, sum: 2
+[SCB] a: 2, b: 0, carry:0, sum: 2
+  --> PASS !  2 +  0 =  2
+[GEN] a: 4, b: 1, carry:x, sum: x
+[DRV] a: 4, b: 1, carry:x, sum: x
+[MON] a: 4, b: 1, carry:0, sum: 5
+[SCB] a: 4, b: 1, carry:0, sum: 5
+  --> PASS !  4 +  1 =  5
+[GEN] a: 9, b: 2, carry:x, sum: x
+[DRV] a: 9, b: 2, carry:x, sum: x
+[MON] a: 9, b: 2, carry:0, sum:11
+[SCB] a: 9, b: 2, carry:0, sum:11
+  --> PASS !  9 +  2 = 11
+[GEN] a:13, b:12, carry:x, sum: x
+[DRV] a:13, b:12, carry:x, sum: x
+[MON] a:13, b:12, carry:1, sum: 9
+[SCB] a:13, b:12, carry:1, sum: 9
+  --> PASS ! 13 + 12 = 25
+[GEN] a: 2, b: 1, carry:x, sum: x
+[DRV] a: 2, b: 1, carry:x, sum: x
+[MON] a: 2, b: 1, carry:0, sum: 3
+[SCB] a: 2, b: 1, carry:0, sum: 3
+  --> PASS !  2 +  1 =  3
+[GEN] a:13, b:12, carry:x, sum: x
+[DRV] a:13, b:12, carry:x, sum: x
+[MON] a:13, b:12, carry:1, sum: 9
+[SCB] a:13, b:12, carry:1, sum: 9
+  --> PASS ! 13 + 12 = 25
+[GEN] a: 3, b:10, carry:x, sum: x
+[DRV] a: 3, b:10, carry:x, sum: x
+[MON] a: 3, b:10, carry:0, sum:13
+[SCB] a: 3, b:10, carry:0, sum:13
+  --> PASS !  3 + 10 = 13
+[GEN] a: 8, b: 6, carry:x, sum: x
+[DRV] a: 8, b: 6, carry:x, sum: x
+[MON] a: 8, b: 6, carry:0, sum:14
+[SCB] a: 8, b: 6, carry:0, sum:14
+  --> PASS !  8 +  6 = 14
+[GEN] a:11, b: 5, carry:x, sum: x
+[DRV] a:11, b: 5, carry:x, sum: x
+[MON] a:11, b: 5, carry:1, sum: 0
+[SCB] a:11, b: 5, carry:1, sum: 0
+  --> PASS ! 11 +  5 = 16
+[GEN] a: 2, b:15, carry:x, sum: x
+[DRV] a: 2, b:15, carry:x, sum: x
+[MON] a: 2, b:15, carry:1, sum: 1
+[SCB] a: 2, b:15, carry:1, sum: 1
+  --> PASS !  2 + 15 = 17
+[GEN] a: 0, b:10, carry:x, sum: x
+[DRV] a: 0, b:10, carry:x, sum: x
+[MON] a: 0, b:10, carry:0, sum:10
+[SCB] a: 0, b:10, carry:0, sum:10
+  --> PASS !  0 + 10 = 10
+[GEN] a: 5, b:11, carry:x, sum: x
+[DRV] a: 5, b:11, carry:x, sum: x
+[MON] a: 5, b:11, carry:1, sum: 0
+[SCB] a: 5, b:11, carry:1, sum: 0
+  --> PASS !  5 + 11 = 16
+[GEN] a:15, b: 7, carry:x, sum: x
+[DRV] a:15, b: 7, carry:x, sum: x
+[MON] a:15, b: 7, carry:1, sum: 6
+[SCB] a:15, b: 7, carry:1, sum: 6
+  --> PASS ! 15 +  7 = 22
+[GEN] a:10, b:15, carry:x, sum: x
+[DRV] a:10, b:15, carry:x, sum: x
+[MON] a:10, b:15, carry:1, sum: 9
+[SCB] a:10, b:15, carry:1, sum: 9
+  --> PASS ! 10 + 15 = 25
+[GEN] a: 1, b:15, carry:x, sum: x
+[DRV] a: 1, b:15, carry:x, sum: x
+[MON] a: 1, b:15, carry:1, sum: 0
+[SCB] a: 1, b:15, carry:1, sum: 0
+  --> PASS !  1 + 15 = 16
+[GEN] a:11, b: 0, carry:x, sum: x
+[DRV] a:11, b: 0, carry:x, sum: x
+[MON] a:11, b: 0, carry:0, sum:11
+[SCB] a:11, b: 0, carry:0, sum:11
+  --> PASS ! 11 +  0 = 11
+[GEN] a: 6, b: 5, carry:x, sum: x
+[DRV] a: 6, b: 5, carry:x, sum: x
+[MON] a: 6, b: 5, carry:0, sum:11
+[SCB] a: 6, b: 5, carry:0, sum:11
+  --> PASS !  6 +  5 = 11
+[GEN] a: 0, b: 7, carry:x, sum: x
+[DRV] a: 0, b: 7, carry:x, sum: x
+[MON] a: 0, b: 7, carry:0, sum: 7
+[SCB] a: 0, b: 7, carry:0, sum: 7
+  --> PASS !  0 +  7 =  7
+[GEN] a: 5, b:11, carry:x, sum: x
+[DRV] a: 5, b:11, carry:x, sum: x
+[MON] a: 5, b:11, carry:1, sum: 0
+[SCB] a: 5, b:11, carry:1, sum: 0
+  --> PASS !  5 + 11 = 16
+[GEN] a: 8, b:11, carry:x, sum: x
+[DRV] a: 8, b:11, carry:x, sum: x
+[MON] a: 8, b:11, carry:1, sum: 3
+[SCB] a: 8, b:11, carry:1, sum: 3
+  --> PASS !  8 + 11 = 19
+[GEN] a: 0, b: 8, carry:x, sum: x
+[DRV] a: 0, b: 8, carry:x, sum: x
+[MON] a: 0, b: 8, carry:0, sum: 8
+[SCB] a: 0, b: 8, carry:0, sum: 8
+  --> PASS !  0 +  8 =  8
+[GEN] a: 3, b: 5, carry:x, sum: x
+[DRV] a: 3, b: 5, carry:x, sum: x
+[MON] a: 3, b: 5, carry:0, sum: 8
+[SCB] a: 3, b: 5, carry:0, sum: 8
+  --> PASS !  3 +  5 =  8
+[GEN] a: 3, b:11, carry:x, sum: x
+[DRV] a: 3, b:11, carry:x, sum: x
+[MON] a: 3, b:11, carry:0, sum:14
+[SCB] a: 3, b:11, carry:0, sum:14
+  --> PASS !  3 + 11 = 14
+[GEN] a: 1, b: 3, carry:x, sum: x
+[DRV] a: 1, b: 3, carry:x, sum: x
+[MON] a: 1, b: 3, carry:0, sum: 4
+[SCB] a: 1, b: 3, carry:0, sum: 4
+  --> PASS !  1 +  3 =  4
+[GEN] a: 3, b: 4, carry:x, sum: x
+[DRV] a: 3, b: 4, carry:x, sum: x
+[MON] a: 3, b: 4, carry:0, sum: 7
+[SCB] a: 3, b: 4, carry:0, sum: 7
+  --> PASS !  3 +  4 =  7
+[GEN] a: 9, b: 6, carry:x, sum: x
+[DRV] a: 9, b: 6, carry:x, sum: x
+[MON] a: 9, b: 6, carry:0, sum:15
+[SCB] a: 9, b: 6, carry:0, sum:15
+  --> PASS !  9 +  6 = 15
+[GEN] a:15, b:10, carry:x, sum: x
+[DRV] a:15, b:10, carry:x, sum: x
+[MON] a:15, b:10, carry:1, sum: 9
+[SCB] a:15, b:10, carry:1, sum: 9
+  --> PASS ! 15 + 10 = 25
+[GEN] a: 9, b: 2, carry:x, sum: x
+[DRV] a: 9, b: 2, carry:x, sum: x
+[MON] a: 9, b: 2, carry:0, sum:11
+[SCB] a: 9, b: 2, carry:0, sum:11
+  --> PASS !  9 +  2 = 11
+[GEN] a:14, b: 2, carry:x, sum: x
+[DRV] a:14, b: 2, carry:x, sum: x
+[MON] a:14, b: 2, carry:1, sum: 0
+[SCB] a:14, b: 2, carry:1, sum: 0
+  --> PASS ! 14 +  2 = 16
+[GEN] a: 8, b:13, carry:x, sum: x
+[DRV] a: 8, b:13, carry:x, sum: x
+[MON] a: 8, b:13, carry:1, sum: 5
+[SCB] a: 8, b:13, carry:1, sum: 5
+  --> PASS !  8 + 13 = 21
+[GEN] a:12, b: 1, carry:x, sum: x
+[DRV] a:12, b: 1, carry:x, sum: x
+[MON] a:12, b: 1, carry:0, sum:13
+[SCB] a:12, b: 1, carry:0, sum:13
+  --> PASS ! 12 +  1 = 13
+[GEN] a:15, b:10, carry:x, sum: x
+[DRV] a:15, b:10, carry:x, sum: x
+[MON] a:15, b:10, carry:1, sum: 9
+[SCB] a:15, b:10, carry:1, sum: 9
+  --> PASS ! 15 + 10 = 25
+[GEN] a: 4, b: 7, carry:x, sum: x
+[DRV] a: 4, b: 7, carry:x, sum: x
+[MON] a: 4, b: 7, carry:0, sum:11
+[SCB] a: 4, b: 7, carry:0, sum:11
+  --> PASS !  4 +  7 = 11
+[GEN] a: 7, b: 0, carry:x, sum: x
+[DRV] a: 7, b: 0, carry:x, sum: x
+[MON] a: 7, b: 0, carry:0, sum: 7
+[SCB] a: 7, b: 0, carry:0, sum: 7
+  --> PASS !  7 +  0 =  7
+[GEN] a: 8, b: 6, carry:x, sum: x
+[DRV] a: 8, b: 6, carry:x, sum: x
+[MON] a: 8, b: 6, carry:0, sum:14
+[SCB] a: 8, b: 6, carry:0, sum:14
+  --> PASS !  8 +  6 = 14
+[GEN] a:11, b:12, carry:x, sum: x
+[DRV] a:11, b:12, carry:x, sum: x
+[MON] a:11, b:12, carry:1, sum: 7
+[SCB] a:11, b:12, carry:1, sum: 7
+  --> PASS ! 11 + 12 = 23
+[GEN] a:13, b: 2, carry:x, sum: x
+[DRV] a:13, b: 2, carry:x, sum: x
+[MON] a:13, b: 2, carry:0, sum:15
+[SCB] a:13, b: 2, carry:0, sum:15
+  --> PASS ! 13 +  2 = 15
+[GEN] a:13, b: 6, carry:x, sum: x
+[DRV] a:13, b: 6, carry:x, sum: x
+[MON] a:13, b: 6, carry:1, sum: 3
+[SCB] a:13, b: 6, carry:1, sum: 3
+  --> PASS ! 13 +  6 = 19
+[GEN] a: 9, b: 8, carry:x, sum: x
+[DRV] a: 9, b: 8, carry:x, sum: x
+[MON] a: 9, b: 8, carry:1, sum: 1
+[SCB] a: 9, b: 8, carry:1, sum: 1
+  --> PASS !  9 +  8 = 17
+[GEN] a: 2, b: 6, carry:x, sum: x
+[DRV] a: 2, b: 6, carry:x, sum: x
+[MON] a: 2, b: 6, carry:0, sum: 8
+[SCB] a: 2, b: 6, carry:0, sum: 8
+  --> PASS !  2 +  6 =  8
+[GEN] a:10, b:15, carry:x, sum: x
+[DRV] a:10, b:15, carry:x, sum: x
+[MON] a:10, b:15, carry:1, sum: 9
+[SCB] a:10, b:15, carry:1, sum: 9
+  --> PASS ! 10 + 15 = 25
+[GEN] a:12, b: 3, carry:x, sum: x
+[DRV] a:12, b: 3, carry:x, sum: x
+[MON] a:12, b: 3, carry:0, sum:15
+[SCB] a:12, b: 3, carry:0, sum:15
+  --> PASS ! 12 +  3 = 15
+[GEN] a: 7, b:15, carry:x, sum: x
+[DRV] a: 7, b:15, carry:x, sum: x
+[MON] a: 7, b:15, carry:1, sum: 6
+[SCB] a: 7, b:15, carry:1, sum: 6
+  --> PASS !  7 + 15 = 22
+[GEN] a:10, b: 2, carry:x, sum: x
+[DRV] a:10, b: 2, carry:x, sum: x
+[MON] a:10, b: 2, carry:0, sum:12
+[SCB] a:10, b: 2, carry:0, sum:12
+  --> PASS ! 10 +  2 = 12
+[GEN] a:14, b: 6, carry:x, sum: x
+[DRV] a:14, b: 6, carry:x, sum: x
+[MON] a:14, b: 6, carry:1, sum: 4
+[SCB] a:14, b: 6, carry:1, sum: 4
+  --> PASS ! 14 +  6 = 20
+[GEN] a: 5, b: 6, carry:x, sum: x
+[DRV] a: 5, b: 6, carry:x, sum: x
+[MON] a: 5, b: 6, carry:0, sum:11
+[SCB] a: 5, b: 6, carry:0, sum:11
+  --> PASS !  5 +  6 = 11
+[GEN] a: 5, b:15, carry:x, sum: x
+[DRV] a: 5, b:15, carry:x, sum: x
+[MON] a: 5, b:15, carry:1, sum: 4
+[SCB] a: 5, b:15, carry:1, sum: 4
+  --> PASS !  5 + 15 = 20
+[GEN] a: 8, b: 4, carry:x, sum: x
+[DRV] a: 8, b: 4, carry:x, sum: x
+[MON] a: 8, b: 4, carry:0, sum:12
+[SCB] a: 8, b: 4, carry:0, sum:12
+  --> PASS !  8 +  4 = 12
+[GEN] a: 6, b:13, carry:x, sum: x
+[DRV] a: 6, b:13, carry:x, sum: x
+[MON] a: 6, b:13, carry:1, sum: 3
+[SCB] a: 6, b:13, carry:1, sum: 3
+  --> PASS !  6 + 13 = 19
+[GEN] a:10, b:11, carry:x, sum: x
+[DRV] a:10, b:11, carry:x, sum: x
+[MON] a:10, b:11, carry:1, sum: 5
+[SCB] a:10, b:11, carry:1, sum: 5
+  --> PASS ! 10 + 11 = 21
+[GEN] a:13, b: 2, carry:x, sum: x
+[DRV] a:13, b: 2, carry:x, sum: x
+[MON] a:13, b: 2, carry:0, sum:15
+[SCB] a:13, b: 2, carry:0, sum:15
+  --> PASS ! 13 +  2 = 15
+[GEN] a:15, b: 3, carry:x, sum: x
+[DRV] a:15, b: 3, carry:x, sum: x
+[MON] a:15, b: 3, carry:1, sum: 2
+[SCB] a:15, b: 3, carry:1, sum: 2
+  --> PASS ! 15 +  3 = 18
+[GEN] a:15, b: 9, carry:x, sum: x
+[DRV] a:15, b: 9, carry:x, sum: x
+[MON] a:15, b: 9, carry:1, sum: 8
+[SCB] a:15, b: 9, carry:1, sum: 8
+  --> PASS ! 15 +  9 = 24
+[GEN] a:14, b:12, carry:x, sum: x
+[DRV] a:14, b:12, carry:x, sum: x
+[MON] a:14, b:12, carry:1, sum:10
+[SCB] a:14, b:12, carry:1, sum:10
+  --> PASS ! 14 + 12 = 26
+[GEN] a:11, b:14, carry:x, sum: x
+[DRV] a:11, b:14, carry:x, sum: x
+[MON] a:11, b:14, carry:1, sum: 9
+[SCB] a:11, b:14, carry:1, sum: 9
+  --> PASS ! 11 + 14 = 25
+[GEN] a:15, b:11, carry:x, sum: x
+[DRV] a:15, b:11, carry:x, sum: x
+[MON] a:15, b:11, carry:1, sum:10
+[SCB] a:15, b:11, carry:1, sum:10
+  --> PASS ! 15 + 11 = 26
+[GEN] a: 7, b:14, carry:x, sum: x
+[DRV] a: 7, b:14, carry:x, sum: x
+[MON] a: 7, b:14, carry:1, sum: 5
+[SCB] a: 7, b:14, carry:1, sum: 5
+  --> PASS !  7 + 14 = 21
+[GEN] a: 7, b: 3, carry:x, sum: x
+[DRV] a: 7, b: 3, carry:x, sum: x
+[MON] a: 7, b: 3, carry:0, sum:10
+[SCB] a: 7, b: 3, carry:0, sum:10
+  --> PASS !  7 +  3 = 10
+[GEN] a:12, b: 7, carry:x, sum: x
+[DRV] a:12, b: 7, carry:x, sum: x
+[MON] a:12, b: 7, carry:1, sum: 3
+[SCB] a:12, b: 7, carry:1, sum: 3
+  --> PASS ! 12 +  7 = 19
+[GEN] a:14, b: 3, carry:x, sum: x
+[DRV] a:14, b: 3, carry:x, sum: x
+[MON] a:14, b: 3, carry:1, sum: 1
+[SCB] a:14, b: 3, carry:1, sum: 1
+  --> PASS ! 14 +  3 = 17
+[GEN] a: 5, b: 5, carry:x, sum: x
+[DRV] a: 5, b: 5, carry:x, sum: x
+[MON] a: 5, b: 5, carry:0, sum:10
+[SCB] a: 5, b: 5, carry:0, sum:10
+  --> PASS !  5 +  5 = 10
+[GEN] a: 6, b: 1, carry:x, sum: x
+[DRV] a: 6, b: 1, carry:x, sum: x
+[MON] a: 6, b: 1, carry:0, sum: 7
+[SCB] a: 6, b: 1, carry:0, sum: 7
+  --> PASS !  6 +  1 =  7
+[GEN] a:12, b: 4, carry:x, sum: x
+[DRV] a:12, b: 4, carry:x, sum: x
+[MON] a:12, b: 4, carry:1, sum: 0
+[SCB] a:12, b: 4, carry:1, sum: 0
+  --> PASS ! 12 +  4 = 16
+[GEN] a: 4, b: 1, carry:x, sum: x
+[DRV] a: 4, b: 1, carry:x, sum: x
+[MON] a: 4, b: 1, carry:0, sum: 5
+[SCB] a: 4, b: 1, carry:0, sum: 5
+  --> PASS !  4 +  1 =  5
+[GEN] a:10, b:11, carry:x, sum: x
+[DRV] a:10, b:11, carry:x, sum: x
+[MON] a:10, b:11, carry:1, sum: 5
+[SCB] a:10, b:11, carry:1, sum: 5
+  --> PASS ! 10 + 11 = 21
+[GEN] a: 2, b: 6, carry:x, sum: x
+[DRV] a: 2, b: 6, carry:x, sum: x
+[MON] a: 2, b: 6, carry:0, sum: 8
+[SCB] a: 2, b: 6, carry:0, sum: 8
+  --> PASS !  2 +  6 =  8
+[GEN] a:15, b: 7, carry:x, sum: x
+[DRV] a:15, b: 7, carry:x, sum: x
+[MON] a:15, b: 7, carry:1, sum: 6
+[SCB] a:15, b: 7, carry:1, sum: 6
+  --> PASS ! 15 +  7 = 22
+[GEN] a: 8, b: 9, carry:x, sum: x
+[DRV] a: 8, b: 9, carry:x, sum: x
+[MON] a: 8, b: 9, carry:1, sum: 1
+[SCB] a: 8, b: 9, carry:1, sum: 1
+  --> PASS !  8 +  9 = 17
+[GEN] a: 2, b:10, carry:x, sum: x
+[DRV] a: 2, b:10, carry:x, sum: x
+[MON] a: 2, b:10, carry:0, sum:12
+[SCB] a: 2, b:10, carry:0, sum:12
+  --> PASS !  2 + 10 = 12
+[GEN] a: 0, b: 1, carry:x, sum: x
+[DRV] a: 0, b: 1, carry:x, sum: x
+[MON] a: 0, b: 1, carry:0, sum: 1
+[SCB] a: 0, b: 1, carry:0, sum: 1
+  --> PASS !  0 +  1 =  1
+[GEN] a: 1, b: 8, carry:x, sum: x
+[DRV] a: 1, b: 8, carry:x, sum: x
+[MON] a: 1, b: 8, carry:0, sum: 9
+[SCB] a: 1, b: 8, carry:0, sum: 9
+  --> PASS !  1 +  8 =  9
+[GEN] a:11, b: 3, carry:x, sum: x
+[DRV] a:11, b: 3, carry:x, sum: x
+[MON] a:11, b: 3, carry:0, sum:14
+[SCB] a:11, b: 3, carry:0, sum:14
+  --> PASS ! 11 +  3 = 14
+[GEN] a: 2, b:11, carry:x, sum: x
+[DRV] a: 2, b:11, carry:x, sum: x
+[MON] a: 2, b:11, carry:0, sum:13
+[SCB] a: 2, b:11, carry:0, sum:13
+  --> PASS !  2 + 11 = 13
+[GEN] a: 5, b: 4, carry:x, sum: x
+[DRV] a: 5, b: 4, carry:x, sum: x
+[MON] a: 5, b: 4, carry:0, sum: 9
+[SCB] a: 5, b: 4, carry:0, sum: 9
+  --> PASS !  5 +  4 =  9
+[GEN] a: 3, b: 0, carry:x, sum: x
+[DRV] a: 3, b: 0, carry:x, sum: x
+[MON] a: 3, b: 0, carry:0, sum: 3
+[SCB] a: 3, b: 0, carry:0, sum: 3
+  --> PASS !  3 +  0 =  3
+[GEN] a: 7, b: 5, carry:x, sum: x
+[DRV] a: 7, b: 5, carry:x, sum: x
+[MON] a: 7, b: 5, carry:0, sum:12
+[SCB] a: 7, b: 5, carry:0, sum:12
+  --> PASS !  7 +  5 = 12
+[GEN] a:11, b:12, carry:x, sum: x
+[DRV] a:11, b:12, carry:x, sum: x
+[MON] a:11, b:12, carry:1, sum: 7
+[SCB] a:11, b:12, carry:1, sum: 7
+  --> PASS ! 11 + 12 = 23
+[GEN] a: 9, b:14, carry:x, sum: x
+[DRV] a: 9, b:14, carry:x, sum: x
+[MON] a: 9, b:14, carry:1, sum: 7
+[SCB] a: 9, b:14, carry:1, sum: 7
+  --> PASS !  9 + 14 = 23
+[GEN] a:12, b: 1, carry:x, sum: x
+[DRV] a:12, b: 1, carry:x, sum: x
+[MON] a:12, b: 1, carry:0, sum:13
+[SCB] a:12, b: 1, carry:0, sum:13
+  --> PASS ! 12 +  1 = 13
+[GEN] a: 3, b: 7, carry:x, sum: x
+[DRV] a: 3, b: 7, carry:x, sum: x
+[MON] a: 3, b: 7, carry:0, sum:10
+[SCB] a: 3, b: 7, carry:0, sum:10
+  --> PASS !  3 +  7 = 10
+[GEN] a:13, b:13, carry:x, sum: x
+[DRV] a:13, b:13, carry:x, sum: x
+[MON] a:13, b:13, carry:1, sum:10
+[SCB] a:13, b:13, carry:1, sum:10
+  --> PASS ! 13 + 13 = 26
+[GEN] a: 5, b:10, carry:x, sum: x
+[DRV] a: 5, b:10, carry:x, sum: x
+[MON] a: 5, b:10, carry:0, sum:15
+[SCB] a: 5, b:10, carry:0, sum:15
+  --> PASS !  5 + 10 = 15
+[GEN] a:14, b: 9, carry:x, sum: x
+[DRV] a:14, b: 9, carry:x, sum: x
+[MON] a:14, b: 9, carry:1, sum: 7
+[SCB] a:14, b: 9, carry:1, sum: 7
+  --> PASS ! 14 +  9 = 23
+[GEN] a: 1, b:11, carry:x, sum: x
+[DRV] a: 1, b:11, carry:x, sum: x
+[MON] a: 1, b:11, carry:0, sum:12
+[SCB] a: 1, b:11, carry:0, sum:12
+  --> PASS !  1 + 11 = 12
+[GEN] a: 6, b: 7, carry:x, sum: x
+[DRV] a: 6, b: 7, carry:x, sum: x
+[MON] a: 6, b: 7, carry:0, sum:13
+[SCB] a: 6, b: 7, carry:0, sum:13
+  --> PASS !  6 +  7 = 13
+[GEN] a: 5, b: 4, carry:x, sum: x
+[DRV] a: 5, b: 4, carry:x, sum: x
+[MON] a: 5, b: 4, carry:0, sum: 9
+[SCB] a: 5, b: 4, carry:0, sum: 9
+  --> PASS !  5 +  4 =  9
+[GEN] a: 0, b: 7, carry:x, sum: x
+[DRV] a: 0, b: 7, carry:x, sum: x
+[MON] a: 0, b: 7, carry:0, sum: 7
+[SCB] a: 0, b: 7, carry:0, sum: 7
+  --> PASS !  0 +  7 =  7
+[GEN] a:15, b: 6, carry:x, sum: x
+[DRV] a:15, b: 6, carry:x, sum: x
+[MON] a:15, b: 6, carry:1, sum: 5
+[SCB] a:15, b: 6, carry:1, sum: 5
+  --> PASS ! 15 +  6 = 21
+[GEN] a:14, b: 5, carry:x, sum: x
+[DRV] a:14, b: 5, carry:x, sum: x
+[MON] a:14, b: 5, carry:1, sum: 3
+[SCB] a:14, b: 5, carry:1, sum: 3
+  --> PASS ! 14 +  5 = 19
+[GEN] a:10, b:14, carry:x, sum: x
+[DRV] a:10, b:14, carry:x, sum: x
+[MON] a:10, b:14, carry:1, sum: 8
+[SCB] a:10, b:14, carry:1, sum: 8
+  --> PASS ! 10 + 14 = 24
+[GEN] a:12, b: 9, carry:x, sum: x
+[DRV] a:12, b: 9, carry:x, sum: x
+[MON] a:12, b: 9, carry:1, sum: 5
+[SCB] a:12, b: 9, carry:1, sum: 5
+  --> PASS ! 12 +  9 = 21
+[GEN] a: 4, b:10, carry:x, sum: x
+[DRV] a: 4, b:10, carry:x, sum: x
+[MON] a: 4, b:10, carry:0, sum:14
+[SCB] a: 4, b:10, carry:0, sum:14
+  --> PASS !  4 + 10 = 14
+[GEN] a:14, b:14, carry:x, sum: x
+[DRV] a:14, b:14, carry:x, sum: x
+[MON] a:14, b:14, carry:1, sum:12
+[SCB] a:14, b:14, carry:1, sum:12
+  --> PASS ! 14 + 14 = 28
+[GEN] a: 8, b:10, carry:x, sum: x
+[DRV] a: 8, b:10, carry:x, sum: x
+[MON] a: 8, b:10, carry:1, sum: 2
+[SCB] a: 8, b:10, carry:1, sum: 2
+  --> PASS !  8 + 10 = 18
+[GEN] a: 7, b:12, carry:x, sum: x
+[DRV] a: 7, b:12, carry:x, sum: x
+[MON] a: 7, b:12, carry:1, sum: 3
+[SCB] a: 7, b:12, carry:1, sum: 3
+  --> PASS !  7 + 12 = 19
+[GEN] a: 4, b: 6, carry:x, sum: x
+[DRV] a: 4, b: 6, carry:x, sum: x
+[MON] a: 4, b: 6, carry:0, sum:10
+[SCB] a: 4, b: 6, carry:0, sum:10
+  --> PASS !  4 +  6 = 10
+[GEN] a:10, b:12, carry:x, sum: x
+[DRV] a:10, b:12, carry:x, sum: x
+[MON] a:10, b:12, carry:1, sum: 6
+[SCB] a:10, b:12, carry:1, sum: 6
+  --> PASS ! 10 + 12 = 22
+[GEN] a: 0, b: 1, carry:x, sum: x
+[DRV] a: 0, b: 1, carry:x, sum: x
+[MON] a: 0, b: 1, carry:0, sum: 1
+[SCB] a: 0, b: 1, carry:0, sum: 1
+  --> PASS !  0 +  1 =  1
+[GEN] a: 8, b: 5, carry:x, sum: x
+[DRV] a: 8, b: 5, carry:x, sum: x
+[MON] a: 8, b: 5, carry:0, sum:13
+[SCB] a: 8, b: 5, carry:0, sum:13
+  --> PASS !  8 +  5 = 13
+[GEN] a: 7, b: 2, carry:x, sum: x
+[DRV] a: 7, b: 2, carry:x, sum: x
+[MON] a: 7, b: 2, carry:0, sum: 9
+[SCB] a: 7, b: 2, carry:0, sum: 9
+  --> PASS !  7 +  2 =  9
+[GEN] a: 1, b: 8, carry:x, sum: x
+[DRV] a: 1, b: 8, carry:x, sum: x
+[MON] a: 1, b: 8, carry:0, sum: 9
+[SCB] a: 1, b: 8, carry:0, sum: 9
+  --> PASS !  1 +  8 =  9
+[GEN] a: 4, b:10, carry:x, sum: x
+[DRV] a: 4, b:10, carry:x, sum: x
+[MON] a: 4, b:10, carry:0, sum:14
+[SCB] a: 4, b:10, carry:0, sum:14
+  --> PASS !  4 + 10 = 14
+[GEN] a:13, b:11, carry:x, sum: x
+[DRV] a:13, b:11, carry:x, sum: x
+[MON] a:13, b:11, carry:1, sum: 8
+[SCB] a:13, b:11, carry:1, sum: 8
+  --> PASS ! 13 + 11 = 24
+[GEN] a:12, b:14, carry:x, sum: x
+[DRV] a:12, b:14, carry:x, sum: x
+[MON] a:12, b:14, carry:1, sum:10
+[SCB] a:12, b:14, carry:1, sum:10
+  --> PASS ! 12 + 14 = 26
+[GEN] a: 3, b: 0, carry:x, sum: x
+[DRV] a: 3, b: 0, carry:x, sum: x
+[MON] a: 3, b: 0, carry:0, sum: 3
+[SCB] a: 3, b: 0, carry:0, sum: 3
+  --> PASS !  3 +  0 =  3
+[GEN] a: 8, b: 0, carry:x, sum: x
+[DRV] a: 8, b: 0, carry:x, sum: x
+[MON] a: 8, b: 0, carry:0, sum: 8
+[SCB] a: 8, b: 0, carry:0, sum: 8
+  --> PASS !  8 +  0 =  8
+[GEN] a:12, b: 5, carry:x, sum: x
+[DRV] a:12, b: 5, carry:x, sum: x
+[MON] a:12, b: 5, carry:1, sum: 1
+[SCB] a:12, b: 5, carry:1, sum: 1
+  --> PASS ! 12 +  5 = 17
+[GEN] a:15, b:15, carry:x, sum: x
+[DRV] a:15, b:15, carry:x, sum: x
+[MON] a:15, b:15, carry:1, sum:14
+[SCB] a:15, b:15, carry:1, sum:14
+  --> PASS ! 15 + 15 = 30
+[GEN] a: 5, b: 7, carry:x, sum: x
+[DRV] a: 5, b: 7, carry:x, sum: x
+[MON] a: 5, b: 7, carry:0, sum:12
+[SCB] a: 5, b: 7, carry:0, sum:12
+  --> PASS !  5 +  7 = 12
+[GEN] a: 0, b: 1, carry:x, sum: x
+[DRV] a: 0, b: 1, carry:x, sum: x
+[MON] a: 0, b: 1, carry:0, sum: 1
+[SCB] a: 0, b: 1, carry:0, sum: 1
+  --> PASS !  0 +  1 =  1
+[GEN] a:12, b:15, carry:x, sum: x
+[DRV] a:12, b:15, carry:x, sum: x
+[MON] a:12, b:15, carry:1, sum:11
+[SCB] a:12, b:15, carry:1, sum:11
+  --> PASS ! 12 + 15 = 27
+[GEN] a: 1, b: 2, carry:x, sum: x
+[DRV] a: 1, b: 2, carry:x, sum: x
+[MON] a: 1, b: 2, carry:0, sum: 3
+[SCB] a: 1, b: 2, carry:0, sum: 3
+  --> PASS !  1 +  2 =  3
+[GEN] a: 6, b: 1, carry:x, sum: x
+[DRV] a: 6, b: 1, carry:x, sum: x
+[MON] a: 6, b: 1, carry:0, sum: 7
+[SCB] a: 6, b: 1, carry:0, sum: 7
+  --> PASS !  6 +  1 =  7
+[GEN] a: 3, b: 3, carry:x, sum: x
+[DRV] a: 3, b: 3, carry:x, sum: x
+[MON] a: 3, b: 3, carry:0, sum: 6
+[SCB] a: 3, b: 3, carry:0, sum: 6
+  --> PASS !  3 +  3 =  6
+[GEN] a: 0, b: 4, carry:x, sum: x
+[DRV] a: 0, b: 4, carry:x, sum: x
+[MON] a: 0, b: 4, carry:0, sum: 4
+[SCB] a: 0, b: 4, carry:0, sum: 4
+  --> PASS !  0 +  4 =  4
+[GEN] a: 5, b: 6, carry:x, sum: x
+[DRV] a: 5, b: 6, carry:x, sum: x
+[MON] a: 5, b: 6, carry:0, sum:11
+[SCB] a: 5, b: 6, carry:0, sum:11
+  --> PASS !  5 +  6 = 11
+[GEN] a: 5, b: 8, carry:x, sum: x
+[DRV] a: 5, b: 8, carry:x, sum: x
+[MON] a: 5, b: 8, carry:0, sum:13
+[SCB] a: 5, b: 8, carry:0, sum:13
+  --> PASS !  5 +  8 = 13
+[GEN] a: 9, b: 5, carry:x, sum: x
+[DRV] a: 9, b: 5, carry:x, sum: x
+[MON] a: 9, b: 5, carry:0, sum:14
+[SCB] a: 9, b: 5, carry:0, sum:14
+  --> PASS !  9 +  5 = 14
+[GEN] a:13, b:14, carry:x, sum: x
+[DRV] a:13, b:14, carry:x, sum: x
+[MON] a:13, b:14, carry:1, sum:11
+[SCB] a:13, b:14, carry:1, sum:11
+  --> PASS ! 13 + 14 = 27
+[GEN] a:12, b: 2, carry:x, sum: x
+[DRV] a:12, b: 2, carry:x, sum: x
+[MON] a:12, b: 2, carry:0, sum:14
+[SCB] a:12, b: 2, carry:0, sum:14
+  --> PASS ! 12 +  2 = 14
+[GEN] a: 7, b: 5, carry:x, sum: x
+[DRV] a: 7, b: 5, carry:x, sum: x
+[MON] a: 7, b: 5, carry:0, sum:12
+[SCB] a: 7, b: 5, carry:0, sum:12
+  --> PASS !  7 +  5 = 12
+[GEN] a: 8, b: 4, carry:x, sum: x
+[DRV] a: 8, b: 4, carry:x, sum: x
+[MON] a: 8, b: 4, carry:0, sum:12
+[SCB] a: 8, b: 4, carry:0, sum:12
+  --> PASS !  8 +  4 = 12
+[GEN] a: 4, b: 4, carry:x, sum: x
+[DRV] a: 4, b: 4, carry:x, sum: x
+[MON] a: 4, b: 4, carry:0, sum: 8
+[SCB] a: 4, b: 4, carry:0, sum: 8
+  --> PASS !  4 +  4 =  8
+[GEN] a: 6, b:11, carry:x, sum: x
+[DRV] a: 6, b:11, carry:x, sum: x
+[MON] a: 6, b:11, carry:1, sum: 1
+[SCB] a: 6, b:11, carry:1, sum: 1
+  --> PASS !  6 + 11 = 17
+[GEN] a: 9, b:14, carry:x, sum: x
+[DRV] a: 9, b:14, carry:x, sum: x
+[MON] a: 9, b:14, carry:1, sum: 7
+[SCB] a: 9, b:14, carry:1, sum: 7
+  --> PASS !  9 + 14 = 23
+[GEN] a:15, b:13, carry:x, sum: x
+[DRV] a:15, b:13, carry:x, sum: x
+[MON] a:15, b:13, carry:1, sum:12
+[SCB] a:15, b:13, carry:1, sum:12
+  --> PASS ! 15 + 13 = 28
+[GEN] a: 2, b: 5, carry:x, sum: x
+[DRV] a: 2, b: 5, carry:x, sum: x
+[MON] a: 2, b: 5, carry:0, sum: 7
+[SCB] a: 2, b: 5, carry:0, sum: 7
+  --> PASS !  2 +  5 =  7
+[GEN] a: 8, b:12, carry:x, sum: x
+[DRV] a: 8, b:12, carry:x, sum: x
+[MON] a: 8, b:12, carry:1, sum: 4
+[SCB] a: 8, b:12, carry:1, sum: 4
+  --> PASS !  8 + 12 = 20
+[GEN] a: 4, b: 7, carry:x, sum: x
+[DRV] a: 4, b: 7, carry:x, sum: x
+[MON] a: 4, b: 7, carry:0, sum:11
+[SCB] a: 4, b: 7, carry:0, sum:11
+  --> PASS !  4 +  7 = 11
+[GEN] a: 9, b: 6, carry:x, sum: x
+[DRV] a: 9, b: 6, carry:x, sum: x
+[MON] a: 9, b: 6, carry:0, sum:15
+[SCB] a: 9, b: 6, carry:0, sum:15
+  --> PASS !  9 +  6 = 15
+[GEN] a:13, b: 2, carry:x, sum: x
+[DRV] a:13, b: 2, carry:x, sum: x
+[MON] a:13, b: 2, carry:0, sum:15
+[SCB] a:13, b: 2, carry:0, sum:15
+  --> PASS ! 13 +  2 = 15
+[GEN] a: 2, b: 1, carry:x, sum: x
+[DRV] a: 2, b: 1, carry:x, sum: x
+[MON] a: 2, b: 1, carry:0, sum: 3
+[SCB] a: 2, b: 1, carry:0, sum: 3
+  --> PASS !  2 +  1 =  3
+[GEN] a: 9, b:12, carry:x, sum: x
+[DRV] a: 9, b:12, carry:x, sum: x
+[MON] a: 9, b:12, carry:1, sum: 5
+[SCB] a: 9, b:12, carry:1, sum: 5
+  --> PASS !  9 + 12 = 21
+[GEN] a: 7, b: 6, carry:x, sum: x
+[DRV] a: 7, b: 6, carry:x, sum: x
+[MON] a: 7, b: 6, carry:0, sum:13
+[SCB] a: 7, b: 6, carry:0, sum:13
+  --> PASS !  7 +  6 = 13
+[GEN] a:14, b:10, carry:x, sum: x
+[DRV] a:14, b:10, carry:x, sum: x
+[MON] a:14, b:10, carry:1, sum: 8
+[SCB] a:14, b:10, carry:1, sum: 8
+  --> PASS ! 14 + 10 = 24
+[GEN] a: 7, b: 7, carry:x, sum: x
+[DRV] a: 7, b: 7, carry:x, sum: x
+[MON] a: 7, b: 7, carry:0, sum:14
+[SCB] a: 7, b: 7, carry:0, sum:14
+  --> PASS !  7 +  7 = 14
+[GEN] a: 6, b:15, carry:x, sum: x
+[DRV] a: 6, b:15, carry:x, sum: x
+[MON] a: 6, b:15, carry:1, sum: 5
+[SCB] a: 6, b:15, carry:1, sum: 5
+  --> PASS !  6 + 15 = 21
+[GEN] a:14, b: 4, carry:x, sum: x
+[DRV] a:14, b: 4, carry:x, sum: x
+[MON] a:14, b: 4, carry:1, sum: 2
+[SCB] a:14, b: 4, carry:1, sum: 2
+  --> PASS ! 14 +  4 = 18
+[GEN] a: 9, b: 5, carry:x, sum: x
+[DRV] a: 9, b: 5, carry:x, sum: x
+[MON] a: 9, b: 5, carry:0, sum:14
+[SCB] a: 9, b: 5, carry:0, sum:14
+  --> PASS !  9 +  5 = 14
+[GEN] a:11, b:15, carry:x, sum: x
+[DRV] a:11, b:15, carry:x, sum: x
+[MON] a:11, b:15, carry:1, sum:10
+[SCB] a:11, b:15, carry:1, sum:10
+  --> PASS ! 11 + 15 = 26
+[GEN] a: 4, b: 9, carry:x, sum: x
+[DRV] a: 4, b: 9, carry:x, sum: x
+[MON] a: 4, b: 9, carry:0, sum:13
+[SCB] a: 4, b: 9, carry:0, sum:13
+  --> PASS !  4 +  9 = 13
+[GEN] a: 3, b:13, carry:x, sum: x
+[DRV] a: 3, b:13, carry:x, sum: x
+[MON] a: 3, b:13, carry:1, sum: 0
+[SCB] a: 3, b:13, carry:1, sum: 0
+  --> PASS !  3 + 13 = 16
+[GEN] a:15, b:14, carry:x, sum: x
+[DRV] a:15, b:14, carry:x, sum: x
+[MON] a:15, b:14, carry:1, sum:13
+[SCB] a:15, b:14, carry:1, sum:13
+  --> PASS ! 15 + 14 = 29
+[GEN] a:12, b: 3, carry:x, sum: x
+[DRV] a:12, b: 3, carry:x, sum: x
+[MON] a:12, b: 3, carry:0, sum:15
+[SCB] a:12, b: 3, carry:0, sum:15
+  --> PASS ! 12 +  3 = 15
+[GEN] a: 8, b:15, carry:x, sum: x
+[DRV] a: 8, b:15, carry:x, sum: x
+[MON] a: 8, b:15, carry:1, sum: 7
+[SCB] a: 8, b:15, carry:1, sum: 7
+  --> PASS !  8 + 15 = 23
+[GEN] a: 1, b: 7, carry:x, sum: x
+[DRV] a: 1, b: 7, carry:x, sum: x
+[MON] a: 1, b: 7, carry:0, sum: 8
+[SCB] a: 1, b: 7, carry:0, sum: 8
+  --> PASS !  1 +  7 =  8
+[GEN] a:14, b:13, carry:x, sum: x
+[DRV] a:14, b:13, carry:x, sum: x
+[MON] a:14, b:13, carry:1, sum:11
+[SCB] a:14, b:13, carry:1, sum:11
+  --> PASS ! 14 + 13 = 27
+[GEN] a:10, b: 6, carry:x, sum: x
+[DRV] a:10, b: 6, carry:x, sum: x
+[MON] a:10, b: 6, carry:1, sum: 0
+[SCB] a:10, b: 6, carry:1, sum: 0
+  --> PASS ! 10 +  6 = 16
+[GEN] a:13, b:11, carry:x, sum: x
+[DRV] a:13, b:11, carry:x, sum: x
+[MON] a:13, b:11, carry:1, sum: 8
+[SCB] a:13, b:11, carry:1, sum: 8
+  --> PASS ! 13 + 11 = 24
+[GEN] a:13, b:11, carry:x, sum: x
+[DRV] a:13, b:11, carry:x, sum: x
+[MON] a:13, b:11, carry:1, sum: 8
+[SCB] a:13, b:11, carry:1, sum: 8
+  --> PASS ! 13 + 11 = 24
+[GEN] a: 9, b: 7, carry:x, sum: x
+[DRV] a: 9, b: 7, carry:x, sum: x
+[MON] a: 9, b: 7, carry:1, sum: 0
+[SCB] a: 9, b: 7, carry:1, sum: 0
+  --> PASS !  9 +  7 = 16
+[GEN] a: 1, b: 6, carry:x, sum: x
+[DRV] a: 1, b: 6, carry:x, sum: x
+[MON] a: 1, b: 6, carry:0, sum: 7
+[SCB] a: 1, b: 6, carry:0, sum: 7
+  --> PASS !  1 +  6 =  7
+[GEN] a: 3, b:14, carry:x, sum: x
+[DRV] a: 3, b:14, carry:x, sum: x
+[MON] a: 3, b:14, carry:1, sum: 1
+[SCB] a: 3, b:14, carry:1, sum: 1
+  --> PASS !  3 + 14 = 17
+[GEN] a: 1, b:12, carry:x, sum: x
+[DRV] a: 1, b:12, carry:x, sum: x
+[MON] a: 1, b:12, carry:0, sum:13
+[SCB] a: 1, b:12, carry:0, sum:13
+  --> PASS !  1 + 12 = 13
+[GEN] a: 5, b: 2, carry:x, sum: x
+[DRV] a: 5, b: 2, carry:x, sum: x
+[MON] a: 5, b: 2, carry:0, sum: 7
+[SCB] a: 5, b: 2, carry:0, sum: 7
+  --> PASS !  5 +  2 =  7
+[GEN] a: 2, b: 8, carry:x, sum: x
+[DRV] a: 2, b: 8, carry:x, sum: x
+[MON] a: 2, b: 8, carry:0, sum:10
+[SCB] a: 2, b: 8, carry:0, sum:10
+  --> PASS !  2 +  8 = 10
+[GEN] a: 0, b: 3, carry:x, sum: x
+[DRV] a: 0, b: 3, carry:x, sum: x
+[MON] a: 0, b: 3, carry:0, sum: 3
+[SCB] a: 0, b: 3, carry:0, sum: 3
+  --> PASS !  0 +  3 =  3
+[GEN] a: 4, b: 5, carry:x, sum: x
+[DRV] a: 4, b: 5, carry:x, sum: x
+[MON] a: 4, b: 5, carry:0, sum: 9
+[SCB] a: 4, b: 5, carry:0, sum: 9
+  --> PASS !  4 +  5 =  9
+[GEN] a: 5, b: 6, carry:x, sum: x
+[DRV] a: 5, b: 6, carry:x, sum: x
+[MON] a: 5, b: 6, carry:0, sum:11
+[SCB] a: 5, b: 6, carry:0, sum:11
+  --> PASS !  5 +  6 = 11
+[GEN] a:14, b: 5, carry:x, sum: x
+[DRV] a:14, b: 5, carry:x, sum: x
+[MON] a:14, b: 5, carry:1, sum: 3
+[SCB] a:14, b: 5, carry:1, sum: 3
+  --> PASS ! 14 +  5 = 19
+[GEN] a: 9, b: 2, carry:x, sum: x
+[DRV] a: 9, b: 2, carry:x, sum: x
+[MON] a: 9, b: 2, carry:0, sum:11
+[SCB] a: 9, b: 2, carry:0, sum:11
+  --> PASS !  9 +  2 = 11
+[GEN] a:10, b:14, carry:x, sum: x
+[DRV] a:10, b:14, carry:x, sum: x
+[MON] a:10, b:14, carry:1, sum: 8
+[SCB] a:10, b:14, carry:1, sum: 8
+  --> PASS ! 10 + 14 = 24
+[GEN] a: 9, b: 8, carry:x, sum: x
+[DRV] a: 9, b: 8, carry:x, sum: x
+[MON] a: 9, b: 8, carry:1, sum: 1
+[SCB] a: 9, b: 8, carry:1, sum: 1
+  --> PASS !  9 +  8 = 17
+[GEN] a: 3, b: 2, carry:x, sum: x
+[DRV] a: 3, b: 2, carry:x, sum: x
+[MON] a: 3, b: 2, carry:0, sum: 5
+[SCB] a: 3, b: 2, carry:0, sum: 5
+  --> PASS !  3 +  2 =  5
+[GEN] a:11, b:14, carry:x, sum: x
+[DRV] a:11, b:14, carry:x, sum: x
+[MON] a:11, b:14, carry:1, sum: 9
+[SCB] a:11, b:14, carry:1, sum: 9
+  --> PASS ! 11 + 14 = 25
+[GEN] a: 1, b: 4, carry:x, sum: x
+[DRV] a: 1, b: 4, carry:x, sum: x
+[MON] a: 1, b: 4, carry:0, sum: 5
+[SCB] a: 1, b: 4, carry:0, sum: 5
+  --> PASS !  1 +  4 =  5
+[GEN] a: 6, b: 4, carry:x, sum: x
+[DRV] a: 6, b: 4, carry:x, sum: x
+[MON] a: 6, b: 4, carry:0, sum:10
+[SCB] a: 6, b: 4, carry:0, sum:10
+  --> PASS !  6 +  4 = 10
+[GEN] a: 6, b: 1, carry:x, sum: x
+[DRV] a: 6, b: 1, carry:x, sum: x
+[MON] a: 6, b: 1, carry:0, sum: 7
+[SCB] a: 6, b: 1, carry:0, sum: 7
+  --> PASS !  6 +  1 =  7
+[GEN] a: 2, b: 7, carry:x, sum: x
+[DRV] a: 2, b: 7, carry:x, sum: x
+[MON] a: 2, b: 7, carry:0, sum: 9
+[SCB] a: 2, b: 7, carry:0, sum: 9
+  --> PASS !  2 +  7 =  9
+[GEN] a: 5, b: 9, carry:x, sum: x
+[DRV] a: 5, b: 9, carry:x, sum: x
+[MON] a: 5, b: 9, carry:0, sum:14
+[SCB] a: 5, b: 9, carry:0, sum:14
+  --> PASS !  5 +  9 = 14
+[GEN] a:12, b:12, carry:x, sum: x
+[DRV] a:12, b:12, carry:x, sum: x
+[MON] a:12, b:12, carry:1, sum: 8
+[SCB] a:12, b:12, carry:1, sum: 8
+  --> PASS ! 12 + 12 = 24
+[GEN] a:10, b:14, carry:x, sum: x
+[DRV] a:10, b:14, carry:x, sum: x
+[MON] a:10, b:14, carry:1, sum: 8
+[SCB] a:10, b:14, carry:1, sum: 8
+  --> PASS ! 10 + 14 = 24
+[GEN] a: 3, b: 0, carry:x, sum: x
+[DRV] a: 3, b: 0, carry:x, sum: x
+[MON] a: 3, b: 0, carry:0, sum: 3
+[SCB] a: 3, b: 0, carry:0, sum: 3
+  --> PASS !  3 +  0 =  3
+[GEN] a: 7, b:15, carry:x, sum: x
+[DRV] a: 7, b:15, carry:x, sum: x
+[MON] a: 7, b:15, carry:1, sum: 6
+[SCB] a: 7, b:15, carry:1, sum: 6
+  --> PASS !  7 + 15 = 22
+[GEN] a:12, b: 2, carry:x, sum: x
+[DRV] a:12, b: 2, carry:x, sum: x
+[MON] a:12, b: 2, carry:0, sum:14
+[SCB] a:12, b: 2, carry:0, sum:14
+  --> PASS ! 12 +  2 = 14
+[GEN] a:14, b:15, carry:x, sum: x
+[DRV] a:14, b:15, carry:x, sum: x
+[MON] a:14, b:15, carry:1, sum:13
+[SCB] a:14, b:15, carry:1, sum:13
+  --> PASS ! 14 + 15 = 29
+[GEN] a: 2, b: 5, carry:x, sum: x
+[DRV] a: 2, b: 5, carry:x, sum: x
+[MON] a: 2, b: 5, carry:0, sum: 7
+[SCB] a: 2, b: 5, carry:0, sum: 7
+  --> PASS !  2 +  5 =  7
+[GEN] a:15, b:14, carry:x, sum: x
+[DRV] a:15, b:14, carry:x, sum: x
+[MON] a:15, b:14, carry:1, sum:13
+[SCB] a:15, b:14, carry:1, sum:13
+  --> PASS ! 15 + 14 = 29
+[GEN] a: 7, b:13, carry:x, sum: x
+[DRV] a: 7, b:13, carry:x, sum: x
+[MON] a: 7, b:13, carry:1, sum: 4
+[SCB] a: 7, b:13, carry:1, sum: 4
+  --> PASS !  7 + 13 = 20
+[GEN] a:13, b: 9, carry:x, sum: x
+[DRV] a:13, b: 9, carry:x, sum: x
+[MON] a:13, b: 9, carry:1, sum: 6
+[SCB] a:13, b: 9, carry:1, sum: 6
+  --> PASS ! 13 +  9 = 22
+[GEN] a: 2, b:12, carry:x, sum: x
+[DRV] a: 2, b:12, carry:x, sum: x
+[MON] a: 2, b:12, carry:0, sum:14
+[SCB] a: 2, b:12, carry:0, sum:14
+  --> PASS !  2 + 12 = 14
+[GEN] a: 7, b:10, carry:x, sum: x
+[DRV] a: 7, b:10, carry:x, sum: x
+[MON] a: 7, b:10, carry:1, sum: 1
+[SCB] a: 7, b:10, carry:1, sum: 1
+  --> PASS !  7 + 10 = 17
+[GEN] a: 9, b: 5, carry:x, sum: x
+[DRV] a: 9, b: 5, carry:x, sum: x
+[MON] a: 9, b: 5, carry:0, sum:14
+[SCB] a: 9, b: 5, carry:0, sum:14
+  --> PASS !  9 +  5 = 14
+[GEN] a: 3, b:12, carry:x, sum: x
+[DRV] a: 3, b:12, carry:x, sum: x
+[MON] a: 3, b:12, carry:0, sum:15
+[SCB] a: 3, b:12, carry:0, sum:15
+  --> PASS !  3 + 12 = 15
+[GEN] a: 1, b:11, carry:x, sum: x
+[DRV] a: 1, b:11, carry:x, sum: x
+[MON] a: 1, b:11, carry:0, sum:12
+[SCB] a: 1, b:11, carry:0, sum:12
+  --> PASS !  1 + 11 = 12
+[GEN] a: 6, b:11, carry:x, sum: x
+[DRV] a: 6, b:11, carry:x, sum: x
+[MON] a: 6, b:11, carry:1, sum: 1
+[SCB] a: 6, b:11, carry:1, sum: 1
+  --> PASS !  6 + 11 = 17
+[GEN] a: 0, b: 9, carry:x, sum: x
+[DRV] a: 0, b: 9, carry:x, sum: x
+[MON] a: 0, b: 9, carry:0, sum: 9
+[SCB] a: 0, b: 9, carry:0, sum: 9
+  --> PASS !  0 +  9 =  9
+[GEN] a: 7, b: 1, carry:x, sum: x
+[DRV] a: 7, b: 1, carry:x, sum: x
+[MON] a: 7, b: 1, carry:0, sum: 8
+[SCB] a: 7, b: 1, carry:0, sum: 8
+  --> PASS !  7 +  1 =  8
+[GEN] a: 4, b:13, carry:x, sum: x
+[DRV] a: 4, b:13, carry:x, sum: x
+[MON] a: 4, b:13, carry:1, sum: 1
+[SCB] a: 4, b:13, carry:1, sum: 1
+  --> PASS !  4 + 13 = 17
+[GEN] a:12, b: 4, carry:x, sum: x
+[DRV] a:12, b: 4, carry:x, sum: x
+[MON] a:12, b: 4, carry:1, sum: 0
+[SCB] a:12, b: 4, carry:1, sum: 0
+  --> PASS ! 12 +  4 = 16
+[GEN] a: 6, b: 3, carry:x, sum: x
+[DRV] a: 6, b: 3, carry:x, sum: x
+[MON] a: 6, b: 3, carry:0, sum: 9
+[SCB] a: 6, b: 3, carry:0, sum: 9
+  --> PASS !  6 +  3 =  9
+[GEN] a: 6, b:11, carry:x, sum: x
+[DRV] a: 6, b:11, carry:x, sum: x
+[MON] a: 6, b:11, carry:1, sum: 1
+[SCB] a: 6, b:11, carry:1, sum: 1
+  --> PASS !  6 + 11 = 17
+[GEN] a: 0, b: 2, carry:x, sum: x
+[DRV] a: 0, b: 2, carry:x, sum: x
+[MON] a: 0, b: 2, carry:0, sum: 2
+[SCB] a: 0, b: 2, carry:0, sum: 2
+  --> PASS !  0 +  2 =  2
+[GEN] a:15, b: 7, carry:x, sum: x
+[DRV] a:15, b: 7, carry:x, sum: x
+[MON] a:15, b: 7, carry:1, sum: 6
+[SCB] a:15, b: 7, carry:1, sum: 6
+  --> PASS ! 15 +  7 = 22
+[GEN] a: 6, b: 5, carry:x, sum: x
+[DRV] a: 6, b: 5, carry:x, sum: x
+[MON] a: 6, b: 5, carry:0, sum:11
+[SCB] a: 6, b: 5, carry:0, sum:11
+  --> PASS !  6 +  5 = 11
+[GEN] a: 2, b: 6, carry:x, sum: x
+[DRV] a: 2, b: 6, carry:x, sum: x
+[MON] a: 2, b: 6, carry:0, sum: 8
+[SCB] a: 2, b: 6, carry:0, sum: 8
+  --> PASS !  2 +  6 =  8
+[GEN] a: 8, b: 1, carry:x, sum: x
+[DRV] a: 8, b: 1, carry:x, sum: x
+[MON] a: 8, b: 1, carry:0, sum: 9
+[SCB] a: 8, b: 1, carry:0, sum: 9
+  --> PASS !  8 +  1 =  9
+[GEN] a:13, b:14, carry:x, sum: x
+[DRV] a:13, b:14, carry:x, sum: x
+[MON] a:13, b:14, carry:1, sum:11
+[SCB] a:13, b:14, carry:1, sum:11
+  --> PASS ! 13 + 14 = 27
+[GEN] a: 7, b:15, carry:x, sum: x
+[DRV] a: 7, b:15, carry:x, sum: x
+[MON] a: 7, b:15, carry:1, sum: 6
+[SCB] a: 7, b:15, carry:1, sum: 6
+  --> PASS !  7 + 15 = 22
+[GEN] a: 4, b:15, carry:x, sum: x
+[DRV] a: 4, b:15, carry:x, sum: x
+[MON] a: 4, b:15, carry:1, sum: 3
+[SCB] a: 4, b:15, carry:1, sum: 3
+  --> PASS !  4 + 15 = 19
+[GEN] a: 1, b: 2, carry:x, sum: x
+[DRV] a: 1, b: 2, carry:x, sum: x
+[MON] a: 1, b: 2, carry:0, sum: 3
+[SCB] a: 1, b: 2, carry:0, sum: 3
+  --> PASS !  1 +  2 =  3
+[GEN] a:13, b: 8, carry:x, sum: x
+[DRV] a:13, b: 8, carry:x, sum: x
+[MON] a:13, b: 8, carry:1, sum: 5
+[SCB] a:13, b: 8, carry:1, sum: 5
+  --> PASS ! 13 +  8 = 21
+[GEN] a: 1, b: 1, carry:x, sum: x
+[DRV] a: 1, b: 1, carry:x, sum: x
+[MON] a: 1, b: 1, carry:0, sum: 2
+[SCB] a: 1, b: 1, carry:0, sum: 2
+  --> PASS !  1 +  1 =  2
+[GEN] a: 7, b: 2, carry:x, sum: x
+[DRV] a: 7, b: 2, carry:x, sum: x
+[MON] a: 7, b: 2, carry:0, sum: 9
+[SCB] a: 7, b: 2, carry:0, sum: 9
+  --> PASS !  7 +  2 =  9
+[GEN] a: 3, b: 4, carry:x, sum: x
+[DRV] a: 3, b: 4, carry:x, sum: x
+[MON] a: 3, b: 4, carry:0, sum: 7
+[SCB] a: 3, b: 4, carry:0, sum: 7
+  --> PASS !  3 +  4 =  7
+[GEN] a:10, b: 5, carry:x, sum: x
+[DRV] a:10, b: 5, carry:x, sum: x
+[MON] a:10, b: 5, carry:0, sum:15
+[SCB] a:10, b: 5, carry:0, sum:15
+  --> PASS ! 10 +  5 = 15
+[GEN] a: 5, b: 1, carry:x, sum: x
+[DRV] a: 5, b: 1, carry:x, sum: x
+[MON] a: 5, b: 1, carry:0, sum: 6
+[SCB] a: 5, b: 1, carry:0, sum: 6
+  --> PASS !  5 +  1 =  6
+[GEN] a: 7, b: 9, carry:x, sum: x
+[DRV] a: 7, b: 9, carry:x, sum: x
+[MON] a: 7, b: 9, carry:1, sum: 0
+[SCB] a: 7, b: 9, carry:1, sum: 0
+  --> PASS !  7 +  9 = 16
+[GEN] a: 5, b: 2, carry:x, sum: x
+[DRV] a: 5, b: 2, carry:x, sum: x
+[MON] a: 5, b: 2, carry:0, sum: 7
+[SCB] a: 5, b: 2, carry:0, sum: 7
+  --> PASS !  5 +  2 =  7
+[GEN] a:14, b:11, carry:x, sum: x
+[DRV] a:14, b:11, carry:x, sum: x
+[MON] a:14, b:11, carry:1, sum: 9
+[SCB] a:14, b:11, carry:1, sum: 9
+  --> PASS ! 14 + 11 = 25
+[GEN] a: 3, b: 5, carry:x, sum: x
+[DRV] a: 3, b: 5, carry:x, sum: x
+[MON] a: 3, b: 5, carry:0, sum: 8
+[SCB] a: 3, b: 5, carry:0, sum: 8
+  --> PASS !  3 +  5 =  8
+[GEN] a: 4, b: 9, carry:x, sum: x
+[DRV] a: 4, b: 9, carry:x, sum: x
+[MON] a: 4, b: 9, carry:0, sum:13
+[SCB] a: 4, b: 9, carry:0, sum:13
+  --> PASS !  4 +  9 = 13
+[GEN] a: 7, b: 2, carry:x, sum: x
+[DRV] a: 7, b: 2, carry:x, sum: x
+[MON] a: 7, b: 2, carry:0, sum: 9
+[SCB] a: 7, b: 2, carry:0, sum: 9
+  --> PASS !  7 +  2 =  9
+[GEN] a: 4, b:11, carry:x, sum: x
+[DRV] a: 4, b:11, carry:x, sum: x
+[MON] a: 4, b:11, carry:0, sum:15
+[SCB] a: 4, b:11, carry:0, sum:15
+  --> PASS !  4 + 11 = 15
+[GEN] a: 7, b: 8, carry:x, sum: x
+[DRV] a: 7, b: 8, carry:x, sum: x
+[MON] a: 7, b: 8, carry:0, sum:15
+[SCB] a: 7, b: 8, carry:0, sum:15
+  --> PASS !  7 +  8 = 15
+[GEN] a: 4, b:15, carry:x, sum: x
+[DRV] a: 4, b:15, carry:x, sum: x
+[MON] a: 4, b:15, carry:1, sum: 3
+[SCB] a: 4, b:15, carry:1, sum: 3
+  --> PASS !  4 + 15 = 19
+[GEN] a:10, b: 8, carry:x, sum: x
+[DRV] a:10, b: 8, carry:x, sum: x
+[MON] a:10, b: 8, carry:1, sum: 2
+[SCB] a:10, b: 8, carry:1, sum: 2
+  --> PASS ! 10 +  8 = 18
+[GEN] a:10, b: 1, carry:x, sum: x
+[DRV] a:10, b: 1, carry:x, sum: x
+[MON] a:10, b: 1, carry:0, sum:11
+[SCB] a:10, b: 1, carry:0, sum:11
+  --> PASS ! 10 +  1 = 11
+[GEN] a: 0, b:14, carry:x, sum: x
+[DRV] a: 0, b:14, carry:x, sum: x
+[MON] a: 0, b:14, carry:0, sum:14
+[SCB] a: 0, b:14, carry:0, sum:14
+  --> PASS !  0 + 14 = 14
+[GEN] a: 0, b:10, carry:x, sum: x
+[DRV] a: 0, b:10, carry:x, sum: x
+[MON] a: 0, b:10, carry:0, sum:10
+[SCB] a: 0, b:10, carry:0, sum:10
+  --> PASS !  0 + 10 = 10
+[GEN] a: 6, b:10, carry:x, sum: x
+[DRV] a: 6, b:10, carry:x, sum: x
+[MON] a: 6, b:10, carry:1, sum: 0
+[SCB] a: 6, b:10, carry:1, sum: 0
+  --> PASS !  6 + 10 = 16
+[GEN] a:11, b: 6, carry:x, sum: x
+[DRV] a:11, b: 6, carry:x, sum: x
+[MON] a:11, b: 6, carry:1, sum: 1
+[SCB] a:11, b: 6, carry:1, sum: 1
+  --> PASS ! 11 +  6 = 17
+[GEN] a: 8, b:12, carry:x, sum: x
+[DRV] a: 8, b:12, carry:x, sum: x
+[MON] a: 8, b:12, carry:1, sum: 4
+[SCB] a: 8, b:12, carry:1, sum: 4
+  --> PASS !  8 + 12 = 20
+[GEN] a: 0, b:14, carry:x, sum: x
+[DRV] a: 0, b:14, carry:x, sum: x
+[MON] a: 0, b:14, carry:0, sum:14
+[SCB] a: 0, b:14, carry:0, sum:14
+  --> PASS !  0 + 14 = 14
+[GEN] a: 6, b:11, carry:x, sum: x
+[DRV] a: 6, b:11, carry:x, sum: x
+[MON] a: 6, b:11, carry:1, sum: 1
+[SCB] a: 6, b:11, carry:1, sum: 1
+  --> PASS !  6 + 11 = 17
+[GEN] a: 4, b:15, carry:x, sum: x
+[DRV] a: 4, b:15, carry:x, sum: x
+[MON] a: 4, b:15, carry:1, sum: 3
+[SCB] a: 4, b:15, carry:1, sum: 3
+  --> PASS !  4 + 15 = 19
+[GEN] a: 7, b: 4, carry:x, sum: x
+[DRV] a: 7, b: 4, carry:x, sum: x
+[MON] a: 7, b: 4, carry:0, sum:11
+[SCB] a: 7, b: 4, carry:0, sum:11
+  --> PASS !  7 +  4 = 11
+[GEN] a:13, b:14, carry:x, sum: x
+[DRV] a:13, b:14, carry:x, sum: x
+[MON] a:13, b:14, carry:1, sum:11
+[SCB] a:13, b:14, carry:1, sum:11
+  --> PASS ! 13 + 14 = 27
+[GEN] a: 0, b: 2, carry:x, sum: x
+[DRV] a: 0, b: 2, carry:x, sum: x
+[MON] a: 0, b: 2, carry:0, sum: 2
+[SCB] a: 0, b: 2, carry:0, sum: 2
+  --> PASS !  0 +  2 =  2
+[GEN] a:13, b: 7, carry:x, sum: x
+[DRV] a:13, b: 7, carry:x, sum: x
+[MON] a:13, b: 7, carry:1, sum: 4
+[SCB] a:13, b: 7, carry:1, sum: 4
+  --> PASS ! 13 +  7 = 20
+[GEN] a: 6, b:10, carry:x, sum: x
+[DRV] a: 6, b:10, carry:x, sum: x
+[MON] a: 6, b:10, carry:1, sum: 0
+[SCB] a: 6, b:10, carry:1, sum: 0
+  --> PASS !  6 + 10 = 16
+[GEN] a: 5, b: 6, carry:x, sum: x
+[DRV] a: 5, b: 6, carry:x, sum: x
+[MON] a: 5, b: 6, carry:0, sum:11
+[SCB] a: 5, b: 6, carry:0, sum:11
+  --> PASS !  5 +  6 = 11
+[GEN] a:12, b: 2, carry:x, sum: x
+[DRV] a:12, b: 2, carry:x, sum: x
+[MON] a:12, b: 2, carry:0, sum:14
+[SCB] a:12, b: 2, carry:0, sum:14
+  --> PASS ! 12 +  2 = 14
+[GEN] a:14, b: 3, carry:x, sum: x
+[DRV] a:14, b: 3, carry:x, sum: x
+[MON] a:14, b: 3, carry:1, sum: 1
+[SCB] a:14, b: 3, carry:1, sum: 1
+  --> PASS ! 14 +  3 = 17
+[GEN] a:13, b: 3, carry:x, sum: x
+[DRV] a:13, b: 3, carry:x, sum: x
+[MON] a:13, b: 3, carry:1, sum: 0
+[SCB] a:13, b: 3, carry:1, sum: 0
+  --> PASS ! 13 +  3 = 16
+[GEN] a: 9, b: 9, carry:x, sum: x
+[DRV] a: 9, b: 9, carry:x, sum: x
+[MON] a: 9, b: 9, carry:1, sum: 2
+[SCB] a: 9, b: 9, carry:1, sum: 2
+  --> PASS !  9 +  9 = 18
+[GEN] a: 6, b: 7, carry:x, sum: x
+[DRV] a: 6, b: 7, carry:x, sum: x
+[MON] a: 6, b: 7, carry:0, sum:13
+[SCB] a: 6, b: 7, carry:0, sum:13
+  --> PASS !  6 +  7 = 13
+[GEN] a:12, b: 3, carry:x, sum: x
+[DRV] a:12, b: 3, carry:x, sum: x
+[MON] a:12, b: 3, carry:0, sum:15
+[SCB] a:12, b: 3, carry:0, sum:15
+  --> PASS ! 12 +  3 = 15
+[GEN] a:11, b: 6, carry:x, sum: x
+[DRV] a:11, b: 6, carry:x, sum: x
+[MON] a:11, b: 6, carry:1, sum: 1
+[SCB] a:11, b: 6, carry:1, sum: 1
+  --> PASS ! 11 +  6 = 17
+[GEN] a:12, b: 1, carry:x, sum: x
+[DRV] a:12, b: 1, carry:x, sum: x
+[MON] a:12, b: 1, carry:0, sum:13
+[SCB] a:12, b: 1, carry:0, sum:13
+  --> PASS ! 12 +  1 = 13
+[GEN] a:13, b: 9, carry:x, sum: x
+[DRV] a:13, b: 9, carry:x, sum: x
+[MON] a:13, b: 9, carry:1, sum: 6
+[SCB] a:13, b: 9, carry:1, sum: 6
+  --> PASS ! 13 +  9 = 22
+[GEN] a: 4, b: 8, carry:x, sum: x
+[DRV] a: 4, b: 8, carry:x, sum: x
+[MON] a: 4, b: 8, carry:0, sum:12
+[SCB] a: 4, b: 8, carry:0, sum:12
+  --> PASS !  4 +  8 = 12
+[GEN] a:15, b: 0, carry:x, sum: x
+[DRV] a:15, b: 0, carry:x, sum: x
+[MON] a:15, b: 0, carry:0, sum:15
+[SCB] a:15, b: 0, carry:0, sum:15
+  --> PASS ! 15 +  0 = 15
+[GEN] a: 9, b:12, carry:x, sum: x
+[DRV] a: 9, b:12, carry:x, sum: x
+[MON] a: 9, b:12, carry:1, sum: 5
+[SCB] a: 9, b:12, carry:1, sum: 5
+  --> PASS !  9 + 12 = 21
+[GEN] a: 9, b:13, carry:x, sum: x
+[DRV] a: 9, b:13, carry:x, sum: x
+[MON] a: 9, b:13, carry:1, sum: 6
+[SCB] a: 9, b:13, carry:1, sum: 6
+  --> PASS !  9 + 13 = 22
+[GEN] a: 5, b: 8, carry:x, sum: x
+[DRV] a: 5, b: 8, carry:x, sum: x
+[MON] a: 5, b: 8, carry:0, sum:13
+[SCB] a: 5, b: 8, carry:0, sum:13
+  --> PASS !  5 +  8 = 13
+[GEN] a:14, b:14, carry:x, sum: x
+[DRV] a:14, b:14, carry:x, sum: x
+[MON] a:14, b:14, carry:1, sum:12
+[SCB] a:14, b:14, carry:1, sum:12
+  --> PASS ! 14 + 14 = 28
+[GEN] a: 5, b: 7, carry:x, sum: x
+[DRV] a: 5, b: 7, carry:x, sum: x
+[MON] a: 5, b: 7, carry:0, sum:12
+[SCB] a: 5, b: 7, carry:0, sum:12
+  --> PASS !  5 +  7 = 12
+[GEN] a:12, b:10, carry:x, sum: x
+[DRV] a:12, b:10, carry:x, sum: x
+[MON] a:12, b:10, carry:1, sum: 6
+[SCB] a:12, b:10, carry:1, sum: 6
+  --> PASS ! 12 + 10 = 22
+[GEN] a: 0, b:10, carry:x, sum: x
+[DRV] a: 0, b:10, carry:x, sum: x
+[MON] a: 0, b:10, carry:0, sum:10
+[SCB] a: 0, b:10, carry:0, sum:10
+  --> PASS !  0 + 10 = 10
+[GEN] a: 8, b: 5, carry:x, sum: x
+[DRV] a: 8, b: 5, carry:x, sum: x
+[MON] a: 8, b: 5, carry:0, sum:13
+[SCB] a: 8, b: 5, carry:0, sum:13
+  --> PASS !  8 +  5 = 13
+[GEN] a: 1, b: 4, carry:x, sum: x
+[DRV] a: 1, b: 4, carry:x, sum: x
+[MON] a: 1, b: 4, carry:0, sum: 5
+[SCB] a: 1, b: 4, carry:0, sum: 5
+  --> PASS !  1 +  4 =  5
+[GEN] a:15, b: 1, carry:x, sum: x
+[DRV] a:15, b: 1, carry:x, sum: x
+[MON] a:15, b: 1, carry:1, sum: 0
+[SCB] a:15, b: 1, carry:1, sum: 0
+  --> PASS ! 15 +  1 = 16
+[GEN] a:14, b: 7, carry:x, sum: x
+[DRV] a:14, b: 7, carry:x, sum: x
+[MON] a:14, b: 7, carry:1, sum: 5
+[SCB] a:14, b: 7, carry:1, sum: 5
+  --> PASS ! 14 +  7 = 21
+[GEN] a: 6, b: 0, carry:x, sum: x
+[DRV] a: 6, b: 0, carry:x, sum: x
+[MON] a: 6, b: 0, carry:0, sum: 6
+[SCB] a: 6, b: 0, carry:0, sum: 6
+  --> PASS !  6 +  0 =  6
+[GEN] a:12, b: 5, carry:x, sum: x
+[DRV] a:12, b: 5, carry:x, sum: x
+[MON] a:12, b: 5, carry:1, sum: 1
+[SCB] a:12, b: 5, carry:1, sum: 1
+  --> PASS ! 12 +  5 = 17
+[GEN] a: 1, b:10, carry:x, sum: x
+[DRV] a: 1, b:10, carry:x, sum: x
+[MON] a: 1, b:10, carry:0, sum:11
+[SCB] a: 1, b:10, carry:0, sum:11
+  --> PASS !  1 + 10 = 11
+[GEN] a:13, b: 8, carry:x, sum: x
+[DRV] a:13, b: 8, carry:x, sum: x
+[MON] a:13, b: 8, carry:1, sum: 5
+[SCB] a:13, b: 8, carry:1, sum: 5
+  --> PASS ! 13 +  8 = 21
+[GEN] a:10, b: 9, carry:x, sum: x
+[DRV] a:10, b: 9, carry:x, sum: x
+[MON] a:10, b: 9, carry:1, sum: 3
+[SCB] a:10, b: 9, carry:1, sum: 3
+  --> PASS ! 10 +  9 = 19
+[GEN] a:13, b:12, carry:x, sum: x
+[DRV] a:13, b:12, carry:x, sum: x
+[MON] a:13, b:12, carry:1, sum: 9
+[SCB] a:13, b:12, carry:1, sum: 9
+  --> PASS ! 13 + 12 = 25
+[GEN] a: 3, b:10, carry:x, sum: x
+[DRV] a: 3, b:10, carry:x, sum: x
+[MON] a: 3, b:10, carry:0, sum:13
+[SCB] a: 3, b:10, carry:0, sum:13
+  --> PASS !  3 + 10 = 13
+[GEN] a: 4, b:14, carry:x, sum: x
+[DRV] a: 4, b:14, carry:x, sum: x
+[MON] a: 4, b:14, carry:1, sum: 2
+[SCB] a: 4, b:14, carry:1, sum: 2
+  --> PASS !  4 + 14 = 18
+[GEN] a: 3, b: 1, carry:x, sum: x
+[DRV] a: 3, b: 1, carry:x, sum: x
+[MON] a: 3, b: 1, carry:0, sum: 4
+[SCB] a: 3, b: 1, carry:0, sum: 4
+  --> PASS !  3 +  1 =  4
+[GEN] a:10, b: 7, carry:x, sum: x
+[DRV] a:10, b: 7, carry:x, sum: x
+[MON] a:10, b: 7, carry:1, sum: 1
+[SCB] a:10, b: 7, carry:1, sum: 1
+  --> PASS ! 10 +  7 = 17
+[GEN] a:12, b:14, carry:x, sum: x
+[DRV] a:12, b:14, carry:x, sum: x
+[MON] a:12, b:14, carry:1, sum:10
+[SCB] a:12, b:14, carry:1, sum:10
+  --> PASS ! 12 + 14 = 26
+[GEN] a: 5, b:15, carry:x, sum: x
+[DRV] a: 5, b:15, carry:x, sum: x
+[MON] a: 5, b:15, carry:1, sum: 4
+[SCB] a: 5, b:15, carry:1, sum: 4
+  --> PASS !  5 + 15 = 20
+[GEN] a:15, b:15, carry:x, sum: x
+[DRV] a:15, b:15, carry:x, sum: x
+[MON] a:15, b:15, carry:1, sum:14
+[SCB] a:15, b:15, carry:1, sum:14
+  --> PASS ! 15 + 15 = 30
+[GEN] a: 6, b:11, carry:x, sum: x
+[DRV] a: 6, b:11, carry:x, sum: x
+[MON] a: 6, b:11, carry:1, sum: 1
+[SCB] a: 6, b:11, carry:1, sum: 1
+  --> PASS !  6 + 11 = 17
+[GEN] a:13, b:11, carry:x, sum: x
+[DRV] a:13, b:11, carry:x, sum: x
+[MON] a:13, b:11, carry:1, sum: 8
+[SCB] a:13, b:11, carry:1, sum: 8
+  --> PASS ! 13 + 11 = 24
+[GEN] a:11, b:12, carry:x, sum: x
+[DRV] a:11, b:12, carry:x, sum: x
+[MON] a:11, b:12, carry:1, sum: 7
+[SCB] a:11, b:12, carry:1, sum: 7
+  --> PASS ! 11 + 12 = 23
+[GEN] a:10, b: 1, carry:x, sum: x
+[DRV] a:10, b: 1, carry:x, sum: x
+[MON] a:10, b: 1, carry:0, sum:11
+[SCB] a:10, b: 1, carry:0, sum:11
+  --> PASS ! 10 +  1 = 11
+[GEN] a: 8, b: 7, carry:x, sum: x
+[DRV] a: 8, b: 7, carry:x, sum: x
+[MON] a: 8, b: 7, carry:0, sum:15
+[SCB] a: 8, b: 7, carry:0, sum:15
+  --> PASS !  8 +  7 = 15
+[GEN] a:13, b: 3, carry:x, sum: x
+[DRV] a:13, b: 3, carry:x, sum: x
+[MON] a:13, b: 3, carry:1, sum: 0
+[SCB] a:13, b: 3, carry:1, sum: 0
+  --> PASS ! 13 +  3 = 16
+[GEN] a: 4, b: 7, carry:x, sum: x
+[DRV] a: 4, b: 7, carry:x, sum: x
+[MON] a: 4, b: 7, carry:0, sum:11
+[SCB] a: 4, b: 7, carry:0, sum:11
+  --> PASS !  4 +  7 = 11
+[GEN] a: 4, b:12, carry:x, sum: x
+[DRV] a: 4, b:12, carry:x, sum: x
+[MON] a: 4, b:12, carry:1, sum: 0
+[SCB] a: 4, b:12, carry:1, sum: 0
+  --> PASS !  4 + 12 = 16
+[GEN] a:15, b: 1, carry:x, sum: x
+[DRV] a:15, b: 1, carry:x, sum: x
+[MON] a:15, b: 1, carry:1, sum: 0
+[SCB] a:15, b: 1, carry:1, sum: 0
+  --> PASS ! 15 +  1 = 16
+[GEN] a:15, b: 3, carry:x, sum: x
+[DRV] a:15, b: 3, carry:x, sum: x
+[MON] a:15, b: 3, carry:1, sum: 2
+[SCB] a:15, b: 3, carry:1, sum: 2
+  --> PASS ! 15 +  3 = 18
+[GEN] a: 9, b: 3, carry:x, sum: x
+[DRV] a: 9, b: 3, carry:x, sum: x
+[MON] a: 9, b: 3, carry:0, sum:12
+[SCB] a: 9, b: 3, carry:0, sum:12
+  --> PASS !  9 +  3 = 12
+[GEN] a:15, b: 8, carry:x, sum: x
+[DRV] a:15, b: 8, carry:x, sum: x
+[MON] a:15, b: 8, carry:1, sum: 7
+[SCB] a:15, b: 8, carry:1, sum: 7
+  --> PASS ! 15 +  8 = 23
+[GEN] a: 5, b:14, carry:x, sum: x
+[DRV] a: 5, b:14, carry:x, sum: x
+[MON] a: 5, b:14, carry:1, sum: 3
+[SCB] a: 5, b:14, carry:1, sum: 3
+  --> PASS !  5 + 14 = 19
+[GEN] a:11, b:14, carry:x, sum: x
+[DRV] a:11, b:14, carry:x, sum: x
+[MON] a:11, b:14, carry:1, sum: 9
+[SCB] a:11, b:14, carry:1, sum: 9
+  --> PASS ! 11 + 14 = 25
+[GEN] a: 1, b:10, carry:x, sum: x
+[DRV] a: 1, b:10, carry:x, sum: x
+[MON] a: 1, b:10, carry:0, sum:11
+[SCB] a: 1, b:10, carry:0, sum:11
+  --> PASS !  1 + 10 = 11
+[GEN] a: 6, b: 6, carry:x, sum: x
+[DRV] a: 6, b: 6, carry:x, sum: x
+[MON] a: 6, b: 6, carry:0, sum:12
+[SCB] a: 6, b: 6, carry:0, sum:12
+  --> PASS !  6 +  6 = 12
+[GEN] a: 8, b: 1, carry:x, sum: x
+[DRV] a: 8, b: 1, carry:x, sum: x
+[MON] a: 8, b: 1, carry:0, sum: 9
+[SCB] a: 8, b: 1, carry:0, sum: 9
+  --> PASS !  8 +  1 =  9
+[GEN] a: 4, b: 9, carry:x, sum: x
+[DRV] a: 4, b: 9, carry:x, sum: x
+[MON] a: 4, b: 9, carry:0, sum:13
+[SCB] a: 4, b: 9, carry:0, sum:13
+  --> PASS !  4 +  9 = 13
+[GEN] a:11, b:10, carry:x, sum: x
+[DRV] a:11, b:10, carry:x, sum: x
+[MON] a:11, b:10, carry:1, sum: 5
+[SCB] a:11, b:10, carry:1, sum: 5
+  --> PASS ! 11 + 10 = 21
+[GEN] a: 0, b: 3, carry:x, sum: x
+[DRV] a: 0, b: 3, carry:x, sum: x
+[MON] a: 0, b: 3, carry:0, sum: 3
+[SCB] a: 0, b: 3, carry:0, sum: 3
+  --> PASS !  0 +  3 =  3
+[GEN] a:11, b: 4, carry:x, sum: x
+[DRV] a:11, b: 4, carry:x, sum: x
+[MON] a:11, b: 4, carry:0, sum:15
+[SCB] a:11, b: 4, carry:0, sum:15
+  --> PASS ! 11 +  4 = 15
+[GEN] a:12, b: 6, carry:x, sum: x
+[DRV] a:12, b: 6, carry:x, sum: x
+[MON] a:12, b: 6, carry:1, sum: 2
+[SCB] a:12, b: 6, carry:1, sum: 2
+  --> PASS ! 12 +  6 = 18
+[GEN] a:15, b:12, carry:x, sum: x
+[DRV] a:15, b:12, carry:x, sum: x
+[MON] a:15, b:12, carry:1, sum:11
+[SCB] a:15, b:12, carry:1, sum:11
+  --> PASS ! 15 + 12 = 27
+[GEN] a: 9, b:10, carry:x, sum: x
+[DRV] a: 9, b:10, carry:x, sum: x
+[MON] a: 9, b:10, carry:1, sum: 3
+[SCB] a: 9, b:10, carry:1, sum: 3
+  --> PASS !  9 + 10 = 19
+[GEN] a: 1, b: 6, carry:x, sum: x
+[DRV] a: 1, b: 6, carry:x, sum: x
+[MON] a: 1, b: 6, carry:0, sum: 7
+[SCB] a: 1, b: 6, carry:0, sum: 7
+  --> PASS !  1 +  6 =  7
+[GEN] a: 1, b: 0, carry:x, sum: x
+[DRV] a: 1, b: 0, carry:x, sum: x
+[MON] a: 1, b: 0, carry:0, sum: 1
+[SCB] a: 1, b: 0, carry:0, sum: 1
+  --> PASS !  1 +  0 =  1
+[GEN] a: 2, b:10, carry:x, sum: x
+[DRV] a: 2, b:10, carry:x, sum: x
+[MON] a: 2, b:10, carry:0, sum:12
+[SCB] a: 2, b:10, carry:0, sum:12
+  --> PASS !  2 + 10 = 12
+[GEN] a:10, b: 3, carry:x, sum: x
+[DRV] a:10, b: 3, carry:x, sum: x
+[MON] a:10, b: 3, carry:0, sum:13
+[SCB] a:10, b: 3, carry:0, sum:13
+  --> PASS ! 10 +  3 = 13
+[GEN] a: 0, b:11, carry:x, sum: x
+[DRV] a: 0, b:11, carry:x, sum: x
+[MON] a: 0, b:11, carry:0, sum:11
+[SCB] a: 0, b:11, carry:0, sum:11
+  --> PASS !  0 + 11 = 11
+[GEN] a: 3, b: 3, carry:x, sum: x
+[DRV] a: 3, b: 3, carry:x, sum: x
+[MON] a: 3, b: 3, carry:0, sum: 6
+[SCB] a: 3, b: 3, carry:0, sum: 6
+  --> PASS !  3 +  3 =  6
+[GEN] a: 6, b:14, carry:x, sum: x
+[DRV] a: 6, b:14, carry:x, sum: x
+[MON] a: 6, b:14, carry:1, sum: 4
+[SCB] a: 6, b:14, carry:1, sum: 4
+  --> PASS !  6 + 14 = 20
+[GEN] a: 6, b: 6, carry:x, sum: x
+[DRV] a: 6, b: 6, carry:x, sum: x
+[MON] a: 6, b: 6, carry:0, sum:12
+[SCB] a: 6, b: 6, carry:0, sum:12
+  --> PASS !  6 +  6 = 12
+[GEN] a: 9, b:10, carry:x, sum: x
+[DRV] a: 9, b:10, carry:x, sum: x
+[MON] a: 9, b:10, carry:1, sum: 3
+[SCB] a: 9, b:10, carry:1, sum: 3
+  --> PASS !  9 + 10 = 19
+[GEN] a: 9, b:15, carry:x, sum: x
+[DRV] a: 9, b:15, carry:x, sum: x
+[MON] a: 9, b:15, carry:1, sum: 8
+[SCB] a: 9, b:15, carry:1, sum: 8
+  --> PASS !  9 + 15 = 24
+[GEN] a: 8, b: 0, carry:x, sum: x
+[DRV] a: 8, b: 0, carry:x, sum: x
+[MON] a: 8, b: 0, carry:0, sum: 8
+[SCB] a: 8, b: 0, carry:0, sum: 8
+  --> PASS !  8 +  0 =  8
+[GEN] a: 6, b: 1, carry:x, sum: x
+[DRV] a: 6, b: 1, carry:x, sum: x
+[MON] a: 6, b: 1, carry:0, sum: 7
+[SCB] a: 6, b: 1, carry:0, sum: 7
+  --> PASS !  6 +  1 =  7
+[GEN] a:10, b:15, carry:x, sum: x
+[DRV] a:10, b:15, carry:x, sum: x
+[MON] a:10, b:15, carry:1, sum: 9
+[SCB] a:10, b:15, carry:1, sum: 9
+  --> PASS ! 10 + 15 = 25
+[GEN] a: 1, b: 2, carry:x, sum: x
+[DRV] a: 1, b: 2, carry:x, sum: x
+[MON] a: 1, b: 2, carry:0, sum: 3
+[SCB] a: 1, b: 2, carry:0, sum: 3
+  --> PASS !  1 +  2 =  3
+[GEN] a:15, b: 7, carry:x, sum: x
+[DRV] a:15, b: 7, carry:x, sum: x
+[MON] a:15, b: 7, carry:1, sum: 6
+[SCB] a:15, b: 7, carry:1, sum: 6
+  --> PASS ! 15 +  7 = 22
+[GEN] a: 3, b: 9, carry:x, sum: x
+[DRV] a: 3, b: 9, carry:x, sum: x
+[MON] a: 3, b: 9, carry:0, sum:12
+[SCB] a: 3, b: 9, carry:0, sum:12
+  --> PASS !  3 +  9 = 12
+[GEN] a: 6, b: 4, carry:x, sum: x
+[DRV] a: 6, b: 4, carry:x, sum: x
+[MON] a: 6, b: 4, carry:0, sum:10
+[SCB] a: 6, b: 4, carry:0, sum:10
+  --> PASS !  6 +  4 = 10
+[GEN] a:11, b: 6, carry:x, sum: x
+[DRV] a:11, b: 6, carry:x, sum: x
+[MON] a:11, b: 6, carry:1, sum: 1
+[SCB] a:11, b: 6, carry:1, sum: 1
+  --> PASS ! 11 +  6 = 17
+[GEN] a:11, b:15, carry:x, sum: x
+[DRV] a:11, b:15, carry:x, sum: x
+[MON] a:11, b:15, carry:1, sum:10
+[SCB] a:11, b:15, carry:1, sum:10
+  --> PASS ! 11 + 15 = 26
+[GEN] a:15, b: 2, carry:x, sum: x
+[DRV] a:15, b: 2, carry:x, sum: x
+[MON] a:15, b: 2, carry:1, sum: 1
+[SCB] a:15, b: 2, carry:1, sum: 1
+  --> PASS ! 15 +  2 = 17
+[GEN] a: 3, b:11, carry:x, sum: x
+[DRV] a: 3, b:11, carry:x, sum: x
+[MON] a: 3, b:11, carry:0, sum:14
+[SCB] a: 3, b:11, carry:0, sum:14
+  --> PASS !  3 + 11 = 14
+[GEN] a: 8, b:15, carry:x, sum: x
+[DRV] a: 8, b:15, carry:x, sum: x
+[MON] a: 8, b:15, carry:1, sum: 7
+[SCB] a: 8, b:15, carry:1, sum: 7
+  --> PASS !  8 + 15 = 23
+[GEN] a:10, b: 7, carry:x, sum: x
+[DRV] a:10, b: 7, carry:x, sum: x
+[MON] a:10, b: 7, carry:1, sum: 1
+[SCB] a:10, b: 7, carry:1, sum: 1
+  --> PASS ! 10 +  7 = 17
+[GEN] a: 1, b:13, carry:x, sum: x
+[DRV] a: 1, b:13, carry:x, sum: x
+[MON] a: 1, b:13, carry:0, sum:14
+[SCB] a: 1, b:13, carry:0, sum:14
+  --> PASS !  1 + 13 = 14
+[GEN] a: 2, b: 9, carry:x, sum: x
+[DRV] a: 2, b: 9, carry:x, sum: x
+[MON] a: 2, b: 9, carry:0, sum:11
+[SCB] a: 2, b: 9, carry:0, sum:11
+  --> PASS !  2 +  9 = 11
+[GEN] a:12, b:12, carry:x, sum: x
+[DRV] a:12, b:12, carry:x, sum: x
+[MON] a:12, b:12, carry:1, sum: 8
+[SCB] a:12, b:12, carry:1, sum: 8
+  --> PASS ! 12 + 12 = 24
+[GEN] a: 0, b:13, carry:x, sum: x
+[DRV] a: 0, b:13, carry:x, sum: x
+[MON] a: 0, b:13, carry:0, sum:13
+[SCB] a: 0, b:13, carry:0, sum:13
+  --> PASS !  0 + 13 = 13
+[GEN] a:10, b: 3, carry:x, sum: x
+[DRV] a:10, b: 3, carry:x, sum: x
+[MON] a:10, b: 3, carry:0, sum:13
+[SCB] a:10, b: 3, carry:0, sum:13
+  --> PASS ! 10 +  3 = 13
+[GEN] a: 6, b: 6, carry:x, sum: x
+[DRV] a: 6, b: 6, carry:x, sum: x
+[MON] a: 6, b: 6, carry:0, sum:12
+[SCB] a: 6, b: 6, carry:0, sum:12
+  --> PASS !  6 +  6 = 12
+[GEN] a:15, b: 7, carry:x, sum: x
+[DRV] a:15, b: 7, carry:x, sum: x
+[MON] a:15, b: 7, carry:1, sum: 6
+[SCB] a:15, b: 7, carry:1, sum: 6
+  --> PASS ! 15 +  7 = 22
+[GEN] a: 4, b: 9, carry:x, sum: x
+[DRV] a: 4, b: 9, carry:x, sum: x
+[MON] a: 4, b: 9, carry:0, sum:13
+[SCB] a: 4, b: 9, carry:0, sum:13
+  --> PASS !  4 +  9 = 13
+[GEN] a:10, b:10, carry:x, sum: x
+[DRV] a:10, b:10, carry:x, sum: x
+[MON] a:10, b:10, carry:1, sum: 4
+[SCB] a:10, b:10, carry:1, sum: 4
+  --> PASS ! 10 + 10 = 20
+[GEN] a: 0, b: 9, carry:x, sum: x
+[DRV] a: 0, b: 9, carry:x, sum: x
+[MON] a: 0, b: 9, carry:0, sum: 9
+[SCB] a: 0, b: 9, carry:0, sum: 9
+  --> PASS !  0 +  9 =  9
+[GEN] a: 1, b: 4, carry:x, sum: x
+[DRV] a: 1, b: 4, carry:x, sum: x
+[MON] a: 1, b: 4, carry:0, sum: 5
+[SCB] a: 1, b: 4, carry:0, sum: 5
+  --> PASS !  1 +  4 =  5
+[GEN] a: 3, b:11, carry:x, sum: x
+[DRV] a: 3, b:11, carry:x, sum: x
+[MON] a: 3, b:11, carry:0, sum:14
+[SCB] a: 3, b:11, carry:0, sum:14
+  --> PASS !  3 + 11 = 14
+[GEN] a:14, b: 3, carry:x, sum: x
+[DRV] a:14, b: 3, carry:x, sum: x
+[MON] a:14, b: 3, carry:1, sum: 1
+[SCB] a:14, b: 3, carry:1, sum: 1
+  --> PASS ! 14 +  3 = 17
+[GEN] a: 5, b: 0, carry:x, sum: x
+[DRV] a: 5, b: 0, carry:x, sum: x
+[MON] a: 5, b: 0, carry:0, sum: 5
+[SCB] a: 5, b: 0, carry:0, sum: 5
+  --> PASS !  5 +  0 =  5
+[GEN] a: 7, b: 8, carry:x, sum: x
+[DRV] a: 7, b: 8, carry:x, sum: x
+[MON] a: 7, b: 8, carry:0, sum:15
+[SCB] a: 7, b: 8, carry:0, sum:15
+  --> PASS !  7 +  8 = 15
+[GEN] a:11, b: 5, carry:x, sum: x
+[DRV] a:11, b: 5, carry:x, sum: x
+[MON] a:11, b: 5, carry:1, sum: 0
+[SCB] a:11, b: 5, carry:1, sum: 0
+  --> PASS ! 11 +  5 = 16
+[GEN] a:11, b: 0, carry:x, sum: x
+[DRV] a:11, b: 0, carry:x, sum: x
+[MON] a:11, b: 0, carry:0, sum:11
+[SCB] a:11, b: 0, carry:0, sum:11
+  --> PASS ! 11 +  0 = 11
+[GEN] a: 5, b: 2, carry:x, sum: x
+[DRV] a: 5, b: 2, carry:x, sum: x
+[MON] a: 5, b: 2, carry:0, sum: 7
+[SCB] a: 5, b: 2, carry:0, sum: 7
+  --> PASS !  5 +  2 =  7
+[GEN] a: 8, b: 1, carry:x, sum: x
+[DRV] a: 8, b: 1, carry:x, sum: x
+[MON] a: 8, b: 1, carry:0, sum: 9
+[SCB] a: 8, b: 1, carry:0, sum: 9
+  --> PASS !  8 +  1 =  9
+[GEN] a: 7, b: 3, carry:x, sum: x
+[DRV] a: 7, b: 3, carry:x, sum: x
+[MON] a: 7, b: 3, carry:0, sum:10
+[SCB] a: 7, b: 3, carry:0, sum:10
+  --> PASS !  7 +  3 = 10
+[GEN] a: 1, b:13, carry:x, sum: x
+[DRV] a: 1, b:13, carry:x, sum: x
+[MON] a: 1, b:13, carry:0, sum:14
+[SCB] a: 1, b:13, carry:0, sum:14
+  --> PASS !  1 + 13 = 14
+[GEN] a: 5, b:10, carry:x, sum: x
+[DRV] a: 5, b:10, carry:x, sum: x
+[MON] a: 5, b:10, carry:0, sum:15
+[SCB] a: 5, b:10, carry:0, sum:15
+  --> PASS !  5 + 10 = 15
+[GEN] a:14, b:13, carry:x, sum: x
+[DRV] a:14, b:13, carry:x, sum: x
+[MON] a:14, b:13, carry:1, sum:11
+[SCB] a:14, b:13, carry:1, sum:11
+  --> PASS ! 14 + 13 = 27
+[GEN] a:13, b:15, carry:x, sum: x
+[DRV] a:13, b:15, carry:x, sum: x
+[MON] a:13, b:15, carry:1, sum:12
+[SCB] a:13, b:15, carry:1, sum:12
+  --> PASS ! 13 + 15 = 28
+[GEN] a:10, b: 3, carry:x, sum: x
+[DRV] a:10, b: 3, carry:x, sum: x
+[MON] a:10, b: 3, carry:0, sum:13
+[SCB] a:10, b: 3, carry:0, sum:13
+  --> PASS ! 10 +  3 = 13
+[GEN] a: 9, b: 8, carry:x, sum: x
+[DRV] a: 9, b: 8, carry:x, sum: x
+[MON] a: 9, b: 8, carry:1, sum: 1
+[SCB] a: 9, b: 8, carry:1, sum: 1
+  --> PASS !  9 +  8 = 17
+[GEN] a: 0, b: 7, carry:x, sum: x
+[DRV] a: 0, b: 7, carry:x, sum: x
+[MON] a: 0, b: 7, carry:0, sum: 7
+[SCB] a: 0, b: 7, carry:0, sum: 7
+  --> PASS !  0 +  7 =  7
+[GEN] a: 7, b:10, carry:x, sum: x
+[DRV] a: 7, b:10, carry:x, sum: x
+[MON] a: 7, b:10, carry:1, sum: 1
+[SCB] a: 7, b:10, carry:1, sum: 1
+  --> PASS !  7 + 10 = 17
+[GEN] a:10, b: 1, carry:x, sum: x
+[DRV] a:10, b: 1, carry:x, sum: x
+[MON] a:10, b: 1, carry:0, sum:11
+[SCB] a:10, b: 1, carry:0, sum:11
+  --> PASS ! 10 +  1 = 11
+[GEN] a: 2, b:10, carry:x, sum: x
+[DRV] a: 2, b:10, carry:x, sum: x
+[MON] a: 2, b:10, carry:0, sum:12
+[SCB] a: 2, b:10, carry:0, sum:12
+  --> PASS !  2 + 10 = 12
+[GEN] a: 8, b: 9, carry:x, sum: x
+[DRV] a: 8, b: 9, carry:x, sum: x
+[MON] a: 8, b: 9, carry:1, sum: 1
+[SCB] a: 8, b: 9, carry:1, sum: 1
+  --> PASS !  8 +  9 = 17
+[GEN] a: 4, b: 2, carry:x, sum: x
+[DRV] a: 4, b: 2, carry:x, sum: x
+[MON] a: 4, b: 2, carry:0, sum: 6
+[SCB] a: 4, b: 2, carry:0, sum: 6
+  --> PASS !  4 +  2 =  6
+[GEN] a:10, b: 6, carry:x, sum: x
+[DRV] a:10, b: 6, carry:x, sum: x
+[MON] a:10, b: 6, carry:1, sum: 0
+[SCB] a:10, b: 6, carry:1, sum: 0
+  --> PASS ! 10 +  6 = 16
+[GEN] a:12, b: 2, carry:x, sum: x
+[DRV] a:12, b: 2, carry:x, sum: x
+[MON] a:12, b: 2, carry:0, sum:14
+[SCB] a:12, b: 2, carry:0, sum:14
+  --> PASS ! 12 +  2 = 14
+[GEN] a:15, b: 0, carry:x, sum: x
+[DRV] a:15, b: 0, carry:x, sum: x
+[MON] a:15, b: 0, carry:0, sum:15
+[SCB] a:15, b: 0, carry:0, sum:15
+  --> PASS ! 15 +  0 = 15
+[GEN] a: 4, b:10, carry:x, sum: x
+[DRV] a: 4, b:10, carry:x, sum: x
+[MON] a: 4, b:10, carry:0, sum:14
+[SCB] a: 4, b:10, carry:0, sum:14
+  --> PASS !  4 + 10 = 14
+[GEN] a: 6, b: 0, carry:x, sum: x
+[DRV] a: 6, b: 0, carry:x, sum: x
+[MON] a: 6, b: 0, carry:0, sum: 6
+[SCB] a: 6, b: 0, carry:0, sum: 6
+  --> PASS !  6 +  0 =  6
+[GEN] a:12, b: 5, carry:x, sum: x
+[DRV] a:12, b: 5, carry:x, sum: x
+[MON] a:12, b: 5, carry:1, sum: 1
+[SCB] a:12, b: 5, carry:1, sum: 1
+  --> PASS ! 12 +  5 = 17
+[GEN] a: 0, b: 1, carry:x, sum: x
+[DRV] a: 0, b: 1, carry:x, sum: x
+[MON] a: 0, b: 1, carry:0, sum: 1
+[SCB] a: 0, b: 1, carry:0, sum: 1
+  --> PASS !  0 +  1 =  1
+[GEN] a:15, b: 6, carry:x, sum: x
+[DRV] a:15, b: 6, carry:x, sum: x
+[MON] a:15, b: 6, carry:1, sum: 5
+[SCB] a:15, b: 6, carry:1, sum: 5
+  --> PASS ! 15 +  6 = 21
+[GEN] a: 1, b:12, carry:x, sum: x
+[DRV] a: 1, b:12, carry:x, sum: x
+[MON] a: 1, b:12, carry:0, sum:13
+[SCB] a: 1, b:12, carry:0, sum:13
+  --> PASS !  1 + 12 = 13
+[GEN] a:12, b: 2, carry:x, sum: x
+[DRV] a:12, b: 2, carry:x, sum: x
+[MON] a:12, b: 2, carry:0, sum:14
+[SCB] a:12, b: 2, carry:0, sum:14
+  --> PASS ! 12 +  2 = 14
+[GEN] a:13, b:11, carry:x, sum: x
+[DRV] a:13, b:11, carry:x, sum: x
+[MON] a:13, b:11, carry:1, sum: 8
+[SCB] a:13, b:11, carry:1, sum: 8
+  --> PASS ! 13 + 11 = 24
+[GEN] a: 8, b:14, carry:x, sum: x
+[DRV] a: 8, b:14, carry:x, sum: x
+[MON] a: 8, b:14, carry:1, sum: 6
+[SCB] a: 8, b:14, carry:1, sum: 6
+  --> PASS !  8 + 14 = 22
+[GEN] a: 7, b: 4, carry:x, sum: x
+[DRV] a: 7, b: 4, carry:x, sum: x
+[MON] a: 7, b: 4, carry:0, sum:11
+[SCB] a: 7, b: 4, carry:0, sum:11
+  --> PASS !  7 +  4 = 11
+[GEN] a: 0, b: 4, carry:x, sum: x
+[DRV] a: 0, b: 4, carry:x, sum: x
+[MON] a: 0, b: 4, carry:0, sum: 4
+[SCB] a: 0, b: 4, carry:0, sum: 4
+  --> PASS !  0 +  4 =  4
+[GEN] a: 0, b: 9, carry:x, sum: x
+[DRV] a: 0, b: 9, carry:x, sum: x
+[MON] a: 0, b: 9, carry:0, sum: 9
+[SCB] a: 0, b: 9, carry:0, sum: 9
+  --> PASS !  0 +  9 =  9
+[GEN] a: 3, b: 7, carry:x, sum: x
+[DRV] a: 3, b: 7, carry:x, sum: x
+[MON] a: 3, b: 7, carry:0, sum:10
+[SCB] a: 3, b: 7, carry:0, sum:10
+  --> PASS !  3 +  7 = 10
+[GEN] a:13, b: 3, carry:x, sum: x
+[DRV] a:13, b: 3, carry:x, sum: x
+[MON] a:13, b: 3, carry:1, sum: 0
+[SCB] a:13, b: 3, carry:1, sum: 0
+  --> PASS ! 13 +  3 = 16
+[GEN] a:12, b:13, carry:x, sum: x
+[DRV] a:12, b:13, carry:x, sum: x
+[MON] a:12, b:13, carry:1, sum: 9
+[SCB] a:12, b:13, carry:1, sum: 9
+  --> PASS ! 12 + 13 = 25
+[GEN] a:12, b:15, carry:x, sum: x
+[DRV] a:12, b:15, carry:x, sum: x
+[MON] a:12, b:15, carry:1, sum:11
+[SCB] a:12, b:15, carry:1, sum:11
+  --> PASS ! 12 + 15 = 27
+[GEN] a: 5, b:10, carry:x, sum: x
+[DRV] a: 5, b:10, carry:x, sum: x
+[MON] a: 5, b:10, carry:0, sum:15
+[SCB] a: 5, b:10, carry:0, sum:15
+  --> PASS !  5 + 10 = 15
+[GEN] a: 2, b: 1, carry:x, sum: x
+[DRV] a: 2, b: 1, carry:x, sum: x
+[MON] a: 2, b: 1, carry:0, sum: 3
+[SCB] a: 2, b: 1, carry:0, sum: 3
+  --> PASS !  2 +  1 =  3
+[GEN] a: 7, b:15, carry:x, sum: x
+[DRV] a: 7, b:15, carry:x, sum: x
+[MON] a: 7, b:15, carry:1, sum: 6
+[SCB] a: 7, b:15, carry:1, sum: 6
+  --> PASS !  7 + 15 = 22
+[GEN] a: 0, b:12, carry:x, sum: x
+[DRV] a: 0, b:12, carry:x, sum: x
+[MON] a: 0, b:12, carry:0, sum:12
+[SCB] a: 0, b:12, carry:0, sum:12
+  --> PASS !  0 + 12 = 12
+[GEN] a: 9, b: 2, carry:x, sum: x
+[DRV] a: 9, b: 2, carry:x, sum: x
+[MON] a: 9, b: 2, carry:0, sum:11
+[SCB] a: 9, b: 2, carry:0, sum:11
+  --> PASS !  9 +  2 = 11
+[GEN] a:13, b: 0, carry:x, sum: x
+[DRV] a:13, b: 0, carry:x, sum: x
+[MON] a:13, b: 0, carry:0, sum:13
+[SCB] a:13, b: 0, carry:0, sum:13
+  --> PASS ! 13 +  0 = 13
+[GEN] a: 1, b:13, carry:x, sum: x
+[DRV] a: 1, b:13, carry:x, sum: x
+[MON] a: 1, b:13, carry:0, sum:14
+[SCB] a: 1, b:13, carry:0, sum:14
+  --> PASS !  1 + 13 = 14
+[GEN] a:13, b:10, carry:x, sum: x
+[DRV] a:13, b:10, carry:x, sum: x
+[MON] a:13, b:10, carry:1, sum: 7
+[SCB] a:13, b:10, carry:1, sum: 7
+  --> PASS ! 13 + 10 = 23
+[GEN] a: 0, b:10, carry:x, sum: x
+[DRV] a: 0, b:10, carry:x, sum: x
+[MON] a: 0, b:10, carry:0, sum:10
+[SCB] a: 0, b:10, carry:0, sum:10
+  --> PASS !  0 + 10 = 10
+[GEN] a:11, b: 1, carry:x, sum: x
+[DRV] a:11, b: 1, carry:x, sum: x
+[MON] a:11, b: 1, carry:0, sum:12
+[SCB] a:11, b: 1, carry:0, sum:12
+  --> PASS ! 11 +  1 = 12
+[GEN] a: 8, b: 8, carry:x, sum: x
+[DRV] a: 8, b: 8, carry:x, sum: x
+[MON] a: 8, b: 8, carry:1, sum: 0
+[SCB] a: 8, b: 8, carry:1, sum: 0
+  --> PASS !  8 +  8 = 16
+[GEN] a:12, b: 8, carry:x, sum: x
+[DRV] a:12, b: 8, carry:x, sum: x
+[MON] a:12, b: 8, carry:1, sum: 4
+[SCB] a:12, b: 8, carry:1, sum: 4
+  --> PASS ! 12 +  8 = 20
+[GEN] a: 2, b: 7, carry:x, sum: x
+[DRV] a: 2, b: 7, carry:x, sum: x
+[MON] a: 2, b: 7, carry:0, sum: 9
+[SCB] a: 2, b: 7, carry:0, sum: 9
+  --> PASS !  2 +  7 =  9
+[GEN] a: 9, b:10, carry:x, sum: x
+[DRV] a: 9, b:10, carry:x, sum: x
+[MON] a: 9, b:10, carry:1, sum: 3
+[SCB] a: 9, b:10, carry:1, sum: 3
+  --> PASS !  9 + 10 = 19
+[GEN] a:15, b: 5, carry:x, sum: x
+[DRV] a:15, b: 5, carry:x, sum: x
+[MON] a:15, b: 5, carry:1, sum: 4
+[SCB] a:15, b: 5, carry:1, sum: 4
+  --> PASS ! 15 +  5 = 20
+[GEN] a: 2, b: 1, carry:x, sum: x
+[DRV] a: 2, b: 1, carry:x, sum: x
+[MON] a: 2, b: 1, carry:0, sum: 3
+[SCB] a: 2, b: 1, carry:0, sum: 3
+  --> PASS !  2 +  1 =  3
+[GEN] a:12, b:12, carry:x, sum: x
+[DRV] a:12, b:12, carry:x, sum: x
+[MON] a:12, b:12, carry:1, sum: 8
+[SCB] a:12, b:12, carry:1, sum: 8
+  --> PASS ! 12 + 12 = 24
+[GEN] a:12, b:11, carry:x, sum: x
+[DRV] a:12, b:11, carry:x, sum: x
+[MON] a:12, b:11, carry:1, sum: 7
+[SCB] a:12, b:11, carry:1, sum: 7
+  --> PASS ! 12 + 11 = 23
+[GEN] a: 1, b:14, carry:x, sum: x
+[DRV] a: 1, b:14, carry:x, sum: x
+[MON] a: 1, b:14, carry:0, sum:15
+[SCB] a: 1, b:14, carry:0, sum:15
+  --> PASS !  1 + 14 = 15
+[GEN] a:13, b:14, carry:x, sum: x
+[DRV] a:13, b:14, carry:x, sum: x
+[MON] a:13, b:14, carry:1, sum:11
+[SCB] a:13, b:14, carry:1, sum:11
+  --> PASS ! 13 + 14 = 27
+[GEN] a:10, b: 9, carry:x, sum: x
+[DRV] a:10, b: 9, carry:x, sum: x
+[MON] a:10, b: 9, carry:1, sum: 3
+[SCB] a:10, b: 9, carry:1, sum: 3
+  --> PASS ! 10 +  9 = 19
+[GEN] a: 9, b:12, carry:x, sum: x
+[DRV] a: 9, b:12, carry:x, sum: x
+[MON] a: 9, b:12, carry:1, sum: 5
+[SCB] a: 9, b:12, carry:1, sum: 5
+  --> PASS !  9 + 12 = 21
+[GEN] a: 7, b: 6, carry:x, sum: x
+[DRV] a: 7, b: 6, carry:x, sum: x
+[MON] a: 7, b: 6, carry:0, sum:13
+[SCB] a: 7, b: 6, carry:0, sum:13
+  --> PASS !  7 +  6 = 13
+[GEN] a:10, b: 2, carry:x, sum: x
+[DRV] a:10, b: 2, carry:x, sum: x
+[MON] a:10, b: 2, carry:0, sum:12
+[SCB] a:10, b: 2, carry:0, sum:12
+  --> PASS ! 10 +  2 = 12
+[GEN] a:15, b: 3, carry:x, sum: x
+[DRV] a:15, b: 3, carry:x, sum: x
+[MON] a:15, b: 3, carry:1, sum: 2
+[SCB] a:15, b: 3, carry:1, sum: 2
+  --> PASS ! 15 +  3 = 18
+[GEN] a:14, b: 7, carry:x, sum: x
+[DRV] a:14, b: 7, carry:x, sum: x
+[MON] a:14, b: 7, carry:1, sum: 5
+[SCB] a:14, b: 7, carry:1, sum: 5
+  --> PASS ! 14 +  7 = 21
+[GEN] a:10, b: 8, carry:x, sum: x
+[DRV] a:10, b: 8, carry:x, sum: x
+[MON] a:10, b: 8, carry:1, sum: 2
+[SCB] a:10, b: 8, carry:1, sum: 2
+  --> PASS ! 10 +  8 = 18
+[GEN] a: 9, b: 9, carry:x, sum: x
+[DRV] a: 9, b: 9, carry:x, sum: x
+[MON] a: 9, b: 9, carry:1, sum: 2
+[SCB] a: 9, b: 9, carry:1, sum: 2
+  --> PASS !  9 +  9 = 18
+[GEN] a:11, b: 7, carry:x, sum: x
+[DRV] a:11, b: 7, carry:x, sum: x
+[MON] a:11, b: 7, carry:1, sum: 2
+[SCB] a:11, b: 7, carry:1, sum: 2
+  --> PASS ! 11 +  7 = 18
+[GEN] a: 0, b: 5, carry:x, sum: x
+[DRV] a: 0, b: 5, carry:x, sum: x
+[MON] a: 0, b: 5, carry:0, sum: 5
+[SCB] a: 0, b: 5, carry:0, sum: 5
+  --> PASS !  0 +  5 =  5
+[GEN] a:15, b: 9, carry:x, sum: x
+[DRV] a:15, b: 9, carry:x, sum: x
+[MON] a:15, b: 9, carry:1, sum: 8
+[SCB] a:15, b: 9, carry:1, sum: 8
+  --> PASS ! 15 +  9 = 24
+[GEN] a:15, b:10, carry:x, sum: x
+[DRV] a:15, b:10, carry:x, sum: x
+[MON] a:15, b:10, carry:1, sum: 9
+[SCB] a:15, b:10, carry:1, sum: 9
+  --> PASS ! 15 + 10 = 25
+[GEN] a: 0, b:15, carry:x, sum: x
+[DRV] a: 0, b:15, carry:x, sum: x
+[MON] a: 0, b:15, carry:0, sum:15
+[SCB] a: 0, b:15, carry:0, sum:15
+  --> PASS !  0 + 15 = 15
+[GEN] a: 0, b:15, carry:x, sum: x
+[DRV] a: 0, b:15, carry:x, sum: x
+[MON] a: 0, b:15, carry:0, sum:15
+[SCB] a: 0, b:15, carry:0, sum:15
+  --> PASS !  0 + 15 = 15
+[GEN] a: 9, b:15, carry:x, sum: x
+[DRV] a: 9, b:15, carry:x, sum: x
+[MON] a: 9, b:15, carry:1, sum: 8
+[SCB] a: 9, b:15, carry:1, sum: 8
+  --> PASS !  9 + 15 = 24
+[GEN] a:10, b: 9, carry:x, sum: x
+[DRV] a:10, b: 9, carry:x, sum: x
+[MON] a:10, b: 9, carry:1, sum: 3
+[SCB] a:10, b: 9, carry:1, sum: 3
+  --> PASS ! 10 +  9 = 19
+[GEN] a:14, b:10, carry:x, sum: x
+[DRV] a:14, b:10, carry:x, sum: x
+[MON] a:14, b:10, carry:1, sum: 8
+[SCB] a:14, b:10, carry:1, sum: 8
+  --> PASS ! 14 + 10 = 24
+[GEN] a: 9, b: 7, carry:x, sum: x
+[DRV] a: 9, b: 7, carry:x, sum: x
+[MON] a: 9, b: 7, carry:1, sum: 0
+[SCB] a: 9, b: 7, carry:1, sum: 0
+  --> PASS !  9 +  7 = 16
+[GEN] a: 9, b: 3, carry:x, sum: x
+[DRV] a: 9, b: 3, carry:x, sum: x
+[MON] a: 9, b: 3, carry:0, sum:12
+[SCB] a: 9, b: 3, carry:0, sum:12
+  --> PASS !  9 +  3 = 12
+[GEN] a: 1, b: 7, carry:x, sum: x
+[DRV] a: 1, b: 7, carry:x, sum: x
+[MON] a: 1, b: 7, carry:0, sum: 8
+[SCB] a: 1, b: 7, carry:0, sum: 8
+  --> PASS !  1 +  7 =  8
+[GEN] a:13, b:10, carry:x, sum: x
+[DRV] a:13, b:10, carry:x, sum: x
+[MON] a:13, b:10, carry:1, sum: 7
+[SCB] a:13, b:10, carry:1, sum: 7
+  --> PASS ! 13 + 10 = 23
+[GEN] a:15, b: 6, carry:x, sum: x
+[DRV] a:15, b: 6, carry:x, sum: x
+[MON] a:15, b: 6, carry:1, sum: 5
+[SCB] a:15, b: 6, carry:1, sum: 5
+  --> PASS ! 15 +  6 = 21
+[GEN] a:13, b: 0, carry:x, sum: x
+[DRV] a:13, b: 0, carry:x, sum: x
+[MON] a:13, b: 0, carry:0, sum:13
+[SCB] a:13, b: 0, carry:0, sum:13
+  --> PASS ! 13 +  0 = 13
+[GEN] a:13, b:10, carry:x, sum: x
+[DRV] a:13, b:10, carry:x, sum: x
+[MON] a:13, b:10, carry:1, sum: 7
+[SCB] a:13, b:10, carry:1, sum: 7
+  --> PASS ! 13 + 10 = 23
+[GEN] a:10, b:12, carry:x, sum: x
+[DRV] a:10, b:12, carry:x, sum: x
+[MON] a:10, b:12, carry:1, sum: 6
+[SCB] a:10, b:12, carry:1, sum: 6
+  --> PASS ! 10 + 12 = 22
+[GEN] a: 0, b: 7, carry:x, sum: x
+[DRV] a: 0, b: 7, carry:x, sum: x
+[MON] a: 0, b: 7, carry:0, sum: 7
+[SCB] a: 0, b: 7, carry:0, sum: 7
+  --> PASS !  0 +  7 =  7
+[GEN] a:12, b:13, carry:x, sum: x
+[DRV] a:12, b:13, carry:x, sum: x
+[MON] a:12, b:13, carry:1, sum: 9
+[SCB] a:12, b:13, carry:1, sum: 9
+  --> PASS ! 12 + 13 = 25
+[GEN] a: 1, b: 6, carry:x, sum: x
+[DRV] a: 1, b: 6, carry:x, sum: x
+[MON] a: 1, b: 6, carry:0, sum: 7
+[SCB] a: 1, b: 6, carry:0, sum: 7
+  --> PASS !  1 +  6 =  7
+[GEN] a:10, b: 1, carry:x, sum: x
+[DRV] a:10, b: 1, carry:x, sum: x
+[MON] a:10, b: 1, carry:0, sum:11
+[SCB] a:10, b: 1, carry:0, sum:11
+  --> PASS ! 10 +  1 = 11
+[GEN] a:13, b: 6, carry:x, sum: x
+[DRV] a:13, b: 6, carry:x, sum: x
+[MON] a:13, b: 6, carry:1, sum: 3
+[SCB] a:13, b: 6, carry:1, sum: 3
+  --> PASS ! 13 +  6 = 19
+[GEN] a:14, b:14, carry:x, sum: x
+[DRV] a:14, b:14, carry:x, sum: x
+[MON] a:14, b:14, carry:1, sum:12
+[SCB] a:14, b:14, carry:1, sum:12
+  --> PASS ! 14 + 14 = 28
+[GEN] a:13, b: 8, carry:x, sum: x
+[DRV] a:13, b: 8, carry:x, sum: x
+[MON] a:13, b: 8, carry:1, sum: 5
+[SCB] a:13, b: 8, carry:1, sum: 5
+  --> PASS ! 13 +  8 = 21
+[GEN] a:15, b:10, carry:x, sum: x
+[DRV] a:15, b:10, carry:x, sum: x
+[MON] a:15, b:10, carry:1, sum: 9
+[SCB] a:15, b:10, carry:1, sum: 9
+  --> PASS ! 15 + 10 = 25
+[GEN] a:15, b:14, carry:x, sum: x
+[DRV] a:15, b:14, carry:x, sum: x
+[MON] a:15, b:14, carry:1, sum:13
+[SCB] a:15, b:14, carry:1, sum:13
+  --> PASS ! 15 + 14 = 29
+[GEN] a: 9, b:12, carry:x, sum: x
+[DRV] a: 9, b:12, carry:x, sum: x
+[MON] a: 9, b:12, carry:1, sum: 5
+[SCB] a: 9, b:12, carry:1, sum: 5
+  --> PASS !  9 + 12 = 21
+[GEN] a: 6, b: 8, carry:x, sum: x
+[DRV] a: 6, b: 8, carry:x, sum: x
+[MON] a: 6, b: 8, carry:0, sum:14
+[SCB] a: 6, b: 8, carry:0, sum:14
+  --> PASS !  6 +  8 = 14
+[GEN] a: 6, b: 5, carry:x, sum: x
+[DRV] a: 6, b: 5, carry:x, sum: x
+[MON] a: 6, b: 5, carry:0, sum:11
+[SCB] a: 6, b: 5, carry:0, sum:11
+  --> PASS !  6 +  5 = 11
+[GEN] a: 6, b:15, carry:x, sum: x
+[DRV] a: 6, b:15, carry:x, sum: x
+[MON] a: 6, b:15, carry:1, sum: 5
+[SCB] a: 6, b:15, carry:1, sum: 5
+  --> PASS !  6 + 15 = 21
+[GEN] a: 1, b:13, carry:x, sum: x
+[DRV] a: 1, b:13, carry:x, sum: x
+[MON] a: 1, b:13, carry:0, sum:14
+[SCB] a: 1, b:13, carry:0, sum:14
+  --> PASS !  1 + 13 = 14
+[GEN] a: 8, b: 8, carry:x, sum: x
+[DRV] a: 8, b: 8, carry:x, sum: x
+[MON] a: 8, b: 8, carry:1, sum: 0
+[SCB] a: 8, b: 8, carry:1, sum: 0
+  --> PASS !  8 +  8 = 16
+[GEN] a: 2, b:14, carry:x, sum: x
+[DRV] a: 2, b:14, carry:x, sum: x
+[MON] a: 2, b:14, carry:1, sum: 0
+[SCB] a: 2, b:14, carry:1, sum: 0
+  --> PASS !  2 + 14 = 16
+[GEN] a: 7, b: 4, carry:x, sum: x
+[DRV] a: 7, b: 4, carry:x, sum: x
+[MON] a: 7, b: 4, carry:0, sum:11
+[SCB] a: 7, b: 4, carry:0, sum:11
+  --> PASS !  7 +  4 = 11
+[GEN] a:11, b:15, carry:x, sum: x
+[DRV] a:11, b:15, carry:x, sum: x
+[MON] a:11, b:15, carry:1, sum:10
+[SCB] a:11, b:15, carry:1, sum:10
+  --> PASS ! 11 + 15 = 26
+[GEN] a:12, b:14, carry:x, sum: x
+[DRV] a:12, b:14, carry:x, sum: x
+[MON] a:12, b:14, carry:1, sum:10
+[SCB] a:12, b:14, carry:1, sum:10
+  --> PASS ! 12 + 14 = 26
+[GEN] a:14, b: 3, carry:x, sum: x
+[DRV] a:14, b: 3, carry:x, sum: x
+[MON] a:14, b: 3, carry:1, sum: 1
+[SCB] a:14, b: 3, carry:1, sum: 1
+  --> PASS ! 14 +  3 = 17
+[GEN] a: 2, b: 9, carry:x, sum: x
+[DRV] a: 2, b: 9, carry:x, sum: x
+[MON] a: 2, b: 9, carry:0, sum:11
+[SCB] a: 2, b: 9, carry:0, sum:11
+  --> PASS !  2 +  9 = 11
+[GEN] a: 3, b:14, carry:x, sum: x
+[DRV] a: 3, b:14, carry:x, sum: x
+[MON] a: 3, b:14, carry:1, sum: 1
+[SCB] a: 3, b:14, carry:1, sum: 1
+  --> PASS !  3 + 14 = 17
+[GEN] a: 7, b: 1, carry:x, sum: x
+[DRV] a: 7, b: 1, carry:x, sum: x
+[MON] a: 7, b: 1, carry:0, sum: 8
+[SCB] a: 7, b: 1, carry:0, sum: 8
+  --> PASS !  7 +  1 =  8
+[GEN] a: 1, b: 9, carry:x, sum: x
+[DRV] a: 1, b: 9, carry:x, sum: x
+[MON] a: 1, b: 9, carry:0, sum:10
+[SCB] a: 1, b: 9, carry:0, sum:10
+  --> PASS !  1 +  9 = 10
+[GEN] a:10, b: 4, carry:x, sum: x
+[DRV] a:10, b: 4, carry:x, sum: x
+[MON] a:10, b: 4, carry:0, sum:14
+[SCB] a:10, b: 4, carry:0, sum:14
+  --> PASS ! 10 +  4 = 14
+[GEN] a: 7, b: 2, carry:x, sum: x
+[DRV] a: 7, b: 2, carry:x, sum: x
+[MON] a: 7, b: 2, carry:0, sum: 9
+[SCB] a: 7, b: 2, carry:0, sum: 9
+  --> PASS !  7 +  2 =  9
+[GEN] a: 5, b: 9, carry:x, sum: x
+[DRV] a: 5, b: 9, carry:x, sum: x
+[MON] a: 5, b: 9, carry:0, sum:14
+[SCB] a: 5, b: 9, carry:0, sum:14
+  --> PASS !  5 +  9 = 14
+[GEN] a:11, b: 0, carry:x, sum: x
+[DRV] a:11, b: 0, carry:x, sum: x
+[MON] a:11, b: 0, carry:0, sum:11
+[SCB] a:11, b: 0, carry:0, sum:11
+  --> PASS ! 11 +  0 = 11
+[GEN] a:13, b: 3, carry:x, sum: x
+[DRV] a:13, b: 3, carry:x, sum: x
+[MON] a:13, b: 3, carry:1, sum: 0
+[SCB] a:13, b: 3, carry:1, sum: 0
+  --> PASS ! 13 +  3 = 16
+[GEN] a: 2, b: 3, carry:x, sum: x
+[DRV] a: 2, b: 3, carry:x, sum: x
+[MON] a: 2, b: 3, carry:0, sum: 5
+[SCB] a: 2, b: 3, carry:0, sum: 5
+  --> PASS !  2 +  3 =  5
+[GEN] a:12, b:13, carry:x, sum: x
+[DRV] a:12, b:13, carry:x, sum: x
+[MON] a:12, b:13, carry:1, sum: 9
+[SCB] a:12, b:13, carry:1, sum: 9
+  --> PASS ! 12 + 13 = 25
+[GEN] a: 3, b: 9, carry:x, sum: x
+[DRV] a: 3, b: 9, carry:x, sum: x
+[MON] a: 3, b: 9, carry:0, sum:12
+[SCB] a: 3, b: 9, carry:0, sum:12
+  --> PASS !  3 +  9 = 12
+[GEN] a: 0, b: 5, carry:x, sum: x
+[DRV] a: 0, b: 5, carry:x, sum: x
+[MON] a: 0, b: 5, carry:0, sum: 5
+[SCB] a: 0, b: 5, carry:0, sum: 5
+  --> PASS !  0 +  5 =  5
+[GEN] a:12, b:12, carry:x, sum: x
+[DRV] a:12, b:12, carry:x, sum: x
+[MON] a:12, b:12, carry:1, sum: 8
+[SCB] a:12, b:12, carry:1, sum: 8
+  --> PASS ! 12 + 12 = 24
+[GEN] a: 2, b:15, carry:x, sum: x
+[DRV] a: 2, b:15, carry:x, sum: x
+[MON] a: 2, b:15, carry:1, sum: 1
+[SCB] a: 2, b:15, carry:1, sum: 1
+  --> PASS !  2 + 15 = 17
+[GEN] a: 6, b: 3, carry:x, sum: x
+[DRV] a: 6, b: 3, carry:x, sum: x
+[MON] a: 6, b: 3, carry:0, sum: 9
+[SCB] a: 6, b: 3, carry:0, sum: 9
+  --> PASS !  6 +  3 =  9
+[GEN] a: 4, b: 2, carry:x, sum: x
+[DRV] a: 4, b: 2, carry:x, sum: x
+[MON] a: 4, b: 2, carry:0, sum: 6
+[SCB] a: 4, b: 2, carry:0, sum: 6
+  --> PASS !  4 +  2 =  6
+[GEN] a:15, b: 7, carry:x, sum: x
+[DRV] a:15, b: 7, carry:x, sum: x
+[MON] a:15, b: 7, carry:1, sum: 6
+[SCB] a:15, b: 7, carry:1, sum: 6
+  --> PASS ! 15 +  7 = 22
+[GEN] a: 2, b: 5, carry:x, sum: x
+[DRV] a: 2, b: 5, carry:x, sum: x
+[MON] a: 2, b: 5, carry:0, sum: 7
+[SCB] a: 2, b: 5, carry:0, sum: 7
+  --> PASS !  2 +  5 =  7
+[GEN] a:10, b: 6, carry:x, sum: x
+[DRV] a:10, b: 6, carry:x, sum: x
+[MON] a:10, b: 6, carry:1, sum: 0
+[SCB] a:10, b: 6, carry:1, sum: 0
+  --> PASS ! 10 +  6 = 16
+[GEN] a: 8, b: 9, carry:x, sum: x
+[DRV] a: 8, b: 9, carry:x, sum: x
+[MON] a: 8, b: 9, carry:1, sum: 1
+[SCB] a: 8, b: 9, carry:1, sum: 1
+  --> PASS !  8 +  9 = 17
+[GEN] a:13, b:10, carry:x, sum: x
+[DRV] a:13, b:10, carry:x, sum: x
+[MON] a:13, b:10, carry:1, sum: 7
+[SCB] a:13, b:10, carry:1, sum: 7
+  --> PASS ! 13 + 10 = 23
+[GEN] a:15, b: 7, carry:x, sum: x
+[DRV] a:15, b: 7, carry:x, sum: x
+[MON] a:15, b: 7, carry:1, sum: 6
+[SCB] a:15, b: 7, carry:1, sum: 6
+  --> PASS ! 15 +  7 = 22
+[GEN] a: 0, b: 7, carry:x, sum: x
+[DRV] a: 0, b: 7, carry:x, sum: x
+[MON] a: 0, b: 7, carry:0, sum: 7
+[SCB] a: 0, b: 7, carry:0, sum: 7
+  --> PASS !  0 +  7 =  7
+[GEN] a: 1, b:14, carry:x, sum: x
+[DRV] a: 1, b:14, carry:x, sum: x
+[MON] a: 1, b:14, carry:0, sum:15
+[SCB] a: 1, b:14, carry:0, sum:15
+  --> PASS !  1 + 14 = 15
+[GEN] a: 1, b: 0, carry:x, sum: x
+[DRV] a: 1, b: 0, carry:x, sum: x
+[MON] a: 1, b: 0, carry:0, sum: 1
+[SCB] a: 1, b: 0, carry:0, sum: 1
+  --> PASS !  1 +  0 =  1
+[GEN] a: 5, b: 1, carry:x, sum: x
+[DRV] a: 5, b: 1, carry:x, sum: x
+[MON] a: 5, b: 1, carry:0, sum: 6
+[SCB] a: 5, b: 1, carry:0, sum: 6
+  --> PASS !  5 +  1 =  6
+[GEN] a: 7, b: 6, carry:x, sum: x
+[DRV] a: 7, b: 6, carry:x, sum: x
+[MON] a: 7, b: 6, carry:0, sum:13
+[SCB] a: 7, b: 6, carry:0, sum:13
+  --> PASS !  7 +  6 = 13
+[GEN] a:15, b: 8, carry:x, sum: x
+[DRV] a:15, b: 8, carry:x, sum: x
+[MON] a:15, b: 8, carry:1, sum: 7
+[SCB] a:15, b: 8, carry:1, sum: 7
+  --> PASS ! 15 +  8 = 23
+[GEN] a: 6, b: 5, carry:x, sum: x
+[DRV] a: 6, b: 5, carry:x, sum: x
+[MON] a: 6, b: 5, carry:0, sum:11
+[SCB] a: 6, b: 5, carry:0, sum:11
+  --> PASS !  6 +  5 = 11
+[GEN] a: 9, b:13, carry:x, sum: x
+[DRV] a: 9, b:13, carry:x, sum: x
+[MON] a: 9, b:13, carry:1, sum: 6
+[SCB] a: 9, b:13, carry:1, sum: 6
+  --> PASS !  9 + 13 = 22
+[GEN] a:11, b: 9, carry:x, sum: x
+[DRV] a:11, b: 9, carry:x, sum: x
+[MON] a:11, b: 9, carry:1, sum: 4
+[SCB] a:11, b: 9, carry:1, sum: 4
+  --> PASS ! 11 +  9 = 20
+[GEN] a: 5, b: 2, carry:x, sum: x
+[DRV] a: 5, b: 2, carry:x, sum: x
+[MON] a: 5, b: 2, carry:0, sum: 7
+[SCB] a: 5, b: 2, carry:0, sum: 7
+  --> PASS !  5 +  2 =  7
+[GEN] a:14, b:15, carry:x, sum: x
+[DRV] a:14, b:15, carry:x, sum: x
+[MON] a:14, b:15, carry:1, sum:13
+[SCB] a:14, b:15, carry:1, sum:13
+  --> PASS ! 14 + 15 = 29
+[GEN] a:15, b: 9, carry:x, sum: x
+[DRV] a:15, b: 9, carry:x, sum: x
+[MON] a:15, b: 9, carry:1, sum: 8
+[SCB] a:15, b: 9, carry:1, sum: 8
+  --> PASS ! 15 +  9 = 24
+[GEN] a: 8, b: 5, carry:x, sum: x
+[DRV] a: 8, b: 5, carry:x, sum: x
+[MON] a: 8, b: 5, carry:0, sum:13
+[SCB] a: 8, b: 5, carry:0, sum:13
+  --> PASS !  8 +  5 = 13
+[GEN] a:11, b: 6, carry:x, sum: x
+[DRV] a:11, b: 6, carry:x, sum: x
+[MON] a:11, b: 6, carry:1, sum: 1
+[SCB] a:11, b: 6, carry:1, sum: 1
+  --> PASS ! 11 +  6 = 17
+[GEN] a: 4, b:11, carry:x, sum: x
+[DRV] a: 4, b:11, carry:x, sum: x
+[MON] a: 4, b:11, carry:0, sum:15
+[SCB] a: 4, b:11, carry:0, sum:15
+  --> PASS !  4 + 11 = 15
+[GEN] a:15, b:12, carry:x, sum: x
+[DRV] a:15, b:12, carry:x, sum: x
+[MON] a:15, b:12, carry:1, sum:11
+[SCB] a:15, b:12, carry:1, sum:11
+  --> PASS ! 15 + 12 = 27
+[GEN] a: 0, b:11, carry:x, sum: x
+[DRV] a: 0, b:11, carry:x, sum: x
+[MON] a: 0, b:11, carry:0, sum:11
+[SCB] a: 0, b:11, carry:0, sum:11
+  --> PASS !  0 + 11 = 11
+[GEN] a: 2, b: 4, carry:x, sum: x
+[DRV] a: 2, b: 4, carry:x, sum: x
+[MON] a: 2, b: 4, carry:0, sum: 6
+[SCB] a: 2, b: 4, carry:0, sum: 6
+  --> PASS !  2 +  4 =  6
+[GEN] a: 6, b: 1, carry:x, sum: x
+[DRV] a: 6, b: 1, carry:x, sum: x
+[MON] a: 6, b: 1, carry:0, sum: 7
+[SCB] a: 6, b: 1, carry:0, sum: 7
+  --> PASS !  6 +  1 =  7
+[GEN] a: 0, b: 6, carry:x, sum: x
+[DRV] a: 0, b: 6, carry:x, sum: x
+[MON] a: 0, b: 6, carry:0, sum: 6
+[SCB] a: 0, b: 6, carry:0, sum: 6
+  --> PASS !  0 +  6 =  6
+[GEN] a:12, b: 2, carry:x, sum: x
+[DRV] a:12, b: 2, carry:x, sum: x
+[MON] a:12, b: 2, carry:0, sum:14
+[SCB] a:12, b: 2, carry:0, sum:14
+  --> PASS ! 12 +  2 = 14
+[GEN] a:10, b: 2, carry:x, sum: x
+[DRV] a:10, b: 2, carry:x, sum: x
+[MON] a:10, b: 2, carry:0, sum:12
+[SCB] a:10, b: 2, carry:0, sum:12
+  --> PASS ! 10 +  2 = 12
+[GEN] a: 3, b:10, carry:x, sum: x
+[DRV] a: 3, b:10, carry:x, sum: x
+[MON] a: 3, b:10, carry:0, sum:13
+[SCB] a: 3, b:10, carry:0, sum:13
+  --> PASS !  3 + 10 = 13
+[GEN] a: 8, b: 0, carry:x, sum: x
+[DRV] a: 8, b: 0, carry:x, sum: x
+[MON] a: 8, b: 0, carry:0, sum: 8
+[SCB] a: 8, b: 0, carry:0, sum: 8
+  --> PASS !  8 +  0 =  8
+[GEN] a:12, b: 2, carry:x, sum: x
+[DRV] a:12, b: 2, carry:x, sum: x
+[MON] a:12, b: 2, carry:0, sum:14
+[SCB] a:12, b: 2, carry:0, sum:14
+  --> PASS ! 12 +  2 = 14
+[GEN] a: 2, b:15, carry:x, sum: x
+[DRV] a: 2, b:15, carry:x, sum: x
+[MON] a: 2, b:15, carry:1, sum: 1
+[SCB] a: 2, b:15, carry:1, sum: 1
+  --> PASS !  2 + 15 = 17
+[GEN] a:12, b:11, carry:x, sum: x
+[DRV] a:12, b:11, carry:x, sum: x
+[MON] a:12, b:11, carry:1, sum: 7
+[SCB] a:12, b:11, carry:1, sum: 7
+  --> PASS ! 12 + 11 = 23
+[GEN] a:15, b: 8, carry:x, sum: x
+[DRV] a:15, b: 8, carry:x, sum: x
+[MON] a:15, b: 8, carry:1, sum: 7
+[SCB] a:15, b: 8, carry:1, sum: 7
+  --> PASS ! 15 +  8 = 23
+[GEN] a:13, b: 2, carry:x, sum: x
+[DRV] a:13, b: 2, carry:x, sum: x
+[MON] a:13, b: 2, carry:0, sum:15
+[SCB] a:13, b: 2, carry:0, sum:15
+  --> PASS ! 13 +  2 = 15
+[GEN] a: 8, b:10, carry:x, sum: x
+[DRV] a: 8, b:10, carry:x, sum: x
+[MON] a: 8, b:10, carry:1, sum: 2
+[SCB] a: 8, b:10, carry:1, sum: 2
+  --> PASS !  8 + 10 = 18
+[GEN] a:13, b: 7, carry:x, sum: x
+[DRV] a:13, b: 7, carry:x, sum: x
+[MON] a:13, b: 7, carry:1, sum: 4
+[SCB] a:13, b: 7, carry:1, sum: 4
+  --> PASS ! 13 +  7 = 20
+[GEN] a: 2, b:10, carry:x, sum: x
+[DRV] a: 2, b:10, carry:x, sum: x
+[MON] a: 2, b:10, carry:0, sum:12
+[SCB] a: 2, b:10, carry:0, sum:12
+  --> PASS !  2 + 10 = 12
+[GEN] a: 9, b:10, carry:x, sum: x
+[DRV] a: 9, b:10, carry:x, sum: x
+[MON] a: 9, b:10, carry:1, sum: 3
+[SCB] a: 9, b:10, carry:1, sum: 3
+  --> PASS !  9 + 10 = 19
+[GEN] a: 4, b: 6, carry:x, sum: x
+[DRV] a: 4, b: 6, carry:x, sum: x
+[MON] a: 4, b: 6, carry:0, sum:10
+[SCB] a: 4, b: 6, carry:0, sum:10
+  --> PASS !  4 +  6 = 10
+[GEN] a: 2, b: 7, carry:x, sum: x
+[DRV] a: 2, b: 7, carry:x, sum: x
+[MON] a: 2, b: 7, carry:0, sum: 9
+[SCB] a: 2, b: 7, carry:0, sum: 9
+  --> PASS !  2 +  7 =  9
+[GEN] a: 1, b:11, carry:x, sum: x
+[DRV] a: 1, b:11, carry:x, sum: x
+[MON] a: 1, b:11, carry:0, sum:12
+[SCB] a: 1, b:11, carry:0, sum:12
+  --> PASS !  1 + 11 = 12
+[GEN] a: 1, b: 5, carry:x, sum: x
+[DRV] a: 1, b: 5, carry:x, sum: x
+[MON] a: 1, b: 5, carry:0, sum: 6
+[SCB] a: 1, b: 5, carry:0, sum: 6
+  --> PASS !  1 +  5 =  6
+[GEN] a: 2, b: 3, carry:x, sum: x
+[DRV] a: 2, b: 3, carry:x, sum: x
+[MON] a: 2, b: 3, carry:0, sum: 5
+[SCB] a: 2, b: 3, carry:0, sum: 5
+  --> PASS !  2 +  3 =  5
+[GEN] a:12, b: 3, carry:x, sum: x
+[DRV] a:12, b: 3, carry:x, sum: x
+[MON] a:12, b: 3, carry:0, sum:15
+[SCB] a:12, b: 3, carry:0, sum:15
+  --> PASS ! 12 +  3 = 15
+[GEN] a:15, b:14, carry:x, sum: x
+[DRV] a:15, b:14, carry:x, sum: x
+[MON] a:15, b:14, carry:1, sum:13
+[SCB] a:15, b:14, carry:1, sum:13
+  --> PASS ! 15 + 14 = 29
+[GEN] a: 8, b: 1, carry:x, sum: x
+[DRV] a: 8, b: 1, carry:x, sum: x
+[MON] a: 8, b: 1, carry:0, sum: 9
+[SCB] a: 8, b: 1, carry:0, sum: 9
+  --> PASS !  8 +  1 =  9
+[GEN] a: 1, b: 5, carry:x, sum: x
+[DRV] a: 1, b: 5, carry:x, sum: x
+[MON] a: 1, b: 5, carry:0, sum: 6
+[SCB] a: 1, b: 5, carry:0, sum: 6
+  --> PASS !  1 +  5 =  6
+[GEN] a: 4, b: 0, carry:x, sum: x
+[DRV] a: 4, b: 0, carry:x, sum: x
+[MON] a: 4, b: 0, carry:0, sum: 4
+[SCB] a: 4, b: 0, carry:0, sum: 4
+  --> PASS !  4 +  0 =  4
+[GEN] a: 3, b:12, carry:x, sum: x
+[DRV] a: 3, b:12, carry:x, sum: x
+[MON] a: 3, b:12, carry:0, sum:15
+[SCB] a: 3, b:12, carry:0, sum:15
+  --> PASS !  3 + 12 = 15
+[GEN] a: 1, b: 4, carry:x, sum: x
+[DRV] a: 1, b: 4, carry:x, sum: x
+[MON] a: 1, b: 4, carry:0, sum: 5
+[SCB] a: 1, b: 4, carry:0, sum: 5
+  --> PASS !  1 +  4 =  5
+[GEN] a: 1, b: 5, carry:x, sum: x
+[DRV] a: 1, b: 5, carry:x, sum: x
+[MON] a: 1, b: 5, carry:0, sum: 6
+[SCB] a: 1, b: 5, carry:0, sum: 6
+  --> PASS !  1 +  5 =  6
+[GEN] a: 5, b: 4, carry:x, sum: x
+[DRV] a: 5, b: 4, carry:x, sum: x
+[MON] a: 5, b: 4, carry:0, sum: 9
+[SCB] a: 5, b: 4, carry:0, sum: 9
+  --> PASS !  5 +  4 =  9
+[GEN] a: 2, b: 6, carry:x, sum: x
+[DRV] a: 2, b: 6, carry:x, sum: x
+[MON] a: 2, b: 6, carry:0, sum: 8
+[SCB] a: 2, b: 6, carry:0, sum: 8
+  --> PASS !  2 +  6 =  8
+[GEN] a: 9, b: 3, carry:x, sum: x
+[DRV] a: 9, b: 3, carry:x, sum: x
+[MON] a: 9, b: 3, carry:0, sum:12
+[SCB] a: 9, b: 3, carry:0, sum:12
+  --> PASS !  9 +  3 = 12
+[GEN] a:12, b:14, carry:x, sum: x
+[DRV] a:12, b:14, carry:x, sum: x
+[MON] a:12, b:14, carry:1, sum:10
+[SCB] a:12, b:14, carry:1, sum:10
+  --> PASS ! 12 + 14 = 26
+[GEN] a: 8, b:14, carry:x, sum: x
+[DRV] a: 8, b:14, carry:x, sum: x
+[MON] a: 8, b:14, carry:1, sum: 6
+[SCB] a: 8, b:14, carry:1, sum: 6
+  --> PASS !  8 + 14 = 22
+[GEN] a: 4, b: 1, carry:x, sum: x
+[DRV] a: 4, b: 1, carry:x, sum: x
+[MON] a: 4, b: 1, carry:0, sum: 5
+[SCB] a: 4, b: 1, carry:0, sum: 5
+  --> PASS !  4 +  1 =  5
+[GEN] a: 1, b: 0, carry:x, sum: x
+[DRV] a: 1, b: 0, carry:x, sum: x
+[MON] a: 1, b: 0, carry:0, sum: 1
+[SCB] a: 1, b: 0, carry:0, sum: 1
+  --> PASS !  1 +  0 =  1
+[GEN] a:15, b: 9, carry:x, sum: x
+[DRV] a:15, b: 9, carry:x, sum: x
+[MON] a:15, b: 9, carry:1, sum: 8
+[SCB] a:15, b: 9, carry:1, sum: 8
+  --> PASS ! 15 +  9 = 24
+[GEN] a:14, b: 3, carry:x, sum: x
+[DRV] a:14, b: 3, carry:x, sum: x
+[MON] a:14, b: 3, carry:1, sum: 1
+[SCB] a:14, b: 3, carry:1, sum: 1
+  --> PASS ! 14 +  3 = 17
+[GEN] a:10, b: 0, carry:x, sum: x
+[DRV] a:10, b: 0, carry:x, sum: x
+[MON] a:10, b: 0, carry:0, sum:10
+[SCB] a:10, b: 0, carry:0, sum:10
+  --> PASS ! 10 +  0 = 10
+[GEN] a: 4, b: 9, carry:x, sum: x
+[DRV] a: 4, b: 9, carry:x, sum: x
+[MON] a: 4, b: 9, carry:0, sum:13
+[SCB] a: 4, b: 9, carry:0, sum:13
+  --> PASS !  4 +  9 = 13
+[GEN] a: 9, b: 2, carry:x, sum: x
+[DRV] a: 9, b: 2, carry:x, sum: x
+[MON] a: 9, b: 2, carry:0, sum:11
+[SCB] a: 9, b: 2, carry:0, sum:11
+  --> PASS !  9 +  2 = 11
+[GEN] a:13, b: 4, carry:x, sum: x
+[DRV] a:13, b: 4, carry:x, sum: x
+[MON] a:13, b: 4, carry:1, sum: 1
+[SCB] a:13, b: 4, carry:1, sum: 1
+  --> PASS ! 13 +  4 = 17
+[GEN] a: 2, b: 1, carry:x, sum: x
+[DRV] a: 2, b: 1, carry:x, sum: x
+[MON] a: 2, b: 1, carry:0, sum: 3
+[SCB] a: 2, b: 1, carry:0, sum: 3
+  --> PASS !  2 +  1 =  3
+[GEN] a:13, b:12, carry:x, sum: x
+[DRV] a:13, b:12, carry:x, sum: x
+[MON] a:13, b:12, carry:1, sum: 9
+[SCB] a:13, b:12, carry:1, sum: 9
+  --> PASS ! 13 + 12 = 25
+[GEN] a: 3, b:10, carry:x, sum: x
+[DRV] a: 3, b:10, carry:x, sum: x
+[MON] a: 3, b:10, carry:0, sum:13
+[SCB] a: 3, b:10, carry:0, sum:13
+  --> PASS !  3 + 10 = 13
+[GEN] a: 0, b: 6, carry:x, sum: x
+[DRV] a: 0, b: 6, carry:x, sum: x
+[MON] a: 0, b: 6, carry:0, sum: 6
+[SCB] a: 0, b: 6, carry:0, sum: 6
+  --> PASS !  0 +  6 =  6
+[GEN] a:11, b:13, carry:x, sum: x
+[DRV] a:11, b:13, carry:x, sum: x
+[MON] a:11, b:13, carry:1, sum: 8
+[SCB] a:11, b:13, carry:1, sum: 8
+  --> PASS ! 11 + 13 = 24
+[GEN] a: 2, b:15, carry:x, sum: x
+[DRV] a: 2, b:15, carry:x, sum: x
+[MON] a: 2, b:15, carry:1, sum: 1
+[SCB] a: 2, b:15, carry:1, sum: 1
+  --> PASS !  2 + 15 = 17
+[GEN] a: 8, b: 2, carry:x, sum: x
+[DRV] a: 8, b: 2, carry:x, sum: x
+[MON] a: 8, b: 2, carry:0, sum:10
+[SCB] a: 8, b: 2, carry:0, sum:10
+  --> PASS !  8 +  2 = 10
+[GEN] a: 5, b: 3, carry:x, sum: x
+[DRV] a: 5, b: 3, carry:x, sum: x
+[MON] a: 5, b: 3, carry:0, sum: 8
+[SCB] a: 5, b: 3, carry:0, sum: 8
+  --> PASS !  5 +  3 =  8
+[GEN] a:15, b: 7, carry:x, sum: x
+[DRV] a:15, b: 7, carry:x, sum: x
+[MON] a:15, b: 7, carry:1, sum: 6
+[SCB] a:15, b: 7, carry:1, sum: 6
+  --> PASS ! 15 +  7 = 22
+[GEN] a: 2, b: 7, carry:x, sum: x
+[DRV] a: 2, b: 7, carry:x, sum: x
+[MON] a: 2, b: 7, carry:0, sum: 9
+[SCB] a: 2, b: 7, carry:0, sum: 9
+  --> PASS !  2 +  7 =  9
+[GEN] a: 9, b: 7, carry:x, sum: x
+[DRV] a: 9, b: 7, carry:x, sum: x
+[MON] a: 9, b: 7, carry:1, sum: 0
+[SCB] a: 9, b: 7, carry:1, sum: 0
+  --> PASS !  9 +  7 = 16
+[GEN] a:11, b: 8, carry:x, sum: x
+[DRV] a:11, b: 8, carry:x, sum: x
+[MON] a:11, b: 8, carry:1, sum: 3
+[SCB] a:11, b: 8, carry:1, sum: 3
+  --> PASS ! 11 +  8 = 19
+[GEN] a:14, b:13, carry:x, sum: x
+[DRV] a:14, b:13, carry:x, sum: x
+[MON] a:14, b:13, carry:1, sum:11
+[SCB] a:14, b:13, carry:1, sum:11
+  --> PASS ! 14 + 13 = 27
+[GEN] a: 0, b: 7, carry:x, sum: x
+[DRV] a: 0, b: 7, carry:x, sum: x
+[MON] a: 0, b: 7, carry:0, sum: 7
+[SCB] a: 0, b: 7, carry:0, sum: 7
+  --> PASS !  0 +  7 =  7
+[GEN] a: 5, b:11, carry:x, sum: x
+[DRV] a: 5, b:11, carry:x, sum: x
+[MON] a: 5, b:11, carry:1, sum: 0
+[SCB] a: 5, b:11, carry:1, sum: 0
+  --> PASS !  5 + 11 = 16
+[GEN] a: 0, b: 3, carry:x, sum: x
+[DRV] a: 0, b: 3, carry:x, sum: x
+[MON] a: 0, b: 3, carry:0, sum: 3
+[SCB] a: 0, b: 3, carry:0, sum: 3
+  --> PASS !  0 +  3 =  3
+[GEN] a: 8, b: 0, carry:x, sum: x
+[DRV] a: 8, b: 0, carry:x, sum: x
+[MON] a: 8, b: 0, carry:0, sum: 8
+[SCB] a: 8, b: 0, carry:0, sum: 8
+  --> PASS !  8 +  0 =  8
+[GEN] a:11, b:13, carry:x, sum: x
+[DRV] a:11, b:13, carry:x, sum: x
+[MON] a:11, b:13, carry:1, sum: 8
+[SCB] a:11, b:13, carry:1, sum: 8
+  --> PASS ! 11 + 13 = 24
+[GEN] a:11, b:11, carry:x, sum: x
+[DRV] a:11, b:11, carry:x, sum: x
+[MON] a:11, b:11, carry:1, sum: 6
+[SCB] a:11, b:11, carry:1, sum: 6
+  --> PASS ! 11 + 11 = 22
+[GEN] a: 1, b: 3, carry:x, sum: x
+[DRV] a: 1, b: 3, carry:x, sum: x
+[MON] a: 1, b: 3, carry:0, sum: 4
+[SCB] a: 1, b: 3, carry:0, sum: 4
+  --> PASS !  1 +  3 =  4
+[GEN] a:11, b:12, carry:x, sum: x
+[DRV] a:11, b:12, carry:x, sum: x
+[MON] a:11, b:12, carry:1, sum: 7
+[SCB] a:11, b:12, carry:1, sum: 7
+  --> PASS ! 11 + 12 = 23
+[GEN] a: 1, b: 6, carry:x, sum: x
+[DRV] a: 1, b: 6, carry:x, sum: x
+[MON] a: 1, b: 6, carry:0, sum: 7
+[SCB] a: 1, b: 6, carry:0, sum: 7
+  --> PASS !  1 +  6 =  7
+[GEN] a: 7, b: 2, carry:x, sum: x
+[DRV] a: 7, b: 2, carry:x, sum: x
+[MON] a: 7, b: 2, carry:0, sum: 9
+[SCB] a: 7, b: 2, carry:0, sum: 9
+  --> PASS !  7 +  2 =  9
+[GEN] a: 9, b: 2, carry:x, sum: x
+[DRV] a: 9, b: 2, carry:x, sum: x
+[MON] a: 9, b: 2, carry:0, sum:11
+[SCB] a: 9, b: 2, carry:0, sum:11
+  --> PASS !  9 +  2 = 11
+[GEN] a:14, b:10, carry:x, sum: x
+[DRV] a:14, b:10, carry:x, sum: x
+[MON] a:14, b:10, carry:1, sum: 8
+[SCB] a:14, b:10, carry:1, sum: 8
+  --> PASS ! 14 + 10 = 24
+[GEN] a: 8, b: 5, carry:x, sum: x
+[DRV] a: 8, b: 5, carry:x, sum: x
+[MON] a: 8, b: 5, carry:0, sum:13
+[SCB] a: 8, b: 5, carry:0, sum:13
+  --> PASS !  8 +  5 = 13
+[GEN] a:12, b: 1, carry:x, sum: x
+[DRV] a:12, b: 1, carry:x, sum: x
+[MON] a:12, b: 1, carry:0, sum:13
+[SCB] a:12, b: 1, carry:0, sum:13
+  --> PASS ! 12 +  1 = 13
+[GEN] a: 7, b:10, carry:x, sum: x
+[DRV] a: 7, b:10, carry:x, sum: x
+[MON] a: 7, b:10, carry:1, sum: 1
+[SCB] a: 7, b:10, carry:1, sum: 1
+  --> PASS !  7 + 10 = 17
+[GEN] a:12, b:15, carry:x, sum: x
+[DRV] a:12, b:15, carry:x, sum: x
+[MON] a:12, b:15, carry:1, sum:11
+[SCB] a:12, b:15, carry:1, sum:11
+  --> PASS ! 12 + 15 = 27
+[GEN] a:15, b: 8, carry:x, sum: x
+[DRV] a:15, b: 8, carry:x, sum: x
+[MON] a:15, b: 8, carry:1, sum: 7
+[SCB] a:15, b: 8, carry:1, sum: 7
+  --> PASS ! 15 +  8 = 23
+[GEN] a: 0, b: 6, carry:x, sum: x
+[DRV] a: 0, b: 6, carry:x, sum: x
+[MON] a: 0, b: 6, carry:0, sum: 6
+[SCB] a: 0, b: 6, carry:0, sum: 6
+  --> PASS !  0 +  6 =  6
+[GEN] a: 3, b:12, carry:x, sum: x
+[DRV] a: 3, b:12, carry:x, sum: x
+[MON] a: 3, b:12, carry:0, sum:15
+[SCB] a: 3, b:12, carry:0, sum:15
+  --> PASS !  3 + 12 = 15
+[GEN] a: 5, b: 2, carry:x, sum: x
+[DRV] a: 5, b: 2, carry:x, sum: x
+[MON] a: 5, b: 2, carry:0, sum: 7
+[SCB] a: 5, b: 2, carry:0, sum: 7
+  --> PASS !  5 +  2 =  7
+[GEN] a: 5, b: 6, carry:x, sum: x
+[DRV] a: 5, b: 6, carry:x, sum: x
+[MON] a: 5, b: 6, carry:0, sum:11
+[SCB] a: 5, b: 6, carry:0, sum:11
+  --> PASS !  5 +  6 = 11
+[GEN] a: 9, b: 8, carry:x, sum: x
+[DRV] a: 9, b: 8, carry:x, sum: x
+[MON] a: 9, b: 8, carry:1, sum: 1
+[SCB] a: 9, b: 8, carry:1, sum: 1
+  --> PASS !  9 +  8 = 17
+[GEN] a: 2, b:14, carry:x, sum: x
+[DRV] a: 2, b:14, carry:x, sum: x
+[MON] a: 2, b:14, carry:1, sum: 0
+[SCB] a: 2, b:14, carry:1, sum: 0
+  --> PASS !  2 + 14 = 16
+[GEN] a:10, b: 7, carry:x, sum: x
+[DRV] a:10, b: 7, carry:x, sum: x
+[MON] a:10, b: 7, carry:1, sum: 1
+[SCB] a:10, b: 7, carry:1, sum: 1
+  --> PASS ! 10 +  7 = 17
+[GEN] a: 4, b: 3, carry:x, sum: x
+[DRV] a: 4, b: 3, carry:x, sum: x
+[MON] a: 4, b: 3, carry:0, sum: 7
+[SCB] a: 4, b: 3, carry:0, sum: 7
+  --> PASS !  4 +  3 =  7
+[GEN] a:15, b: 7, carry:x, sum: x
+[DRV] a:15, b: 7, carry:x, sum: x
+[MON] a:15, b: 7, carry:1, sum: 6
+[SCB] a:15, b: 7, carry:1, sum: 6
+  --> PASS ! 15 +  7 = 22
+[GEN] a: 2, b:10, carry:x, sum: x
+[DRV] a: 2, b:10, carry:x, sum: x
+[MON] a: 2, b:10, carry:0, sum:12
+[SCB] a: 2, b:10, carry:0, sum:12
+  --> PASS !  2 + 10 = 12
+[GEN] a:14, b: 6, carry:x, sum: x
+[DRV] a:14, b: 6, carry:x, sum: x
+[MON] a:14, b: 6, carry:1, sum: 4
+[SCB] a:14, b: 6, carry:1, sum: 4
+  --> PASS ! 14 +  6 = 20
+[GEN] a:13, b:14, carry:x, sum: x
+[DRV] a:13, b:14, carry:x, sum: x
+[MON] a:13, b:14, carry:1, sum:11
+[SCB] a:13, b:14, carry:1, sum:11
+  --> PASS ! 13 + 14 = 27
+[GEN] a:13, b:15, carry:x, sum: x
+[DRV] a:13, b:15, carry:x, sum: x
+[MON] a:13, b:15, carry:1, sum:12
+[SCB] a:13, b:15, carry:1, sum:12
+  --> PASS ! 13 + 15 = 28
+[GEN] a: 8, b:12, carry:x, sum: x
+[DRV] a: 8, b:12, carry:x, sum: x
+[MON] a: 8, b:12, carry:1, sum: 4
+[SCB] a: 8, b:12, carry:1, sum: 4
+  --> PASS !  8 + 12 = 20
+[GEN] a: 6, b: 5, carry:x, sum: x
+[DRV] a: 6, b: 5, carry:x, sum: x
+[MON] a: 6, b: 5, carry:0, sum:11
+[SCB] a: 6, b: 5, carry:0, sum:11
+  --> PASS !  6 +  5 = 11
+[GEN] a:10, b: 3, carry:x, sum: x
+[DRV] a:10, b: 3, carry:x, sum: x
+[MON] a:10, b: 3, carry:0, sum:13
+[SCB] a:10, b: 3, carry:0, sum:13
+  --> PASS ! 10 +  3 = 13
+[GEN] a: 5, b: 2, carry:x, sum: x
+[DRV] a: 5, b: 2, carry:x, sum: x
+[MON] a: 5, b: 2, carry:0, sum: 7
+[SCB] a: 5, b: 2, carry:0, sum: 7
+  --> PASS !  5 +  2 =  7
+[GEN] a:15, b:11, carry:x, sum: x
+[DRV] a:15, b:11, carry:x, sum: x
+[MON] a:15, b:11, carry:1, sum:10
+[SCB] a:15, b:11, carry:1, sum:10
+  --> PASS ! 15 + 11 = 26
+[GEN] a: 7, b: 9, carry:x, sum: x
+[DRV] a: 7, b: 9, carry:x, sum: x
+[MON] a: 7, b: 9, carry:1, sum: 0
+[SCB] a: 7, b: 9, carry:1, sum: 0
+  --> PASS !  7 +  9 = 16
+[GEN] a:14, b:12, carry:x, sum: x
+[DRV] a:14, b:12, carry:x, sum: x
+[MON] a:14, b:12, carry:1, sum:10
+[SCB] a:14, b:12, carry:1, sum:10
+  --> PASS ! 14 + 12 = 26
+[GEN] a:11, b:14, carry:x, sum: x
+[DRV] a:11, b:14, carry:x, sum: x
+[MON] a:11, b:14, carry:1, sum: 9
+[SCB] a:11, b:14, carry:1, sum: 9
+  --> PASS ! 11 + 14 = 25
+[GEN] a: 7, b: 3, carry:x, sum: x
+[DRV] a: 7, b: 3, carry:x, sum: x
+[MON] a: 7, b: 3, carry:0, sum:10
+[SCB] a: 7, b: 3, carry:0, sum:10
+  --> PASS !  7 +  3 = 10
+[GEN] a: 7, b: 6, carry:x, sum: x
+[DRV] a: 7, b: 6, carry:x, sum: x
+[MON] a: 7, b: 6, carry:0, sum:13
+[SCB] a: 7, b: 6, carry:0, sum:13
+  --> PASS !  7 +  6 = 13
+[GEN] a:15, b: 3, carry:x, sum: x
+[DRV] a:15, b: 3, carry:x, sum: x
+[MON] a:15, b: 3, carry:1, sum: 2
+[SCB] a:15, b: 3, carry:1, sum: 2
+  --> PASS ! 15 +  3 = 18
+[GEN] a: 4, b: 7, carry:x, sum: x
+[DRV] a: 4, b: 7, carry:x, sum: x
+[MON] a: 4, b: 7, carry:0, sum:11
+[SCB] a: 4, b: 7, carry:0, sum:11
+  --> PASS !  4 +  7 = 11
+[GEN] a: 6, b:11, carry:x, sum: x
+[DRV] a: 6, b:11, carry:x, sum: x
+[MON] a: 6, b:11, carry:1, sum: 1
+[SCB] a: 6, b:11, carry:1, sum: 1
+  --> PASS !  6 + 11 = 17
+[GEN] a:13, b: 5, carry:x, sum: x
+[DRV] a:13, b: 5, carry:x, sum: x
+[MON] a:13, b: 5, carry:1, sum: 2
+[SCB] a:13, b: 5, carry:1, sum: 2
+  --> PASS ! 13 +  5 = 18
+[GEN] a:14, b: 1, carry:x, sum: x
+[DRV] a:14, b: 1, carry:x, sum: x
+[MON] a:14, b: 1, carry:0, sum:15
+[SCB] a:14, b: 1, carry:0, sum:15
+  --> PASS ! 14 +  1 = 15
+[GEN] a:12, b: 4, carry:x, sum: x
+[DRV] a:12, b: 4, carry:x, sum: x
+[MON] a:12, b: 4, carry:1, sum: 0
+[SCB] a:12, b: 4, carry:1, sum: 0
+  --> PASS ! 12 +  4 = 16
+[GEN] a:12, b: 9, carry:x, sum: x
+[DRV] a:12, b: 9, carry:x, sum: x
+[MON] a:12, b: 9, carry:1, sum: 5
+[SCB] a:12, b: 9, carry:1, sum: 5
+  --> PASS ! 12 +  9 = 21
+[GEN] a:10, b:11, carry:x, sum: x
+[DRV] a:10, b:11, carry:x, sum: x
+[MON] a:10, b:11, carry:1, sum: 5
+[SCB] a:10, b:11, carry:1, sum: 5
+  --> PASS ! 10 + 11 = 21
+[GEN] a:10, b: 6, carry:x, sum: x
+[DRV] a:10, b: 6, carry:x, sum: x
+[MON] a:10, b: 6, carry:1, sum: 0
+[SCB] a:10, b: 6, carry:1, sum: 0
+  --> PASS ! 10 +  6 = 16
+[GEN] a:15, b: 7, carry:x, sum: x
+[DRV] a:15, b: 7, carry:x, sum: x
+[MON] a:15, b: 7, carry:1, sum: 6
+[SCB] a:15, b: 7, carry:1, sum: 6
+  --> PASS ! 15 +  7 = 22
+[GEN] a: 0, b: 9, carry:x, sum: x
+[DRV] a: 0, b: 9, carry:x, sum: x
+[MON] a: 0, b: 9, carry:0, sum: 9
+[SCB] a: 0, b: 9, carry:0, sum: 9
+  --> PASS !  0 +  9 =  9
+[GEN] a: 2, b:10, carry:x, sum: x
+[DRV] a: 2, b:10, carry:x, sum: x
+[MON] a: 2, b:10, carry:0, sum:12
+[SCB] a: 2, b:10, carry:0, sum:12
+  --> PASS !  2 + 10 = 12
+[GEN] a: 0, b: 1, carry:x, sum: x
+[DRV] a: 0, b: 1, carry:x, sum: x
+[MON] a: 0, b: 1, carry:0, sum: 1
+[SCB] a: 0, b: 1, carry:0, sum: 1
+  --> PASS !  0 +  1 =  1
+[GEN] a: 1, b: 0, carry:x, sum: x
+[DRV] a: 1, b: 0, carry:x, sum: x
+[MON] a: 1, b: 0, carry:0, sum: 1
+[SCB] a: 1, b: 0, carry:0, sum: 1
+  --> PASS !  1 +  0 =  1
+[GEN] a:11, b: 3, carry:x, sum: x
+[DRV] a:11, b: 3, carry:x, sum: x
+[MON] a:11, b: 3, carry:0, sum:14
+[SCB] a:11, b: 3, carry:0, sum:14
+  --> PASS ! 11 +  3 = 14
+[GEN] a:10, b:11, carry:x, sum: x
+[DRV] a:10, b:11, carry:x, sum: x
+[MON] a:10, b:11, carry:1, sum: 5
+[SCB] a:10, b:11, carry:1, sum: 5
+  --> PASS ! 10 + 11 = 21
+[GEN] a: 5, b:12, carry:x, sum: x
+[DRV] a: 5, b:12, carry:x, sum: x
+[MON] a: 5, b:12, carry:1, sum: 1
+[SCB] a: 5, b:12, carry:1, sum: 1
+  --> PASS !  5 + 12 = 17
+[GEN] a:11, b: 0, carry:x, sum: x
+[DRV] a:11, b: 0, carry:x, sum: x
+[MON] a:11, b: 0, carry:0, sum:11
+[SCB] a:11, b: 0, carry:0, sum:11
+  --> PASS ! 11 +  0 = 11
+[GEN] a:15, b: 5, carry:x, sum: x
+[DRV] a:15, b: 5, carry:x, sum: x
+[MON] a:15, b: 5, carry:1, sum: 4
+[SCB] a:15, b: 5, carry:1, sum: 4
+  --> PASS ! 15 +  5 = 20
+[GEN] a:11, b: 4, carry:x, sum: x
+[DRV] a:11, b: 4, carry:x, sum: x
+[MON] a:11, b: 4, carry:0, sum:15
+[SCB] a:11, b: 4, carry:0, sum:15
+  --> PASS ! 11 +  4 = 15
+[GEN] a: 1, b: 6, carry:x, sum: x
+[DRV] a: 1, b: 6, carry:x, sum: x
+[MON] a: 1, b: 6, carry:0, sum: 7
+[SCB] a: 1, b: 6, carry:0, sum: 7
+  --> PASS !  1 +  6 =  7
+[GEN] a: 4, b: 1, carry:x, sum: x
+[DRV] a: 4, b: 1, carry:x, sum: x
+[MON] a: 4, b: 1, carry:0, sum: 5
+[SCB] a: 4, b: 1, carry:0, sum: 5
+  --> PASS !  4 +  1 =  5
+[GEN] a:11, b:15, carry:x, sum: x
+[DRV] a:11, b:15, carry:x, sum: x
+[MON] a:11, b:15, carry:1, sum:10
+[SCB] a:11, b:15, carry:1, sum:10
+  --> PASS ! 11 + 15 = 26
+[GEN] a: 5, b:13, carry:x, sum: x
+[DRV] a: 5, b:13, carry:x, sum: x
+[MON] a: 5, b:13, carry:1, sum: 2
+[SCB] a: 5, b:13, carry:1, sum: 2
+  --> PASS !  5 + 13 = 18
+[GEN] a: 5, b:10, carry:x, sum: x
+[DRV] a: 5, b:10, carry:x, sum: x
+[MON] a: 5, b:10, carry:0, sum:15
+[SCB] a: 5, b:10, carry:0, sum:15
+  --> PASS !  5 + 10 = 15
+[GEN] a:14, b: 1, carry:x, sum: x
+[DRV] a:14, b: 1, carry:x, sum: x
+[MON] a:14, b: 1, carry:0, sum:15
+[SCB] a:14, b: 1, carry:0, sum:15
+  --> PASS ! 14 +  1 = 15
+[GEN] a: 9, b: 3, carry:x, sum: x
+[DRV] a: 9, b: 3, carry:x, sum: x
+[MON] a: 9, b: 3, carry:0, sum:12
+[SCB] a: 9, b: 3, carry:0, sum:12
+  --> PASS !  9 +  3 = 12
+[GEN] a:14, b:15, carry:x, sum: x
+[DRV] a:14, b:15, carry:x, sum: x
+[MON] a:14, b:15, carry:1, sum:13
+[SCB] a:14, b:15, carry:1, sum:13
+  --> PASS ! 14 + 15 = 29
+[GEN] a:13, b:12, carry:x, sum: x
+[DRV] a:13, b:12, carry:x, sum: x
+[MON] a:13, b:12, carry:1, sum: 9
+[SCB] a:13, b:12, carry:1, sum: 9
+  --> PASS ! 13 + 12 = 25
+[GEN] a: 0, b: 7, carry:x, sum: x
+[DRV] a: 0, b: 7, carry:x, sum: x
+[MON] a: 0, b: 7, carry:0, sum: 7
+[SCB] a: 0, b: 7, carry:0, sum: 7
+  --> PASS !  0 +  7 =  7
+[GEN] a:15, b:14, carry:x, sum: x
+[DRV] a:15, b:14, carry:x, sum: x
+[MON] a:15, b:14, carry:1, sum:13
+[SCB] a:15, b:14, carry:1, sum:13
+  --> PASS ! 15 + 14 = 29
+[GEN] a: 6, b:13, carry:x, sum: x
+[DRV] a: 6, b:13, carry:x, sum: x
+[MON] a: 6, b:13, carry:1, sum: 3
+[SCB] a: 6, b:13, carry:1, sum: 3
+  --> PASS !  6 + 13 = 19
+[GEN] a:10, b: 6, carry:x, sum: x
+[DRV] a:10, b: 6, carry:x, sum: x
+[MON] a:10, b: 6, carry:1, sum: 0
+[SCB] a:10, b: 6, carry:1, sum: 0
+  --> PASS ! 10 +  6 = 16
+[GEN] a: 4, b: 9, carry:x, sum: x
+[DRV] a: 4, b: 9, carry:x, sum: x
+[MON] a: 4, b: 9, carry:0, sum:13
+[SCB] a: 4, b: 9, carry:0, sum:13
+  --> PASS !  4 +  9 = 13
+[GEN] a: 4, b:10, carry:x, sum: x
+[DRV] a: 4, b:10, carry:x, sum: x
+[MON] a: 4, b:10, carry:0, sum:14
+[SCB] a: 4, b:10, carry:0, sum:14
+  --> PASS !  4 + 10 = 14
+[GEN] a: 6, b:14, carry:x, sum: x
+[DRV] a: 6, b:14, carry:x, sum: x
+[MON] a: 6, b:14, carry:1, sum: 4
+[SCB] a: 6, b:14, carry:1, sum: 4
+  --> PASS !  6 + 14 = 20
+[GEN] a: 0, b:10, carry:x, sum: x
+[DRV] a: 0, b:10, carry:x, sum: x
+[MON] a: 0, b:10, carry:0, sum:10
+[SCB] a: 0, b:10, carry:0, sum:10
+  --> PASS !  0 + 10 = 10
+[GEN] a: 7, b: 4, carry:x, sum: x
+[DRV] a: 7, b: 4, carry:x, sum: x
+[MON] a: 7, b: 4, carry:0, sum:11
+[SCB] a: 7, b: 4, carry:0, sum:11
+  --> PASS !  7 +  4 = 11
+[GEN] a: 4, b:14, carry:x, sum: x
+[DRV] a: 4, b:14, carry:x, sum: x
+[MON] a: 4, b:14, carry:1, sum: 2
+[SCB] a: 4, b:14, carry:1, sum: 2
+  --> PASS !  4 + 14 = 18
+[GEN] a: 2, b: 4, carry:x, sum: x
+[DRV] a: 2, b: 4, carry:x, sum: x
+[MON] a: 2, b: 4, carry:0, sum: 6
+[SCB] a: 2, b: 4, carry:0, sum: 6
+  --> PASS !  2 +  4 =  6
+[GEN] a: 8, b: 9, carry:x, sum: x
+[DRV] a: 8, b: 9, carry:x, sum: x
+[MON] a: 8, b: 9, carry:1, sum: 1
+[SCB] a: 8, b: 9, carry:1, sum: 1
+  --> PASS !  8 +  9 = 17
+[GEN] a: 8, b:13, carry:x, sum: x
+[DRV] a: 8, b:13, carry:x, sum: x
+[MON] a: 8, b:13, carry:1, sum: 5
+[SCB] a: 8, b:13, carry:1, sum: 5
+  --> PASS !  8 + 13 = 21
+[GEN] a: 7, b:10, carry:x, sum: x
+[DRV] a: 7, b:10, carry:x, sum: x
+[MON] a: 7, b:10, carry:1, sum: 1
+[SCB] a: 7, b:10, carry:1, sum: 1
+  --> PASS !  7 + 10 = 17
+[GEN] a: 1, b: 0, carry:x, sum: x
+[DRV] a: 1, b: 0, carry:x, sum: x
+[MON] a: 1, b: 0, carry:0, sum: 1
+[SCB] a: 1, b: 0, carry:0, sum: 1
+  --> PASS !  1 +  0 =  1
+[GEN] a: 4, b:10, carry:x, sum: x
+[DRV] a: 4, b:10, carry:x, sum: x
+[MON] a: 4, b:10, carry:0, sum:14
+[SCB] a: 4, b:10, carry:0, sum:14
+  --> PASS !  4 + 10 = 14
+[GEN] a:13, b:11, carry:x, sum: x
+[DRV] a:13, b:11, carry:x, sum: x
+[MON] a:13, b:11, carry:1, sum: 8
+[SCB] a:13, b:11, carry:1, sum: 8
+  --> PASS ! 13 + 11 = 24
+[GEN] a: 4, b:14, carry:x, sum: x
+[DRV] a: 4, b:14, carry:x, sum: x
+[MON] a: 4, b:14, carry:1, sum: 2
+[SCB] a: 4, b:14, carry:1, sum: 2
+  --> PASS !  4 + 14 = 18
+[GEN] a:11, b: 8, carry:x, sum: x
+[DRV] a:11, b: 8, carry:x, sum: x
+[MON] a:11, b: 8, carry:1, sum: 3
+[SCB] a:11, b: 8, carry:1, sum: 3
+  --> PASS ! 11 +  8 = 19
+[GEN] a: 8, b: 8, carry:x, sum: x
+[DRV] a: 8, b: 8, carry:x, sum: x
+[MON] a: 8, b: 8, carry:1, sum: 0
+[SCB] a: 8, b: 8, carry:1, sum: 0
+  --> PASS !  8 +  8 = 16
+[GEN] a: 4, b:13, carry:x, sum: x
+[DRV] a: 4, b:13, carry:x, sum: x
+[MON] a: 4, b:13, carry:1, sum: 1
+[SCB] a: 4, b:13, carry:1, sum: 1
+  --> PASS !  4 + 13 = 17
+[GEN] a: 7, b:15, carry:x, sum: x
+[DRV] a: 7, b:15, carry:x, sum: x
+[MON] a: 7, b:15, carry:1, sum: 6
+[SCB] a: 7, b:15, carry:1, sum: 6
+  --> PASS !  7 + 15 = 22
+[GEN] a: 5, b:15, carry:x, sum: x
+[DRV] a: 5, b:15, carry:x, sum: x
+[MON] a: 5, b:15, carry:1, sum: 4
+[SCB] a: 5, b:15, carry:1, sum: 4
+  --> PASS !  5 + 15 = 20
+[GEN] a: 8, b: 9, carry:x, sum: x
+[DRV] a: 8, b: 9, carry:x, sum: x
+[MON] a: 8, b: 9, carry:1, sum: 1
+[SCB] a: 8, b: 9, carry:1, sum: 1
+  --> PASS !  8 +  9 = 17
+[GEN] a:12, b:15, carry:x, sum: x
+[DRV] a:12, b:15, carry:x, sum: x
+[MON] a:12, b:15, carry:1, sum:11
+[SCB] a:12, b:15, carry:1, sum:11
+  --> PASS ! 12 + 15 = 27
+[GEN] a: 9, b: 2, carry:x, sum: x
+[DRV] a: 9, b: 2, carry:x, sum: x
+[MON] a: 9, b: 2, carry:0, sum:11
+[SCB] a: 9, b: 2, carry:0, sum:11
+  --> PASS !  9 +  2 = 11
+[GEN] a:14, b: 1, carry:x, sum: x
+[DRV] a:14, b: 1, carry:x, sum: x
+[MON] a:14, b: 1, carry:0, sum:15
+[SCB] a:14, b: 1, carry:0, sum:15
+  --> PASS ! 14 +  1 = 15
+[GEN] a:11, b:11, carry:x, sum: x
+[DRV] a:11, b:11, carry:x, sum: x
+[MON] a:11, b:11, carry:1, sum: 6
+[SCB] a:11, b:11, carry:1, sum: 6
+  --> PASS ! 11 + 11 = 22
+[GEN] a: 0, b: 4, carry:x, sum: x
+[DRV] a: 0, b: 4, carry:x, sum: x
+[MON] a: 0, b: 4, carry:0, sum: 4
+[SCB] a: 0, b: 4, carry:0, sum: 4
+  --> PASS !  0 +  4 =  4
+[GEN] a:13, b:14, carry:x, sum: x
+[DRV] a:13, b:14, carry:x, sum: x
+[MON] a:13, b:14, carry:1, sum:11
+[SCB] a:13, b:14, carry:1, sum:11
+  --> PASS ! 13 + 14 = 27
+[GEN] a: 5, b: 8, carry:x, sum: x
+[DRV] a: 5, b: 8, carry:x, sum: x
+[MON] a: 5, b: 8, carry:0, sum:13
+[SCB] a: 5, b: 8, carry:0, sum:13
+  --> PASS !  5 +  8 = 13
+[GEN] a: 9, b: 5, carry:x, sum: x
+[DRV] a: 9, b: 5, carry:x, sum: x
+[MON] a: 9, b: 5, carry:0, sum:14
+[SCB] a: 9, b: 5, carry:0, sum:14
+  --> PASS !  9 +  5 = 14
+[GEN] a:13, b: 6, carry:x, sum: x
+[DRV] a:13, b: 6, carry:x, sum: x
+[MON] a:13, b: 6, carry:1, sum: 3
+[SCB] a:13, b: 6, carry:1, sum: 3
+  --> PASS ! 13 +  6 = 19
+[GEN] a: 4, b: 2, carry:x, sum: x
+[DRV] a: 4, b: 2, carry:x, sum: x
+[MON] a: 4, b: 2, carry:0, sum: 6
+[SCB] a: 4, b: 2, carry:0, sum: 6
+  --> PASS !  4 +  2 =  6
+[GEN] a:15, b:13, carry:x, sum: x
+[DRV] a:15, b:13, carry:x, sum: x
+[MON] a:15, b:13, carry:1, sum:12
+[SCB] a:15, b:13, carry:1, sum:12
+  --> PASS ! 15 + 13 = 28
+[GEN] a: 8, b:12, carry:x, sum: x
+[DRV] a: 8, b:12, carry:x, sum: x
+[MON] a: 8, b:12, carry:1, sum: 4
+[SCB] a: 8, b:12, carry:1, sum: 4
+  --> PASS !  8 + 12 = 20
+[GEN] a: 4, b:12, carry:x, sum: x
+[DRV] a: 4, b:12, carry:x, sum: x
+[MON] a: 4, b:12, carry:1, sum: 0
+[SCB] a: 4, b:12, carry:1, sum: 0
+  --> PASS !  4 + 12 = 16
+[GEN] a:14, b: 3, carry:x, sum: x
+[DRV] a:14, b: 3, carry:x, sum: x
+[MON] a:14, b: 3, carry:1, sum: 1
+[SCB] a:14, b: 3, carry:1, sum: 1
+  --> PASS ! 14 +  3 = 17
+[GEN] a: 9, b: 6, carry:x, sum: x
+[DRV] a: 9, b: 6, carry:x, sum: x
+[MON] a: 9, b: 6, carry:0, sum:15
+[SCB] a: 9, b: 6, carry:0, sum:15
+  --> PASS !  9 +  6 = 15
+[GEN] a:15, b:13, carry:x, sum: x
+[DRV] a:15, b:13, carry:x, sum: x
+[MON] a:15, b:13, carry:1, sum:12
+[SCB] a:15, b:13, carry:1, sum:12
+  --> PASS ! 15 + 13 = 28
+[GEN] a: 2, b:13, carry:x, sum: x
+[DRV] a: 2, b:13, carry:x, sum: x
+[MON] a: 2, b:13, carry:0, sum:15
+[SCB] a: 2, b:13, carry:0, sum:15
+  --> PASS !  2 + 13 = 15
+[GEN] a: 0, b:12, carry:x, sum: x
+[DRV] a: 0, b:12, carry:x, sum: x
+[MON] a: 0, b:12, carry:0, sum:12
+[SCB] a: 0, b:12, carry:0, sum:12
+  --> PASS !  0 + 12 = 12
+[GEN] a: 4, b:15, carry:x, sum: x
+[DRV] a: 4, b:15, carry:x, sum: x
+[MON] a: 4, b:15, carry:1, sum: 3
+[SCB] a: 4, b:15, carry:1, sum: 3
+  --> PASS !  4 + 15 = 19
+[GEN] a: 9, b: 6, carry:x, sum: x
+[DRV] a: 9, b: 6, carry:x, sum: x
+[MON] a: 9, b: 6, carry:0, sum:15
+[SCB] a: 9, b: 6, carry:0, sum:15
+  --> PASS !  9 +  6 = 15
+[GEN] a:13, b:10, carry:x, sum: x
+[DRV] a:13, b:10, carry:x, sum: x
+[MON] a:13, b:10, carry:1, sum: 7
+[SCB] a:13, b:10, carry:1, sum: 7
+  --> PASS ! 13 + 10 = 23
+[GEN] a: 2, b: 1, carry:x, sum: x
+[DRV] a: 2, b: 1, carry:x, sum: x
+[MON] a: 2, b: 1, carry:0, sum: 3
+[SCB] a: 2, b: 1, carry:0, sum: 3
+  --> PASS !  2 +  1 =  3
+[GEN] a: 9, b:12, carry:x, sum: x
+[DRV] a: 9, b:12, carry:x, sum: x
+[MON] a: 9, b:12, carry:1, sum: 5
+[SCB] a: 9, b:12, carry:1, sum: 5
+  --> PASS !  9 + 12 = 21
+[GEN] a: 7, b: 6, carry:x, sum: x
+[DRV] a: 7, b: 6, carry:x, sum: x
+[MON] a: 7, b: 6, carry:0, sum:13
+[SCB] a: 7, b: 6, carry:0, sum:13
+  --> PASS !  7 +  6 = 13
+[GEN] a: 6, b:10, carry:x, sum: x
+[DRV] a: 6, b:10, carry:x, sum: x
+[MON] a: 6, b:10, carry:1, sum: 0
+[SCB] a: 6, b:10, carry:1, sum: 0
+  --> PASS !  6 + 10 = 16
+[GEN] a: 7, b:15, carry:x, sum: x
+[DRV] a: 7, b:15, carry:x, sum: x
+[MON] a: 7, b:15, carry:1, sum: 6
+[SCB] a: 7, b:15, carry:1, sum: 6
+  --> PASS !  7 + 15 = 22
+[GEN] a: 6, b:15, carry:x, sum: x
+[DRV] a: 6, b:15, carry:x, sum: x
+[MON] a: 6, b:15, carry:1, sum: 5
+[SCB] a: 6, b:15, carry:1, sum: 5
+  --> PASS !  6 + 15 = 21
+[GEN] a: 6, b:12, carry:x, sum: x
+[DRV] a: 6, b:12, carry:x, sum: x
+[MON] a: 6, b:12, carry:1, sum: 2
+[SCB] a: 6, b:12, carry:1, sum: 2
+  --> PASS !  6 + 12 = 18
+[GEN] a: 9, b:13, carry:x, sum: x
+[DRV] a: 9, b:13, carry:x, sum: x
+[MON] a: 9, b:13, carry:1, sum: 6
+[SCB] a: 9, b:13, carry:1, sum: 6
+  --> PASS !  9 + 13 = 22
+[GEN] a:11, b:15, carry:x, sum: x
+[DRV] a:11, b:15, carry:x, sum: x
+[MON] a:11, b:15, carry:1, sum:10
+[SCB] a:11, b:15, carry:1, sum:10
+  --> PASS ! 11 + 15 = 26
+[GEN] a:12, b: 1, carry:x, sum: x
+[DRV] a:12, b: 1, carry:x, sum: x
+[MON] a:12, b: 1, carry:0, sum:13
+[SCB] a:12, b: 1, carry:0, sum:13
+  --> PASS ! 12 +  1 = 13
+[GEN] a:11, b: 5, carry:x, sum: x
+[DRV] a:11, b: 5, carry:x, sum: x
+[MON] a:11, b: 5, carry:1, sum: 0
+[SCB] a:11, b: 5, carry:1, sum: 0
+  --> PASS ! 11 +  5 = 16
+[GEN] a:15, b: 6, carry:x, sum: x
+[DRV] a:15, b: 6, carry:x, sum: x
+[MON] a:15, b: 6, carry:1, sum: 5
+[SCB] a:15, b: 6, carry:1, sum: 5
+  --> PASS ! 15 +  6 = 21
+[GEN] a: 4, b:11, carry:x, sum: x
+[DRV] a: 4, b:11, carry:x, sum: x
+[MON] a: 4, b:11, carry:0, sum:15
+[SCB] a: 4, b:11, carry:0, sum:15
+  --> PASS !  4 + 11 = 15
+[GEN] a: 8, b:15, carry:x, sum: x
+[DRV] a: 8, b:15, carry:x, sum: x
+[MON] a: 8, b:15, carry:1, sum: 7
+[SCB] a: 8, b:15, carry:1, sum: 7
+  --> PASS !  8 + 15 = 23
+[GEN] a: 1, b: 7, carry:x, sum: x
+[DRV] a: 1, b: 7, carry:x, sum: x
+[MON] a: 1, b: 7, carry:0, sum: 8
+[SCB] a: 1, b: 7, carry:0, sum: 8
+  --> PASS !  1 +  7 =  8
+[GEN] a: 6, b: 5, carry:x, sum: x
+[DRV] a: 6, b: 5, carry:x, sum: x
+[MON] a: 6, b: 5, carry:0, sum:11
+[SCB] a: 6, b: 5, carry:0, sum:11
+  --> PASS !  6 +  5 = 11
+[GEN] a: 2, b:14, carry:x, sum: x
+[DRV] a: 2, b:14, carry:x, sum: x
+[MON] a: 2, b:14, carry:1, sum: 0
+[SCB] a: 2, b:14, carry:1, sum: 0
+  --> PASS !  2 + 14 = 16
+[GEN] a: 5, b: 3, carry:x, sum: x
+[DRV] a: 5, b: 3, carry:x, sum: x
+[MON] a: 5, b: 3, carry:0, sum: 8
+[SCB] a: 5, b: 3, carry:0, sum: 8
+  --> PASS !  5 +  3 =  8
+[GEN] a: 5, b:11, carry:x, sum: x
+[DRV] a: 5, b:11, carry:x, sum: x
+[MON] a: 5, b:11, carry:1, sum: 0
+[SCB] a: 5, b:11, carry:1, sum: 0
+  --> PASS !  5 + 11 = 16
+[GEN] a: 9, b: 7, carry:x, sum: x
+[DRV] a: 9, b: 7, carry:x, sum: x
+[MON] a: 9, b: 7, carry:1, sum: 0
+[SCB] a: 9, b: 7, carry:1, sum: 0
+  --> PASS !  9 +  7 = 16
+[GEN] a: 9, b:14, carry:x, sum: x
+[DRV] a: 9, b:14, carry:x, sum: x
+[MON] a: 9, b:14, carry:1, sum: 7
+[SCB] a: 9, b:14, carry:1, sum: 7
+  --> PASS !  9 + 14 = 23
+[GEN] a:11, b:14, carry:x, sum: x
+[DRV] a:11, b:14, carry:x, sum: x
+[MON] a:11, b:14, carry:1, sum: 9
+[SCB] a:11, b:14, carry:1, sum: 9
+  --> PASS ! 11 + 14 = 25
+[GEN] a: 9, b: 4, carry:x, sum: x
+[DRV] a: 9, b: 4, carry:x, sum: x
+[MON] a: 9, b: 4, carry:0, sum:13
+[SCB] a: 9, b: 4, carry:0, sum:13
+  --> PASS !  9 +  4 = 13
+[GEN] a: 5, b: 2, carry:x, sum: x
+[DRV] a: 5, b: 2, carry:x, sum: x
+[MON] a: 5, b: 2, carry:0, sum: 7
+[SCB] a: 5, b: 2, carry:0, sum: 7
+  --> PASS !  5 +  2 =  7
+[GEN] a: 2, b: 0, carry:x, sum: x
+[DRV] a: 2, b: 0, carry:x, sum: x
+[MON] a: 2, b: 0, carry:0, sum: 2
+[SCB] a: 2, b: 0, carry:0, sum: 2
+  --> PASS !  2 +  0 =  2
+[GEN] a: 0, b:11, carry:x, sum: x
+[DRV] a: 0, b:11, carry:x, sum: x
+[MON] a: 0, b:11, carry:0, sum:11
+[SCB] a: 0, b:11, carry:0, sum:11
+  --> PASS !  0 + 11 = 11
+[GEN] a: 4, b: 5, carry:x, sum: x
+[DRV] a: 4, b: 5, carry:x, sum: x
+[MON] a: 4, b: 5, carry:0, sum: 9
+[SCB] a: 4, b: 5, carry:0, sum: 9
+  --> PASS !  4 +  5 =  9
+[GEN] a:13, b: 6, carry:x, sum: x
+[DRV] a:13, b: 6, carry:x, sum: x
+[MON] a:13, b: 6, carry:1, sum: 3
+[SCB] a:13, b: 6, carry:1, sum: 3
+  --> PASS ! 13 +  6 = 19
+[GEN] a: 6, b:13, carry:x, sum: x
+[DRV] a: 6, b:13, carry:x, sum: x
+[MON] a: 6, b:13, carry:1, sum: 3
+[SCB] a: 6, b:13, carry:1, sum: 3
+  --> PASS !  6 + 13 = 19
+[GEN] a: 1, b:10, carry:x, sum: x
+[DRV] a: 1, b:10, carry:x, sum: x
+[MON] a: 1, b:10, carry:0, sum:11
+[SCB] a: 1, b:10, carry:0, sum:11
+  --> PASS !  1 + 10 = 11
+[GEN] a: 2, b:14, carry:x, sum: x
+[DRV] a: 2, b:14, carry:x, sum: x
+[MON] a: 2, b:14, carry:1, sum: 0
+[SCB] a: 2, b:14, carry:1, sum: 0
+  --> PASS !  2 + 14 = 16
+[GEN] a: 1, b: 8, carry:x, sum: x
+[DRV] a: 1, b: 8, carry:x, sum: x
+[MON] a: 1, b: 8, carry:0, sum: 9
+[SCB] a: 1, b: 8, carry:0, sum: 9
+  --> PASS !  1 +  8 =  9
+[GEN] a:11, b: 2, carry:x, sum: x
+[DRV] a:11, b: 2, carry:x, sum: x
+[MON] a:11, b: 2, carry:0, sum:13
+[SCB] a:11, b: 2, carry:0, sum:13
+  --> PASS ! 11 +  2 = 13
+[GEN] a: 3, b:14, carry:x, sum: x
+[DRV] a: 3, b:14, carry:x, sum: x
+[MON] a: 3, b:14, carry:1, sum: 1
+[SCB] a: 3, b:14, carry:1, sum: 1
+  --> PASS !  3 + 14 = 17
+[GEN] a: 1, b: 4, carry:x, sum: x
+[DRV] a: 1, b: 4, carry:x, sum: x
+[MON] a: 1, b: 4, carry:0, sum: 5
+[SCB] a: 1, b: 4, carry:0, sum: 5
+  --> PASS !  1 +  4 =  5
+[GEN] a: 6, b:12, carry:x, sum: x
+[DRV] a: 6, b:12, carry:x, sum: x
+[MON] a: 6, b:12, carry:1, sum: 2
+[SCB] a: 6, b:12, carry:1, sum: 2
+  --> PASS !  6 + 12 = 18
+[GEN] a: 6, b: 9, carry:x, sum: x
+[DRV] a: 6, b: 9, carry:x, sum: x
+[MON] a: 6, b: 9, carry:0, sum:15
+[SCB] a: 6, b: 9, carry:0, sum:15
+  --> PASS !  6 +  9 = 15
+[GEN] a:10, b: 7, carry:x, sum: x
+[DRV] a:10, b: 7, carry:x, sum: x
+[MON] a:10, b: 7, carry:1, sum: 1
+[SCB] a:10, b: 7, carry:1, sum: 1
+  --> PASS ! 10 +  7 = 17
+[GEN] a:13, b: 1, carry:x, sum: x
+[DRV] a:13, b: 1, carry:x, sum: x
+[MON] a:13, b: 1, carry:0, sum:14
+[SCB] a:13, b: 1, carry:0, sum:14
+  --> PASS ! 13 +  1 = 14
+[GEN] a: 4, b: 4, carry:x, sum: x
+[DRV] a: 4, b: 4, carry:x, sum: x
+[MON] a: 4, b: 4, carry:0, sum: 8
+[SCB] a: 4, b: 4, carry:0, sum: 8
+  --> PASS !  4 +  4 =  8
+[GEN] a:10, b:14, carry:x, sum: x
+[DRV] a:10, b:14, carry:x, sum: x
+[MON] a:10, b:14, carry:1, sum: 8
+[SCB] a:10, b:14, carry:1, sum: 8
+  --> PASS ! 10 + 14 = 24
+[GEN] a:11, b: 8, carry:x, sum: x
+[DRV] a:11, b: 8, carry:x, sum: x
+[MON] a:11, b: 8, carry:1, sum: 3
+[SCB] a:11, b: 8, carry:1, sum: 3
+  --> PASS ! 11 +  8 = 19
+[GEN] a:15, b:15, carry:x, sum: x
+[DRV] a:15, b:15, carry:x, sum: x
+[MON] a:15, b:15, carry:1, sum:14
+[SCB] a:15, b:15, carry:1, sum:14
+  --> PASS ! 15 + 15 = 30
+[GEN] a:12, b:10, carry:x, sum: x
+[DRV] a:12, b:10, carry:x, sum: x
+[MON] a:12, b:10, carry:1, sum: 6
+[SCB] a:12, b:10, carry:1, sum: 6
+  --> PASS ! 12 + 10 = 22
+[GEN] a:14, b: 7, carry:x, sum: x
+[DRV] a:14, b: 7, carry:x, sum: x
+[MON] a:14, b: 7, carry:1, sum: 5
+[SCB] a:14, b: 7, carry:1, sum: 5
+  --> PASS ! 14 +  7 = 21
+[GEN] a: 2, b:13, carry:x, sum: x
+[DRV] a: 2, b:13, carry:x, sum: x
+[MON] a: 2, b:13, carry:0, sum:15
+[SCB] a: 2, b:13, carry:0, sum:15
+  --> PASS !  2 + 13 = 15
+[GEN] a: 7, b:14, carry:x, sum: x
+[DRV] a: 7, b:14, carry:x, sum: x
+[MON] a: 7, b:14, carry:1, sum: 5
+[SCB] a: 7, b:14, carry:1, sum: 5
+  --> PASS !  7 + 14 = 21
+[GEN] a: 7, b: 5, carry:x, sum: x
+[DRV] a: 7, b: 5, carry:x, sum: x
+[MON] a: 7, b: 5, carry:0, sum:12
+[SCB] a: 7, b: 5, carry:0, sum:12
+  --> PASS !  7 +  5 = 12
+[GEN] a: 5, b: 9, carry:x, sum: x
+[DRV] a: 5, b: 9, carry:x, sum: x
+[MON] a: 5, b: 9, carry:0, sum:14
+[SCB] a: 5, b: 9, carry:0, sum:14
+  --> PASS !  5 +  9 = 14
+[GEN] a: 2, b:12, carry:x, sum: x
+[DRV] a: 2, b:12, carry:x, sum: x
+[MON] a: 2, b:12, carry:0, sum:14
+[SCB] a: 2, b:12, carry:0, sum:14
+  --> PASS !  2 + 12 = 14
+[GEN] a: 7, b:10, carry:x, sum: x
+[DRV] a: 7, b:10, carry:x, sum: x
+[MON] a: 7, b:10, carry:1, sum: 1
+[SCB] a: 7, b:10, carry:1, sum: 1
+  --> PASS !  7 + 10 = 17
+[GEN] a: 1, b:13, carry:x, sum: x
+[DRV] a: 1, b:13, carry:x, sum: x
+[MON] a: 1, b:13, carry:0, sum:14
+[SCB] a: 1, b:13, carry:0, sum:14
+  --> PASS !  1 + 13 = 14
+[GEN] a: 3, b: 4, carry:x, sum: x
+[DRV] a: 3, b: 4, carry:x, sum: x
+[MON] a: 3, b: 4, carry:0, sum: 7
+[SCB] a: 3, b: 4, carry:0, sum: 7
+  --> PASS !  3 +  4 =  7
+[GEN] a: 9, b:11, carry:x, sum: x
+[DRV] a: 9, b:11, carry:x, sum: x
+[MON] a: 9, b:11, carry:1, sum: 4
+[SCB] a: 9, b:11, carry:1, sum: 4
+  --> PASS !  9 + 11 = 20
+[GEN] a:14, b:11, carry:x, sum: x
+[DRV] a:14, b:11, carry:x, sum: x
+[MON] a:14, b:11, carry:1, sum: 9
+[SCB] a:14, b:11, carry:1, sum: 9
+  --> PASS ! 14 + 11 = 25
+[GEN] a: 8, b: 1, carry:x, sum: x
+[DRV] a: 8, b: 1, carry:x, sum: x
+[MON] a: 8, b: 1, carry:0, sum: 9
+[SCB] a: 8, b: 1, carry:0, sum: 9
+  --> PASS !  8 +  1 =  9
+[GEN] a:15, b: 1, carry:x, sum: x
+[DRV] a:15, b: 1, carry:x, sum: x
+[MON] a:15, b: 1, carry:1, sum: 0
+[SCB] a:15, b: 1, carry:1, sum: 0
+  --> PASS ! 15 +  1 = 16
+[GEN] a:12, b:13, carry:x, sum: x
+[DRV] a:12, b:13, carry:x, sum: x
+[MON] a:12, b:13, carry:1, sum: 9
+[SCB] a:12, b:13, carry:1, sum: 9
+  --> PASS ! 12 + 13 = 25
+[GEN] a:12, b: 4, carry:x, sum: x
+[DRV] a:12, b: 4, carry:x, sum: x
+[MON] a:12, b: 4, carry:1, sum: 0
+[SCB] a:12, b: 4, carry:1, sum: 0
+  --> PASS ! 12 +  4 = 16
+[GEN] a:14, b:11, carry:x, sum: x
+[DRV] a:14, b:11, carry:x, sum: x
+[MON] a:14, b:11, carry:1, sum: 9
+[SCB] a:14, b:11, carry:1, sum: 9
+  --> PASS ! 14 + 11 = 25
+[GEN] a: 6, b:11, carry:x, sum: x
+[DRV] a: 6, b:11, carry:x, sum: x
+[MON] a: 6, b:11, carry:1, sum: 1
+[SCB] a: 6, b:11, carry:1, sum: 1
+  --> PASS !  6 + 11 = 17
+[GEN] a: 8, b: 2, carry:x, sum: x
+[DRV] a: 8, b: 2, carry:x, sum: x
+[MON] a: 8, b: 2, carry:0, sum:10
+[SCB] a: 8, b: 2, carry:0, sum:10
+  --> PASS !  8 +  2 = 10
+[GEN] a:15, b: 7, carry:x, sum: x
+[DRV] a:15, b: 7, carry:x, sum: x
+[MON] a:15, b: 7, carry:1, sum: 6
+[SCB] a:15, b: 7, carry:1, sum: 6
+  --> PASS ! 15 +  7 = 22
+[GEN] a:14, b: 5, carry:x, sum: x
+[DRV] a:14, b: 5, carry:x, sum: x
+[MON] a:14, b: 5, carry:1, sum: 3
+[SCB] a:14, b: 5, carry:1, sum: 3
+  --> PASS ! 14 +  5 = 19
+[GEN] a: 2, b: 6, carry:x, sum: x
+[DRV] a: 2, b: 6, carry:x, sum: x
+[MON] a: 2, b: 6, carry:0, sum: 8
+[SCB] a: 2, b: 6, carry:0, sum: 8
+  --> PASS !  2 +  6 =  8
+[GEN] a: 8, b: 1, carry:x, sum: x
+[DRV] a: 8, b: 1, carry:x, sum: x
+[MON] a: 8, b: 1, carry:0, sum: 9
+[SCB] a: 8, b: 1, carry:0, sum: 9
+  --> PASS !  8 +  1 =  9
+[GEN] a:13, b: 6, carry:x, sum: x
+[DRV] a:13, b: 6, carry:x, sum: x
+[MON] a:13, b: 6, carry:1, sum: 3
+[SCB] a:13, b: 6, carry:1, sum: 3
+  --> PASS ! 13 +  6 = 19
+[GEN] a: 7, b:15, carry:x, sum: x
+[DRV] a: 7, b:15, carry:x, sum: x
+[MON] a: 7, b:15, carry:1, sum: 6
+[SCB] a: 7, b:15, carry:1, sum: 6
+  --> PASS !  7 + 15 = 22
+[GEN] a:12, b:15, carry:x, sum: x
+[DRV] a:12, b:15, carry:x, sum: x
+[MON] a:12, b:15, carry:1, sum:11
+[SCB] a:12, b:15, carry:1, sum:11
+  --> PASS ! 12 + 15 = 27
+[GEN] a: 1, b:10, carry:x, sum: x
+[DRV] a: 1, b:10, carry:x, sum: x
+[MON] a: 1, b:10, carry:0, sum:11
+[SCB] a: 1, b:10, carry:0, sum:11
+  --> PASS !  1 + 10 = 11
+[GEN] a: 5, b: 8, carry:x, sum: x
+[DRV] a: 5, b: 8, carry:x, sum: x
+[MON] a: 5, b: 8, carry:0, sum:13
+[SCB] a: 5, b: 8, carry:0, sum:13
+  --> PASS !  5 +  8 = 13
+[GEN] a: 9, b: 1, carry:x, sum: x
+[DRV] a: 9, b: 1, carry:x, sum: x
+[MON] a: 9, b: 1, carry:0, sum:10
+[SCB] a: 9, b: 1, carry:0, sum:10
+  --> PASS !  9 +  1 = 10
+[GEN] a: 7, b:10, carry:x, sum: x
+[DRV] a: 7, b:10, carry:x, sum: x
+[MON] a: 7, b:10, carry:1, sum: 1
+[SCB] a: 7, b:10, carry:1, sum: 1
+  --> PASS !  7 + 10 = 17
+[GEN] a:11, b:12, carry:x, sum: x
+[DRV] a:11, b:12, carry:x, sum: x
+[MON] a:11, b:12, carry:1, sum: 7
+[SCB] a:11, b:12, carry:1, sum: 7
+  --> PASS ! 11 + 12 = 23
+[GEN] a: 2, b: 5, carry:x, sum: x
+[DRV] a: 2, b: 5, carry:x, sum: x
+[MON] a: 2, b: 5, carry:0, sum: 7
+[SCB] a: 2, b: 5, carry:0, sum: 7
+  --> PASS !  2 +  5 =  7
+[GEN] a:13, b: 9, carry:x, sum: x
+[DRV] a:13, b: 9, carry:x, sum: x
+[MON] a:13, b: 9, carry:1, sum: 6
+[SCB] a:13, b: 9, carry:1, sum: 6
+  --> PASS ! 13 +  9 = 22
+[GEN] a:15, b: 9, carry:x, sum: x
+[DRV] a:15, b: 9, carry:x, sum: x
+[MON] a:15, b: 9, carry:1, sum: 8
+[SCB] a:15, b: 9, carry:1, sum: 8
+  --> PASS ! 15 +  9 = 24
+[GEN] a: 5, b: 2, carry:x, sum: x
+[DRV] a: 5, b: 2, carry:x, sum: x
+[MON] a: 5, b: 2, carry:0, sum: 7
+[SCB] a: 5, b: 2, carry:0, sum: 7
+  --> PASS !  5 +  2 =  7
+[GEN] a:14, b: 3, carry:x, sum: x
+[DRV] a:14, b: 3, carry:x, sum: x
+[MON] a:14, b: 3, carry:1, sum: 1
+[SCB] a:14, b: 3, carry:1, sum: 1
+  --> PASS ! 14 +  3 = 17
+[GEN] a:11, b:13, carry:x, sum: x
+[DRV] a:11, b:13, carry:x, sum: x
+[MON] a:11, b:13, carry:1, sum: 8
+[SCB] a:11, b:13, carry:1, sum: 8
+  --> PASS ! 11 + 13 = 24
+[GEN] a:12, b: 1, carry:x, sum: x
+[DRV] a:12, b: 1, carry:x, sum: x
+[MON] a:12, b: 1, carry:0, sum:13
+[SCB] a:12, b: 1, carry:0, sum:13
+  --> PASS ! 12 +  1 = 13
+[GEN] a:15, b:10, carry:x, sum: x
+[DRV] a:15, b:10, carry:x, sum: x
+[MON] a:15, b:10, carry:1, sum: 9
+[SCB] a:15, b:10, carry:1, sum: 9
+  --> PASS ! 15 + 10 = 25
+[GEN] a: 4, b:11, carry:x, sum: x
+[DRV] a: 4, b:11, carry:x, sum: x
+[MON] a: 4, b:11, carry:0, sum:15
+[SCB] a: 4, b:11, carry:0, sum:15
+  --> PASS !  4 + 11 = 15
+[GEN] a: 7, b: 0, carry:x, sum: x
+[DRV] a: 7, b: 0, carry:x, sum: x
+[MON] a: 7, b: 0, carry:0, sum: 7
+[SCB] a: 7, b: 0, carry:0, sum: 7
+  --> PASS !  7 +  0 =  7
+[GEN] a:12, b: 7, carry:x, sum: x
+[DRV] a:12, b: 7, carry:x, sum: x
+[MON] a:12, b: 7, carry:1, sum: 3
+[SCB] a:12, b: 7, carry:1, sum: 3
+  --> PASS ! 12 +  7 = 19
+[GEN] a:10, b: 0, carry:x, sum: x
+[DRV] a:10, b: 0, carry:x, sum: x
+[MON] a:10, b: 0, carry:0, sum:10
+[SCB] a:10, b: 0, carry:0, sum:10
+  --> PASS ! 10 +  0 = 10
+[GEN] a: 2, b: 1, carry:x, sum: x
+[DRV] a: 2, b: 1, carry:x, sum: x
+[MON] a: 2, b: 1, carry:0, sum: 3
+[SCB] a: 2, b: 1, carry:0, sum: 3
+  --> PASS !  2 +  1 =  3
+[GEN] a: 0, b:14, carry:x, sum: x
+[DRV] a: 0, b:14, carry:x, sum: x
+[MON] a: 0, b:14, carry:0, sum:14
+[SCB] a: 0, b:14, carry:0, sum:14
+  --> PASS !  0 + 14 = 14
+[GEN] a: 8, b:10, carry:x, sum: x
+[DRV] a: 8, b:10, carry:x, sum: x
+[MON] a: 8, b:10, carry:1, sum: 2
+[SCB] a: 8, b:10, carry:1, sum: 2
+  --> PASS !  8 + 10 = 18
+[GEN] a:14, b:10, carry:x, sum: x
+[DRV] a:14, b:10, carry:x, sum: x
+[MON] a:14, b:10, carry:1, sum: 8
+[SCB] a:14, b:10, carry:1, sum: 8
+  --> PASS ! 14 + 10 = 24
+[GEN] a:11, b:14, carry:x, sum: x
+[DRV] a:11, b:14, carry:x, sum: x
+[MON] a:11, b:14, carry:1, sum: 9
+[SCB] a:11, b:14, carry:1, sum: 9
+  --> PASS ! 11 + 14 = 25
+[GEN] a: 8, b: 4, carry:x, sum: x
+[DRV] a: 8, b: 4, carry:x, sum: x
+[MON] a: 8, b: 4, carry:0, sum:12
+[SCB] a: 8, b: 4, carry:0, sum:12
+  --> PASS !  8 +  4 = 12
+[GEN] a: 8, b: 6, carry:x, sum: x
+[DRV] a: 8, b: 6, carry:x, sum: x
+[MON] a: 8, b: 6, carry:0, sum:14
+[SCB] a: 8, b: 6, carry:0, sum:14
+  --> PASS !  8 +  6 = 14
+[GEN] a:14, b: 3, carry:x, sum: x
+[DRV] a:14, b: 3, carry:x, sum: x
+[MON] a:14, b: 3, carry:1, sum: 1
+[SCB] a:14, b: 3, carry:1, sum: 1
+  --> PASS ! 14 +  3 = 17
+[GEN] a: 4, b: 7, carry:x, sum: x
+[DRV] a: 4, b: 7, carry:x, sum: x
+[MON] a: 4, b: 7, carry:0, sum:11
+[SCB] a: 4, b: 7, carry:0, sum:11
+  --> PASS !  4 +  7 = 11
+[GEN] a: 7, b:12, carry:x, sum: x
+[DRV] a: 7, b:12, carry:x, sum: x
+[MON] a: 7, b:12, carry:1, sum: 3
+[SCB] a: 7, b:12, carry:1, sum: 3
+  --> PASS !  7 + 12 = 19
+[GEN] a:13, b: 6, carry:x, sum: x
+[DRV] a:13, b: 6, carry:x, sum: x
+[MON] a:13, b: 6, carry:1, sum: 3
+[SCB] a:13, b: 6, carry:1, sum: 3
+  --> PASS ! 13 +  6 = 19
+[GEN] a: 0, b: 2, carry:x, sum: x
+[DRV] a: 0, b: 2, carry:x, sum: x
+[MON] a: 0, b: 2, carry:0, sum: 2
+[SCB] a: 0, b: 2, carry:0, sum: 2
+  --> PASS !  0 +  2 =  2
+[GEN] a:13, b: 7, carry:x, sum: x
+[DRV] a:13, b: 7, carry:x, sum: x
+[MON] a:13, b: 7, carry:1, sum: 4
+[SCB] a:13, b: 7, carry:1, sum: 4
+  --> PASS ! 13 +  7 = 20
+[GEN] a:14, b:10, carry:x, sum: x
+[DRV] a:14, b:10, carry:x, sum: x
+[MON] a:14, b:10, carry:1, sum: 8
+[SCB] a:14, b:10, carry:1, sum: 8
+  --> PASS ! 14 + 10 = 24
+[GEN] a:13, b:14, carry:x, sum: x
+[DRV] a:13, b:14, carry:x, sum: x
+[MON] a:13, b:14, carry:1, sum:11
+[SCB] a:13, b:14, carry:1, sum:11
+  --> PASS ! 13 + 14 = 27
+[GEN] a:12, b:10, carry:x, sum: x
+[DRV] a:12, b:10, carry:x, sum: x
+[MON] a:12, b:10, carry:1, sum: 6
+[SCB] a:12, b:10, carry:1, sum: 6
+  --> PASS ! 12 + 10 = 22
+[GEN] a: 6, b:11, carry:x, sum: x
+[DRV] a: 6, b:11, carry:x, sum: x
+[MON] a: 6, b:11, carry:1, sum: 1
+[SCB] a: 6, b:11, carry:1, sum: 1
+  --> PASS !  6 + 11 = 17
+[GEN] a: 5, b: 3, carry:x, sum: x
+[DRV] a: 5, b: 3, carry:x, sum: x
+[MON] a: 5, b: 3, carry:0, sum: 8
+[SCB] a: 5, b: 3, carry:0, sum: 8
+  --> PASS !  5 +  3 =  8
+[GEN] a: 9, b: 1, carry:x, sum: x
+[DRV] a: 9, b: 1, carry:x, sum: x
+[MON] a: 9, b: 1, carry:0, sum:10
+[SCB] a: 9, b: 1, carry:0, sum:10
+  --> PASS !  9 +  1 = 10
+[GEN] a:14, b:15, carry:x, sum: x
+[DRV] a:14, b:15, carry:x, sum: x
+[MON] a:14, b:15, carry:1, sum:13
+[SCB] a:14, b:15, carry:1, sum:13
+  --> PASS ! 14 + 15 = 29
+[GEN] a:12, b: 3, carry:x, sum: x
+[DRV] a:12, b: 3, carry:x, sum: x
+[MON] a:12, b: 3, carry:0, sum:15
+[SCB] a:12, b: 3, carry:0, sum:15
+  --> PASS ! 12 +  3 = 15
+[GEN] a: 3, b: 6, carry:x, sum: x
+[DRV] a: 3, b: 6, carry:x, sum: x
+[MON] a: 3, b: 6, carry:0, sum: 9
+[SCB] a: 3, b: 6, carry:0, sum: 9
+  --> PASS !  3 +  6 =  9
+[GEN] a: 4, b: 1, carry:x, sum: x
+[DRV] a: 4, b: 1, carry:x, sum: x
+[MON] a: 4, b: 1, carry:0, sum: 5
+[SCB] a: 4, b: 1, carry:0, sum: 5
+  --> PASS !  4 +  1 =  5
+[GEN] a: 5, b: 1, carry:x, sum: x
+[DRV] a: 5, b: 1, carry:x, sum: x
+[MON] a: 5, b: 1, carry:0, sum: 6
+[SCB] a: 5, b: 1, carry:0, sum: 6
+  --> PASS !  5 +  1 =  6
+[GEN] a: 4, b: 8, carry:x, sum: x
+[DRV] a: 4, b: 8, carry:x, sum: x
+[MON] a: 4, b: 8, carry:0, sum:12
+[SCB] a: 4, b: 8, carry:0, sum:12
+  --> PASS !  4 +  8 = 12
+[GEN] a: 7, b: 8, carry:x, sum: x
+[DRV] a: 7, b: 8, carry:x, sum: x
+[MON] a: 7, b: 8, carry:0, sum:15
+[SCB] a: 7, b: 8, carry:0, sum:15
+  --> PASS !  7 +  8 = 15
+[GEN] a: 9, b:12, carry:x, sum: x
+[DRV] a: 9, b:12, carry:x, sum: x
+[MON] a: 9, b:12, carry:1, sum: 5
+[SCB] a: 9, b:12, carry:1, sum: 5
+  --> PASS !  9 + 12 = 21
+[GEN] a: 9, b:13, carry:x, sum: x
+[DRV] a: 9, b:13, carry:x, sum: x
+[MON] a: 9, b:13, carry:1, sum: 6
+[SCB] a: 9, b:13, carry:1, sum: 6
+  --> PASS !  9 + 13 = 22
+[GEN] a: 5, b: 0, carry:x, sum: x
+[DRV] a: 5, b: 0, carry:x, sum: x
+[MON] a: 5, b: 0, carry:0, sum: 5
+[SCB] a: 5, b: 0, carry:0, sum: 5
+  --> PASS !  5 +  0 =  5
+[GEN] a: 6, b:14, carry:x, sum: x
+[DRV] a: 6, b:14, carry:x, sum: x
+[MON] a: 6, b:14, carry:1, sum: 4
+[SCB] a: 6, b:14, carry:1, sum: 4
+  --> PASS !  6 + 14 = 20
+[GEN] a:13, b:15, carry:x, sum: x
+[DRV] a:13, b:15, carry:x, sum: x
+[MON] a:13, b:15, carry:1, sum:12
+[SCB] a:13, b:15, carry:1, sum:12
+  --> PASS ! 13 + 15 = 28
+[GEN] a:12, b: 2, carry:x, sum: x
+[DRV] a:12, b: 2, carry:x, sum: x
+[MON] a:12, b: 2, carry:0, sum:14
+[SCB] a:12, b: 2, carry:0, sum:14
+  --> PASS ! 12 +  2 = 14
+[GEN] a: 0, b: 2, carry:x, sum: x
+[DRV] a: 0, b: 2, carry:x, sum: x
+[MON] a: 0, b: 2, carry:0, sum: 2
+[SCB] a: 0, b: 2, carry:0, sum: 2
+  --> PASS !  0 +  2 =  2
+[GEN] a: 0, b:13, carry:x, sum: x
+[DRV] a: 0, b:13, carry:x, sum: x
+[MON] a: 0, b:13, carry:0, sum:13
+[SCB] a: 0, b:13, carry:0, sum:13
+  --> PASS !  0 + 13 = 13
+[GEN] a: 1, b:12, carry:x, sum: x
+[DRV] a: 1, b:12, carry:x, sum: x
+[MON] a: 1, b:12, carry:0, sum:13
+[SCB] a: 1, b:12, carry:0, sum:13
+  --> PASS !  1 + 12 = 13
+[GEN] a:15, b: 1, carry:x, sum: x
+[DRV] a:15, b: 1, carry:x, sum: x
+[MON] a:15, b: 1, carry:1, sum: 0
+[SCB] a:15, b: 1, carry:1, sum: 0
+  --> PASS ! 15 +  1 = 16
+[GEN] a:14, b:15, carry:x, sum: x
+[DRV] a:14, b:15, carry:x, sum: x
+[MON] a:14, b:15, carry:1, sum:13
+[SCB] a:14, b:15, carry:1, sum:13
+  --> PASS ! 14 + 15 = 29
+[GEN] a:14, b: 0, carry:x, sum: x
+[DRV] a:14, b: 0, carry:x, sum: x
+[MON] a:14, b: 0, carry:0, sum:14
+[SCB] a:14, b: 0, carry:0, sum:14
+  --> PASS ! 14 +  0 = 14
+[GEN] a:12, b:13, carry:x, sum: x
+[DRV] a:12, b:13, carry:x, sum: x
+[MON] a:12, b:13, carry:1, sum: 9
+[SCB] a:12, b:13, carry:1, sum: 9
+  --> PASS ! 12 + 13 = 25
+[GEN] a: 1, b:10, carry:x, sum: x
+[DRV] a: 1, b:10, carry:x, sum: x
+[MON] a: 1, b:10, carry:0, sum:11
+[SCB] a: 1, b:10, carry:0, sum:11
+  --> PASS !  1 + 10 = 11
+[GEN] a:13, b: 0, carry:x, sum: x
+[DRV] a:13, b: 0, carry:x, sum: x
+[MON] a:13, b: 0, carry:0, sum:13
+[SCB] a:13, b: 0, carry:0, sum:13
+  --> PASS ! 13 +  0 = 13
+[GEN] a:10, b: 9, carry:x, sum: x
+[DRV] a:10, b: 9, carry:x, sum: x
+[MON] a:10, b: 9, carry:1, sum: 3
+[SCB] a:10, b: 9, carry:1, sum: 3
+  --> PASS ! 10 +  9 = 19
+[GEN] a:13, b:12, carry:x, sum: x
+[DRV] a:13, b:12, carry:x, sum: x
+[MON] a:13, b:12, carry:1, sum: 9
+[SCB] a:13, b:12, carry:1, sum: 9
+  --> PASS ! 13 + 12 = 25
+[GEN] a: 3, b:10, carry:x, sum: x
+[DRV] a: 3, b:10, carry:x, sum: x
+[MON] a: 3, b:10, carry:0, sum:13
+[SCB] a: 3, b:10, carry:0, sum:13
+  --> PASS !  3 + 10 = 13
+[GEN] a:12, b:14, carry:x, sum: x
+[DRV] a:12, b:14, carry:x, sum: x
+[MON] a:12, b:14, carry:1, sum:10
+[SCB] a:12, b:14, carry:1, sum:10
+  --> PASS ! 12 + 14 = 26
+[GEN] a: 3, b: 9, carry:x, sum: x
+[DRV] a: 3, b: 9, carry:x, sum: x
+[MON] a: 3, b: 9, carry:0, sum:12
+[SCB] a: 3, b: 9, carry:0, sum:12
+  --> PASS !  3 +  9 = 12
+[GEN] a:10, b: 7, carry:x, sum: x
+[DRV] a:10, b: 7, carry:x, sum: x
+[MON] a:10, b: 7, carry:1, sum: 1
+[SCB] a:10, b: 7, carry:1, sum: 1
+  --> PASS ! 10 +  7 = 17
+[GEN] a: 4, b: 6, carry:x, sum: x
+[DRV] a: 4, b: 6, carry:x, sum: x
+[MON] a: 4, b: 6, carry:0, sum:10
+[SCB] a: 4, b: 6, carry:0, sum:10
+  --> PASS !  4 +  6 = 10
+[GEN] a: 5, b: 7, carry:x, sum: x
+[DRV] a: 5, b: 7, carry:x, sum: x
+[MON] a: 5, b: 7, carry:0, sum:12
+[SCB] a: 5, b: 7, carry:0, sum:12
+  --> PASS !  5 +  7 = 12
+[GEN] a:15, b:15, carry:x, sum: x
+[DRV] a:15, b:15, carry:x, sum: x
+[MON] a:15, b:15, carry:1, sum:14
+[SCB] a:15, b:15, carry:1, sum:14
+  --> PASS ! 15 + 15 = 30
+[GEN] a:14, b: 3, carry:x, sum: x
+[DRV] a:14, b: 3, carry:x, sum: x
+[MON] a:14, b: 3, carry:1, sum: 1
+[SCB] a:14, b: 3, carry:1, sum: 1
+  --> PASS ! 14 +  3 = 17
+[GEN] a: 5, b: 3, carry:x, sum: x
+[DRV] a: 5, b: 3, carry:x, sum: x
+[MON] a: 5, b: 3, carry:0, sum: 8
+[SCB] a: 5, b: 3, carry:0, sum: 8
+  --> PASS !  5 +  3 =  8
+[GEN] a:11, b: 4, carry:x, sum: x
+[DRV] a:11, b: 4, carry:x, sum: x
+[MON] a:11, b: 4, carry:0, sum:15
+[SCB] a:11, b: 4, carry:0, sum:15
+  --> PASS ! 11 +  4 = 15
+[GEN] a: 2, b: 9, carry:x, sum: x
+[DRV] a: 2, b: 9, carry:x, sum: x
+[MON] a: 2, b: 9, carry:0, sum:11
+[SCB] a: 2, b: 9, carry:0, sum:11
+  --> PASS !  2 +  9 = 11
+[GEN] a: 8, b: 7, carry:x, sum: x
+[DRV] a: 8, b: 7, carry:x, sum: x
+[MON] a: 8, b: 7, carry:0, sum:15
+[SCB] a: 8, b: 7, carry:0, sum:15
+  --> PASS !  8 +  7 = 15
+[GEN] a:13, b: 3, carry:x, sum: x
+[DRV] a:13, b: 3, carry:x, sum: x
+[MON] a:13, b: 3, carry:1, sum: 0
+[SCB] a:13, b: 3, carry:1, sum: 0
+  --> PASS ! 13 +  3 = 16
+[GEN] a:12, b:15, carry:x, sum: x
+[DRV] a:12, b:15, carry:x, sum: x
+[MON] a:12, b:15, carry:1, sum:11
+[SCB] a:12, b:15, carry:1, sum:11
+  --> PASS ! 12 + 15 = 27
+[GEN] a:12, b: 4, carry:x, sum: x
+[DRV] a:12, b: 4, carry:x, sum: x
+[MON] a:12, b: 4, carry:1, sum: 0
+[SCB] a:12, b: 4, carry:1, sum: 0
+  --> PASS ! 12 +  4 = 16
+[GEN] a: 7, b: 9, carry:x, sum: x
+[DRV] a: 7, b: 9, carry:x, sum: x
+[MON] a: 7, b: 9, carry:1, sum: 0
+[SCB] a: 7, b: 9, carry:1, sum: 0
+  --> PASS !  7 +  9 = 16
+[GEN] a: 7, b: 3, carry:x, sum: x
+[DRV] a: 7, b: 3, carry:x, sum: x
+[MON] a: 7, b: 3, carry:0, sum:10
+[SCB] a: 7, b: 3, carry:0, sum:10
+  --> PASS !  7 +  3 = 10
+[GEN] a: 9, b: 3, carry:x, sum: x
+[DRV] a: 9, b: 3, carry:x, sum: x
+[MON] a: 9, b: 3, carry:0, sum:12
+[SCB] a: 9, b: 3, carry:0, sum:12
+  --> PASS !  9 +  3 = 12
+[GEN] a: 7, b: 0, carry:x, sum: x
+[DRV] a: 7, b: 0, carry:x, sum: x
+[MON] a: 7, b: 0, carry:0, sum: 7
+[SCB] a: 7, b: 0, carry:0, sum: 7
+  --> PASS !  7 +  0 =  7
+[GEN] a:13, b:14, carry:x, sum: x
+[DRV] a:13, b:14, carry:x, sum: x
+[MON] a:13, b:14, carry:1, sum:11
+[SCB] a:13, b:14, carry:1, sum:11
+  --> PASS ! 13 + 14 = 27
+[GEN] a: 3, b: 6, carry:x, sum: x
+[DRV] a: 3, b: 6, carry:x, sum: x
+[MON] a: 3, b: 6, carry:0, sum: 9
+[SCB] a: 3, b: 6, carry:0, sum: 9
+  --> PASS !  3 +  6 =  9
+[GEN] a: 1, b:10, carry:x, sum: x
+[DRV] a: 1, b:10, carry:x, sum: x
+[MON] a: 1, b:10, carry:0, sum:11
+[SCB] a: 1, b:10, carry:0, sum:11
+  --> PASS !  1 + 10 = 11
+[GEN] a: 6, b:14, carry:x, sum: x
+[DRV] a: 6, b:14, carry:x, sum: x
+[MON] a: 6, b:14, carry:1, sum: 4
+[SCB] a: 6, b:14, carry:1, sum: 4
+  --> PASS !  6 + 14 = 20
+[GEN] a: 8, b: 9, carry:x, sum: x
+[DRV] a: 8, b: 9, carry:x, sum: x
+[MON] a: 8, b: 9, carry:1, sum: 1
+[SCB] a: 8, b: 9, carry:1, sum: 1
+  --> PASS !  8 +  9 = 17
+[GEN] a: 4, b: 9, carry:x, sum: x
+[DRV] a: 4, b: 9, carry:x, sum: x
+[MON] a: 4, b: 9, carry:0, sum:13
+[SCB] a: 4, b: 9, carry:0, sum:13
+  --> PASS !  4 +  9 = 13
+[GEN] a: 3, b:10, carry:x, sum: x
+[DRV] a: 3, b:10, carry:x, sum: x
+[MON] a: 3, b:10, carry:0, sum:13
+[SCB] a: 3, b:10, carry:0, sum:13
+  --> PASS !  3 + 10 = 13
+[GEN] a: 8, b:11, carry:x, sum: x
+[DRV] a: 8, b:11, carry:x, sum: x
+[MON] a: 8, b:11, carry:1, sum: 3
+[SCB] a: 8, b:11, carry:1, sum: 3
+  --> PASS !  8 + 11 = 19
+[GEN] a: 3, b:12, carry:x, sum: x
+[DRV] a: 3, b:12, carry:x, sum: x
+[MON] a: 3, b:12, carry:0, sum:15
+[SCB] a: 3, b:12, carry:0, sum:15
+  --> PASS !  3 + 12 = 15
+[GEN] a: 4, b: 6, carry:x, sum: x
+[DRV] a: 4, b: 6, carry:x, sum: x
+[MON] a: 4, b: 6, carry:0, sum:10
+[SCB] a: 4, b: 6, carry:0, sum:10
+  --> PASS !  4 +  6 = 10
+[GEN] a: 7, b:12, carry:x, sum: x
+[DRV] a: 7, b:12, carry:x, sum: x
+[MON] a: 7, b:12, carry:1, sum: 3
+[SCB] a: 7, b:12, carry:1, sum: 3
+  --> PASS !  7 + 12 = 19
+[GEN] a: 1, b:10, carry:x, sum: x
+[DRV] a: 1, b:10, carry:x, sum: x
+[MON] a: 1, b:10, carry:0, sum:11
+[SCB] a: 1, b:10, carry:0, sum:11
+  --> PASS !  1 + 10 = 11
+[GEN] a: 9, b: 6, carry:x, sum: x
+[DRV] a: 9, b: 6, carry:x, sum: x
+[MON] a: 9, b: 6, carry:0, sum:15
+[SCB] a: 9, b: 6, carry:0, sum:15
+  --> PASS !  9 +  6 = 15
+[GEN] a: 1, b: 0, carry:x, sum: x
+[DRV] a: 1, b: 0, carry:x, sum: x
+[MON] a: 1, b: 0, carry:0, sum: 1
+[SCB] a: 1, b: 0, carry:0, sum: 1
+  --> PASS !  1 +  0 =  1
+[GEN] a: 2, b: 2, carry:x, sum: x
+[DRV] a: 2, b: 2, carry:x, sum: x
+[MON] a: 2, b: 2, carry:0, sum: 4
+[SCB] a: 2, b: 2, carry:0, sum: 4
+  --> PASS !  2 +  2 =  4
+[GEN] a:10, b:11, carry:x, sum: x
+[DRV] a:10, b:11, carry:x, sum: x
+[MON] a:10, b:11, carry:1, sum: 5
+[SCB] a:10, b:11, carry:1, sum: 5
+  --> PASS ! 10 + 11 = 21
+[GEN] a: 8, b:11, carry:x, sum: x
+[DRV] a: 8, b:11, carry:x, sum: x
+[MON] a: 8, b:11, carry:1, sum: 3
+[SCB] a: 8, b:11, carry:1, sum: 3
+  --> PASS !  8 + 11 = 19
+[GEN] a:11, b:11, carry:x, sum: x
+[DRV] a:11, b:11, carry:x, sum: x
+[MON] a:11, b:11, carry:1, sum: 6
+[SCB] a:11, b:11, carry:1, sum: 6
+  --> PASS ! 11 + 11 = 22
+[GEN] a:14, b: 6, carry:x, sum: x
+[DRV] a:14, b: 6, carry:x, sum: x
+[MON] a:14, b: 6, carry:1, sum: 4
+[SCB] a:14, b: 6, carry:1, sum: 4
+  --> PASS ! 14 +  6 = 20
+[GEN] a: 6, b: 6, carry:x, sum: x
+[DRV] a: 6, b: 6, carry:x, sum: x
+[MON] a: 6, b: 6, carry:0, sum:12
+[SCB] a: 6, b: 6, carry:0, sum:12
+  --> PASS !  6 +  6 = 12
+[GEN] a: 1, b: 2, carry:x, sum: x
+[DRV] a: 1, b: 2, carry:x, sum: x
+[MON] a: 1, b: 2, carry:0, sum: 3
+[SCB] a: 1, b: 2, carry:0, sum: 3
+  --> PASS !  1 +  2 =  3
+[GEN] a: 1, b:15, carry:x, sum: x
+[DRV] a: 1, b:15, carry:x, sum: x
+[MON] a: 1, b:15, carry:1, sum: 0
+[SCB] a: 1, b:15, carry:1, sum: 0
+  --> PASS !  1 + 15 = 16
+[GEN] a: 8, b: 8, carry:x, sum: x
+[DRV] a: 8, b: 8, carry:x, sum: x
+[MON] a: 8, b: 8, carry:1, sum: 0
+[SCB] a: 8, b: 8, carry:1, sum: 0
+  --> PASS !  8 +  8 = 16
+[GEN] a: 6, b: 9, carry:x, sum: x
+[DRV] a: 6, b: 9, carry:x, sum: x
+[MON] a: 6, b: 9, carry:0, sum:15
+[SCB] a: 6, b: 9, carry:0, sum:15
+  --> PASS !  6 +  9 = 15
+[GEN] a:10, b: 7, carry:x, sum: x
+[DRV] a:10, b: 7, carry:x, sum: x
+[MON] a:10, b: 7, carry:1, sum: 1
+[SCB] a:10, b: 7, carry:1, sum: 1
+  --> PASS ! 10 +  7 = 17
+[GEN] a: 9, b: 2, carry:x, sum: x
+[DRV] a: 9, b: 2, carry:x, sum: x
+[MON] a: 9, b: 2, carry:0, sum:11
+[SCB] a: 9, b: 2, carry:0, sum:11
+  --> PASS !  9 +  2 = 11
+[GEN] a:15, b:15, carry:x, sum: x
+[DRV] a:15, b:15, carry:x, sum: x
+[MON] a:15, b:15, carry:1, sum:14
+[SCB] a:15, b:15, carry:1, sum:14
+  --> PASS ! 15 + 15 = 30
+[GEN] a:11, b: 9, carry:x, sum: x
+[DRV] a:11, b: 9, carry:x, sum: x
+[MON] a:11, b: 9, carry:1, sum: 4
+[SCB] a:11, b: 9, carry:1, sum: 4
+  --> PASS ! 11 +  9 = 20
+[GEN] a: 6, b: 4, carry:x, sum: x
+[DRV] a: 6, b: 4, carry:x, sum: x
+[MON] a: 6, b: 4, carry:0, sum:10
+[SCB] a: 6, b: 4, carry:0, sum:10
+  --> PASS !  6 +  4 = 10
+[GEN] a:11, b: 6, carry:x, sum: x
+[DRV] a:11, b: 6, carry:x, sum: x
+[MON] a:11, b: 6, carry:1, sum: 1
+[SCB] a:11, b: 6, carry:1, sum: 1
+  --> PASS ! 11 +  6 = 17
+[GEN] a: 3, b: 7, carry:x, sum: x
+[DRV] a: 3, b: 7, carry:x, sum: x
+[MON] a: 3, b: 7, carry:0, sum:10
+[SCB] a: 3, b: 7, carry:0, sum:10
+  --> PASS !  3 +  7 = 10
+[GEN] a:15, b:10, carry:x, sum: x
+[DRV] a:15, b:10, carry:x, sum: x
+[MON] a:15, b:10, carry:1, sum: 9
+[SCB] a:15, b:10, carry:1, sum: 9
+  --> PASS ! 15 + 10 = 25
+[GEN] a:11, b:11, carry:x, sum: x
+[DRV] a:11, b:11, carry:x, sum: x
+[MON] a:11, b:11, carry:1, sum: 6
+[SCB] a:11, b:11, carry:1, sum: 6
+  --> PASS ! 11 + 11 = 22
+==============================
+==       Final Report       ==
+==============================
+Total Test :        1000
+Pass Count :        1000
+Fail Count :           0
+==============================
+==  test bench is finished  ==
+==============================
+$finish called at time : 20055 ns : File "D:/ish/verilog/vivadoWS/20240521_SV_Adder/20240521_SV_Adder.srcs/sim_1/new/tb_adder.sv" Line 203

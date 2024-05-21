@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../240521_16bit_register_verification.srcs/sources_1/new/16bit_register.v" \
+
+sv xil_defaultlib  \
+"../../../../240521_16bit_register_verification.srcs/sim_1/new/tb_16bit_register.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

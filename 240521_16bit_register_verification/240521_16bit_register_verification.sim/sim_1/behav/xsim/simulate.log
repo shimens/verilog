@@ -1,0 +1,46 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+[GEN] : 31807
+[DRV] : 31807
+[MON] : 31807
+[SCB] : 31807
+[GEN] : 40792
+[DRV] : 40792
+[MON] : 40792
+[SCB] : 40792
+[GEN] : 33843
+[DRV] : 33843
+[MON] : 33843
+[SCB] : 33843
+[GEN] : 48181
+[DRV] : 48181
+[MON] : 48181
+[SCB] : 48181
+[GEN] : 65291
+[DRV] : 65291
+[MON] : 65291
+[SCB] : 65291
+[GEN] :  5848
+[DRV] :  5848
+[MON] :  5848
+[SCB] :  5848
+[GEN] : 16429
+[DRV] : 16429
+[MON] : 16429
+[SCB] : 16429
+[GEN] : 31562
+[DRV] : 31562
+[MON] : 31562
+[SCB] : 31562
+[GEN] : 46640
+[DRV] : 46640
+[MON] : 46640
+[SCB] : 46640
+[GEN] : 50273
+[DRV] : 50273
+[MON] : 50273
+[SCB] : 50273
+==============================
+==  test bench is finished  ==
+==============================
+$finish called at time : 255 ns : File "D:/ish/verilog/vivadoWS/240521_16bit_register_verification/240521_16bit_register_verification.srcs/sim_1/new/tb_16bit_register.sv" Line 167

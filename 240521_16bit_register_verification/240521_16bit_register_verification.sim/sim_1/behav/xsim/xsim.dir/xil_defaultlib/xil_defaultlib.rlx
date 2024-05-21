@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/ish/verilog/vivadoWS/240521_16bit_register_verification/240521_16bit_register_verification.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/240521_16bit_register_verification/240521_16bit_register_verification.srcs/sim_1/new/tb_16bit_register.sv,1716284644,systemVerilog,,,,$unit_tb_16bit_register_sv;bit_reg_interface;tb_bit_register,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/240521_16bit_register_verification/240521_16bit_register_verification.srcs/sources_1/new/16bit_register.v,1716282465,verilog,,,,bit_register_16,,uvm,,,,,,
