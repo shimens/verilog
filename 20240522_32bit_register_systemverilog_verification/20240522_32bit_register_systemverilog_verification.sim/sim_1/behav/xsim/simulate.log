@@ -1,0 +1,62 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+[GEN] data: dc770e89, out: xxxxxxxx
+[DRV] data: dc770e89, out: xxxxxxxx
+[MON] data: 00000000, out: 00000000
+[SCB] data: 00000000, out: 00000000
+ --> PASS! 00000000 == 00000000 
+[GEN] data: a06bc51f, out: xxxxxxxx
+[DRV] data: a06bc51f, out: xxxxxxxx
+[MON] data: dc770e89, out: dc770e89
+[SCB] data: dc770e89, out: dc770e89
+ --> PASS! dc770e89 == dc770e89 
+[GEN] data: 0f14c1f8, out: xxxxxxxx
+[DRV] data: 0f14c1f8, out: xxxxxxxx
+[MON] data: a06bc51f, out: a06bc51f
+[SCB] data: a06bc51f, out: a06bc51f
+ --> PASS! a06bc51f == a06bc51f 
+[GEN] data: be18e2dd, out: xxxxxxxx
+[DRV] data: be18e2dd, out: xxxxxxxx
+[MON] data: 0f14c1f8, out: 0f14c1f8
+[SCB] data: 0f14c1f8, out: 0f14c1f8
+ --> PASS! 0f14c1f8 == 0f14c1f8 
+[GEN] data: ceeeffae, out: xxxxxxxx
+[DRV] data: ceeeffae, out: xxxxxxxx
+[MON] data: be18e2dd, out: be18e2dd
+[SCB] data: be18e2dd, out: be18e2dd
+ --> PASS! be18e2dd == be18e2dd 
+[GEN] data: 15d52a47, out: xxxxxxxx
+[DRV] data: 15d52a47, out: xxxxxxxx
+[MON] data: ceeeffae, out: ceeeffae
+[SCB] data: ceeeffae, out: ceeeffae
+ --> PASS! ceeeffae == ceeeffae 
+[GEN] data: 872fbfb4, out: xxxxxxxx
+[DRV] data: 872fbfb4, out: xxxxxxxx
+[MON] data: 15d52a47, out: 15d52a47
+[SCB] data: 15d52a47, out: 15d52a47
+ --> PASS! 15d52a47 == 15d52a47 
+[GEN] data: df92c452, out: xxxxxxxx
+[DRV] data: df92c452, out: xxxxxxxx
+[MON] data: 872fbfb4, out: 872fbfb4
+[SCB] data: 872fbfb4, out: 872fbfb4
+ --> PASS! 872fbfb4 == 872fbfb4 
+[GEN] data: cf3c52c7, out: xxxxxxxx
+[DRV] data: cf3c52c7, out: xxxxxxxx
+[MON] data: df92c452, out: df92c452
+[SCB] data: df92c452, out: df92c452
+ --> PASS! df92c452 == df92c452 
+[GEN] data: ef3fe518, out: xxxxxxxx
+[DRV] data: ef3fe518, out: xxxxxxxx
+[MON] data: cf3c52c7, out: cf3c52c7
+[SCB] data: cf3c52c7, out: cf3c52c7
+ --> PASS! cf3c52c7 == cf3c52c7 
+==============================
+==       Final Report       ==
+==============================
+Total Test :          10
+Pass Count :          10
+Fail Count :           0
+==============================
+==  test bench is finished  ==
+==============================
+$finish called at time : 155 ns : File "D:/ish/verilog/vivadoWS/20240522_32bit_register_systemverilog_verification/20240522_32bit_register_systemverilog_verification.srcs/sim_1/new/tb_register.sv" Line 174
