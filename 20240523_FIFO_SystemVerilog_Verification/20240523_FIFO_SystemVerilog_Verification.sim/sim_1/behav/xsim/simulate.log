@@ -1,0 +1,527 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+[GEN] wr_en:1, wdata:104, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:104, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:104, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:104, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 104, queue size:1, '{104}
+[GEN] wr_en:1, wdata: 45, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 45, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 45, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata: 45, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data  45, queue size:2, '{104,45}
+[GEN] wr_en:1, wdata:137, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:137, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:137, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:137, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 137, queue size:3, '{104,45,137}
+[GEN] wr_en:1, wdata: 76, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 76, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 76, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata: 76, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data  76, queue size:4, '{104,45,137,76}
+[GEN] wr_en:0, wdata: 66, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata: 66, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata: 66, full:0 || rd_en:1, rdata:104, empty:0
+[SCB] wr_en:0, wdata: 66, full:0 || rd_en:1, rdata:104, empty:0
+ --> PASS! fifo_data 104 == rdata 104, que size:3, '{45,137,76}
+[GEN] wr_en:0, wdata:142, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:142, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:142, full:0 || rd_en:1, rdata: 45, empty:0
+[SCB] wr_en:0, wdata:142, full:0 || rd_en:1, rdata: 45, empty:0
+ --> PASS! fifo_data  45 == rdata  45, que size:2, '{137,76}
+[GEN] wr_en:0, wdata:241, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:241, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:241, full:0 || rd_en:1, rdata:137, empty:0
+[SCB] wr_en:0, wdata:241, full:0 || rd_en:1, rdata:137, empty:0
+ --> PASS! fifo_data 137 == rdata 137, que size:1, '{76}
+[GEN] wr_en:0, wdata:209, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:209, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:209, full:0 || rd_en:1, rdata: 76, empty:0
+[SCB] wr_en:0, wdata:209, full:0 || rd_en:1, rdata: 76, empty:0
+ --> PASS! fifo_data  76 == rdata  76, que size:0, '{}
+[GEN] wr_en:1, wdata: 30, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 30, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 30, full:0 || rd_en:0, rdata:  0, empty:1
+[SCB] wr_en:1, wdata: 30, full:0 || rd_en:0, rdata:  0, empty:1
+ --> WRITE! fifo_data  30, queue size:1, '{30}
+[GEN] wr_en:0, wdata:218, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:218, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:218, full:0 || rd_en:1, rdata: 30, empty:0
+[SCB] wr_en:0, wdata:218, full:0 || rd_en:1, rdata: 30, empty:0
+ --> PASS! fifo_data  30 == rdata  30, que size:0, '{}
+[GEN] wr_en:1, wdata:124, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:124, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:124, full:0 || rd_en:0, rdata:  0, empty:1
+[SCB] wr_en:1, wdata:124, full:0 || rd_en:0, rdata:  0, empty:1
+ --> WRITE! fifo_data 124, queue size:1, '{124}
+[GEN] wr_en:1, wdata:152, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:152, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:152, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:152, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 152, queue size:2, '{124,152}
+[GEN] wr_en:0, wdata:180, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:180, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:180, full:0 || rd_en:1, rdata:124, empty:0
+[SCB] wr_en:0, wdata:180, full:0 || rd_en:1, rdata:124, empty:0
+ --> PASS! fifo_data 124 == rdata 124, que size:1, '{152}
+[GEN] wr_en:0, wdata:174, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:174, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:174, full:0 || rd_en:1, rdata:152, empty:0
+[SCB] wr_en:0, wdata:174, full:0 || rd_en:1, rdata:152, empty:0
+ --> PASS! fifo_data 152 == rdata 152, que size:0, '{}
+[GEN] wr_en:0, wdata:214, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:214, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:214, full:0 || rd_en:1, rdata:  0, empty:1
+[SCB] wr_en:0, wdata:214, full:0 || rd_en:1, rdata:  0, empty:1
+ --> FAIL! fifo_data   x == rdata   0, que size:0, '{}
+[GEN] wr_en:0, wdata: 37, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata: 37, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata: 37, full:0 || rd_en:1, rdata:  0, empty:1
+[SCB] wr_en:0, wdata: 37, full:0 || rd_en:1, rdata:  0, empty:1
+ --> FAIL! fifo_data   x == rdata   0, que size:0, '{}
+[GEN] wr_en:1, wdata:241, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:241, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:241, full:0 || rd_en:0, rdata:  0, empty:1
+[SCB] wr_en:1, wdata:241, full:0 || rd_en:0, rdata:  0, empty:1
+ --> WRITE! fifo_data 241, queue size:1, '{241}
+[GEN] wr_en:0, wdata:131, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:131, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:131, full:0 || rd_en:1, rdata:241, empty:0
+[SCB] wr_en:0, wdata:131, full:0 || rd_en:1, rdata:241, empty:0
+ --> PASS! fifo_data 241 == rdata 241, que size:0, '{}
+[GEN] wr_en:1, wdata: 41, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 41, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 41, full:0 || rd_en:0, rdata:  0, empty:1
+[SCB] wr_en:1, wdata: 41, full:0 || rd_en:0, rdata:  0, empty:1
+ --> WRITE! fifo_data  41, queue size:1, '{41}
+[GEN] wr_en:0, wdata:231, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:231, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:231, full:0 || rd_en:1, rdata: 41, empty:0
+[SCB] wr_en:0, wdata:231, full:0 || rd_en:1, rdata: 41, empty:0
+ --> PASS! fifo_data  41 == rdata  41, que size:0, '{}
+[GEN] wr_en:0, wdata:179, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:179, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:179, full:0 || rd_en:1, rdata:  0, empty:1
+[SCB] wr_en:0, wdata:179, full:0 || rd_en:1, rdata:  0, empty:1
+ --> FAIL! fifo_data   x == rdata   0, que size:0, '{}
+[GEN] wr_en:0, wdata: 25, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata: 25, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata: 25, full:0 || rd_en:1, rdata:  0, empty:1
+[SCB] wr_en:0, wdata: 25, full:0 || rd_en:1, rdata:  0, empty:1
+ --> FAIL! fifo_data   x == rdata   0, que size:0, '{}
+[GEN] wr_en:1, wdata:101, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:101, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:101, full:0 || rd_en:0, rdata:  0, empty:1
+[SCB] wr_en:1, wdata:101, full:0 || rd_en:0, rdata:  0, empty:1
+ --> WRITE! fifo_data 101, queue size:1, '{101}
+[GEN] wr_en:1, wdata:191, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:191, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:191, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:191, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 191, queue size:2, '{101,191}
+[GEN] wr_en:1, wdata: 14, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 14, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 14, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata: 14, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data  14, queue size:3, '{101,191,14}
+[GEN] wr_en:0, wdata:220, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:220, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:220, full:0 || rd_en:1, rdata:101, empty:0
+[SCB] wr_en:0, wdata:220, full:0 || rd_en:1, rdata:101, empty:0
+ --> PASS! fifo_data 101 == rdata 101, que size:2, '{191,14}
+[GEN] wr_en:1, wdata: 34, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 34, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 34, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata: 34, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data  34, queue size:3, '{191,14,34}
+[GEN] wr_en:1, wdata:239, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:239, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:239, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:239, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 239, queue size:4, '{191,14,34,239}
+[GEN] wr_en:1, wdata: 91, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 91, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 91, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata: 91, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data  91, queue size:5, '{191,14,34,239,91}
+[GEN] wr_en:0, wdata:216, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:216, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:216, full:0 || rd_en:1, rdata:191, empty:0
+[SCB] wr_en:0, wdata:216, full:0 || rd_en:1, rdata:191, empty:0
+ --> PASS! fifo_data 191 == rdata 191, que size:4, '{14,34,239,91}
+[GEN] wr_en:1, wdata: 25, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 25, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 25, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata: 25, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data  25, queue size:5, '{14,34,239,91,25}
+[GEN] wr_en:1, wdata:182, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:182, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:182, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:182, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 182, queue size:6, '{14,34,239,91,25,182}
+[GEN] wr_en:0, wdata:181, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:181, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:181, full:0 || rd_en:1, rdata: 14, empty:0
+[SCB] wr_en:0, wdata:181, full:0 || rd_en:1, rdata: 14, empty:0
+ --> PASS! fifo_data  14 == rdata  14, que size:5, '{34,239,91,25,182}
+[GEN] wr_en:1, wdata: 95, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 95, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 95, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata: 95, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data  95, queue size:6, '{34,239,91,25,182,95}
+[GEN] wr_en:1, wdata:238, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:238, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:238, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:238, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 238, queue size:7, '{34,239,91,25,182,95,238}
+[GEN] wr_en:1, wdata:124, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:124, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:124, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:124, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 124, queue size:8, '{34,239,91,25,182,95,238,124}
+[GEN] wr_en:1, wdata: 99, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 99, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 99, full:1 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata: 99, full:1 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data  99, queue size:9, '{34,239,91,25,182,95,238,124,99}
+[GEN] wr_en:1, wdata: 74, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 74, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 74, full:1 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata: 74, full:1 || rd_en:0, rdata:  0, empty:0
+WARNING: Bounded queue full, writing is ignored
+HDL Line: D:/ish/verilog/vivadoWS/20240523_FIFO_SystemVerilog_Verification/20240523_FIFO_SystemVerilog_Verification.srcs/sim_1/new/scoreboard.sv:28
+ --> WRITE! fifo_data  74, queue size:9, '{34,239,91,25,182,95,238,124,99}
+[GEN] wr_en:1, wdata: 96, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 96, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 96, full:1 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata: 96, full:1 || rd_en:0, rdata:  0, empty:0
+WARNING: Bounded queue full, writing is ignored
+HDL Line: D:/ish/verilog/vivadoWS/20240523_FIFO_SystemVerilog_Verification/20240523_FIFO_SystemVerilog_Verification.srcs/sim_1/new/scoreboard.sv:28
+ --> WRITE! fifo_data  96, queue size:9, '{34,239,91,25,182,95,238,124,99}
+[GEN] wr_en:0, wdata:182, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:182, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:182, full:1 || rd_en:1, rdata: 34, empty:0
+[SCB] wr_en:0, wdata:182, full:1 || rd_en:1, rdata: 34, empty:0
+ --> PASS! fifo_data  34 == rdata  34, que size:8, '{239,91,25,182,95,238,124,99}
+[GEN] wr_en:1, wdata:231, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:231, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:231, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:231, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 231, queue size:9, '{239,91,25,182,95,238,124,99,231}
+[GEN] wr_en:1, wdata:186, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:186, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:186, full:1 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:186, full:1 || rd_en:0, rdata:  0, empty:0
+WARNING: Bounded queue full, writing is ignored
+HDL Line: D:/ish/verilog/vivadoWS/20240523_FIFO_SystemVerilog_Verification/20240523_FIFO_SystemVerilog_Verification.srcs/sim_1/new/scoreboard.sv:28
+ --> WRITE! fifo_data 186, queue size:9, '{239,91,25,182,95,238,124,99,231}
+[GEN] wr_en:1, wdata: 98, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 98, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 98, full:1 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata: 98, full:1 || rd_en:0, rdata:  0, empty:0
+WARNING: Bounded queue full, writing is ignored
+HDL Line: D:/ish/verilog/vivadoWS/20240523_FIFO_SystemVerilog_Verification/20240523_FIFO_SystemVerilog_Verification.srcs/sim_1/new/scoreboard.sv:28
+ --> WRITE! fifo_data  98, queue size:9, '{239,91,25,182,95,238,124,99,231}
+[GEN] wr_en:1, wdata:199, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:199, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:199, full:1 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:199, full:1 || rd_en:0, rdata:  0, empty:0
+WARNING: Bounded queue full, writing is ignored
+HDL Line: D:/ish/verilog/vivadoWS/20240523_FIFO_SystemVerilog_Verification/20240523_FIFO_SystemVerilog_Verification.srcs/sim_1/new/scoreboard.sv:28
+ --> WRITE! fifo_data 199, queue size:9, '{239,91,25,182,95,238,124,99,231}
+[GEN] wr_en:0, wdata: 18, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata: 18, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata: 18, full:1 || rd_en:1, rdata:239, empty:0
+[SCB] wr_en:0, wdata: 18, full:1 || rd_en:1, rdata:239, empty:0
+ --> PASS! fifo_data 239 == rdata 239, que size:8, '{91,25,182,95,238,124,99,231}
+[GEN] wr_en:1, wdata: 29, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 29, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 29, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata: 29, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data  29, queue size:9, '{91,25,182,95,238,124,99,231,29}
+[GEN] wr_en:0, wdata:173, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:173, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:173, full:1 || rd_en:1, rdata: 91, empty:0
+[SCB] wr_en:0, wdata:173, full:1 || rd_en:1, rdata: 91, empty:0
+ --> PASS! fifo_data  91 == rdata  91, que size:8, '{25,182,95,238,124,99,231,29}
+[GEN] wr_en:1, wdata:118, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:118, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:118, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:118, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 118, queue size:9, '{25,182,95,238,124,99,231,29,118}
+[GEN] wr_en:1, wdata: 25, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 25, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 25, full:1 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata: 25, full:1 || rd_en:0, rdata:  0, empty:0
+WARNING: Bounded queue full, writing is ignored
+HDL Line: D:/ish/verilog/vivadoWS/20240523_FIFO_SystemVerilog_Verification/20240523_FIFO_SystemVerilog_Verification.srcs/sim_1/new/scoreboard.sv:28
+ --> WRITE! fifo_data  25, queue size:9, '{25,182,95,238,124,99,231,29,118}
+[GEN] wr_en:1, wdata:113, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:113, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:113, full:1 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:113, full:1 || rd_en:0, rdata:  0, empty:0
+WARNING: Bounded queue full, writing is ignored
+HDL Line: D:/ish/verilog/vivadoWS/20240523_FIFO_SystemVerilog_Verification/20240523_FIFO_SystemVerilog_Verification.srcs/sim_1/new/scoreboard.sv:28
+ --> WRITE! fifo_data 113, queue size:9, '{25,182,95,238,124,99,231,29,118}
+[GEN] wr_en:0, wdata:153, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:153, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:153, full:1 || rd_en:1, rdata: 25, empty:0
+[SCB] wr_en:0, wdata:153, full:1 || rd_en:1, rdata: 25, empty:0
+ --> PASS! fifo_data  25 == rdata  25, que size:8, '{182,95,238,124,99,231,29,118}
+[GEN] wr_en:0, wdata:169, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:169, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:169, full:0 || rd_en:1, rdata:182, empty:0
+[SCB] wr_en:0, wdata:169, full:0 || rd_en:1, rdata:182, empty:0
+ --> PASS! fifo_data 182 == rdata 182, que size:7, '{95,238,124,99,231,29,118}
+[GEN] wr_en:0, wdata:213, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:213, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:213, full:0 || rd_en:1, rdata: 95, empty:0
+[SCB] wr_en:0, wdata:213, full:0 || rd_en:1, rdata: 95, empty:0
+ --> PASS! fifo_data  95 == rdata  95, que size:6, '{238,124,99,231,29,118}
+[GEN] wr_en:0, wdata:112, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:112, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:112, full:0 || rd_en:1, rdata:238, empty:0
+[SCB] wr_en:0, wdata:112, full:0 || rd_en:1, rdata:238, empty:0
+ --> PASS! fifo_data 238 == rdata 238, que size:5, '{124,99,231,29,118}
+[GEN] wr_en:0, wdata:121, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:121, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:121, full:0 || rd_en:1, rdata:124, empty:0
+[SCB] wr_en:0, wdata:121, full:0 || rd_en:1, rdata:124, empty:0
+ --> PASS! fifo_data 124 == rdata 124, que size:4, '{99,231,29,118}
+[GEN] wr_en:0, wdata: 96, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata: 96, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata: 96, full:0 || rd_en:1, rdata:231, empty:0
+[SCB] wr_en:0, wdata: 96, full:0 || rd_en:1, rdata:231, empty:0
+ --> FAIL! fifo_data  99 == rdata 231, que size:3, '{231,29,118}
+[GEN] wr_en:1, wdata: 89, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 89, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 89, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata: 89, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data  89, queue size:4, '{231,29,118,89}
+[GEN] wr_en:1, wdata: 50, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 50, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 50, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata: 50, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data  50, queue size:5, '{231,29,118,89,50}
+[GEN] wr_en:0, wdata: 46, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata: 46, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata: 46, full:0 || rd_en:1, rdata: 29, empty:0
+[SCB] wr_en:0, wdata: 46, full:0 || rd_en:1, rdata: 29, empty:0
+ --> FAIL! fifo_data 231 == rdata  29, que size:4, '{29,118,89,50}
+[GEN] wr_en:1, wdata: 89, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 89, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 89, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata: 89, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data  89, queue size:5, '{29,118,89,50,89}
+[GEN] wr_en:1, wdata: 49, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 49, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 49, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata: 49, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data  49, queue size:6, '{29,118,89,50,89,49}
+[GEN] wr_en:0, wdata:231, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:231, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:231, full:0 || rd_en:1, rdata:118, empty:0
+[SCB] wr_en:0, wdata:231, full:0 || rd_en:1, rdata:118, empty:0
+ --> FAIL! fifo_data  29 == rdata 118, que size:5, '{118,89,50,89,49}
+[GEN] wr_en:1, wdata:  3, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:  3, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:  3, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:  3, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data   3, queue size:6, '{118,89,50,89,49,3}
+[GEN] wr_en:1, wdata:200, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:200, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:200, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:200, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 200, queue size:7, '{118,89,50,89,49,3,200}
+[GEN] wr_en:0, wdata:143, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:143, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:143, full:0 || rd_en:1, rdata: 89, empty:0
+[SCB] wr_en:0, wdata:143, full:0 || rd_en:1, rdata: 89, empty:0
+ --> FAIL! fifo_data 118 == rdata  89, que size:6, '{89,50,89,49,3,200}
+[GEN] wr_en:0, wdata:152, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:152, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:152, full:0 || rd_en:1, rdata: 50, empty:0
+[SCB] wr_en:0, wdata:152, full:0 || rd_en:1, rdata: 50, empty:0
+ --> FAIL! fifo_data  89 == rdata  50, que size:5, '{50,89,49,3,200}
+[GEN] wr_en:0, wdata:135, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:135, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:135, full:0 || rd_en:1, rdata: 89, empty:0
+[SCB] wr_en:0, wdata:135, full:0 || rd_en:1, rdata: 89, empty:0
+ --> FAIL! fifo_data  50 == rdata  89, que size:4, '{89,49,3,200}
+[GEN] wr_en:1, wdata:209, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:209, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:209, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:209, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 209, queue size:5, '{89,49,3,200,209}
+[GEN] wr_en:0, wdata:146, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:146, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:146, full:0 || rd_en:1, rdata: 49, empty:0
+[SCB] wr_en:0, wdata:146, full:0 || rd_en:1, rdata: 49, empty:0
+ --> FAIL! fifo_data  89 == rdata  49, que size:4, '{49,3,200,209}
+[GEN] wr_en:0, wdata:145, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:145, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:145, full:0 || rd_en:1, rdata:  3, empty:0
+[SCB] wr_en:0, wdata:145, full:0 || rd_en:1, rdata:  3, empty:0
+ --> FAIL! fifo_data  49 == rdata   3, que size:3, '{3,200,209}
+[GEN] wr_en:0, wdata:255, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:255, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:255, full:0 || rd_en:1, rdata:200, empty:0
+[SCB] wr_en:0, wdata:255, full:0 || rd_en:1, rdata:200, empty:0
+ --> FAIL! fifo_data   3 == rdata 200, que size:2, '{200,209}
+[GEN] wr_en:1, wdata:113, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:113, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:113, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:113, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 113, queue size:3, '{200,209,113}
+[GEN] wr_en:1, wdata:108, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:108, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:108, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:108, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 108, queue size:4, '{200,209,113,108}
+[GEN] wr_en:1, wdata:141, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:141, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:141, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:141, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 141, queue size:5, '{200,209,113,108,141}
+[GEN] wr_en:1, wdata:148, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:148, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:148, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:148, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 148, queue size:6, '{200,209,113,108,141,148}
+[GEN] wr_en:0, wdata:107, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:107, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:107, full:0 || rd_en:1, rdata:209, empty:0
+[SCB] wr_en:0, wdata:107, full:0 || rd_en:1, rdata:209, empty:0
+ --> FAIL! fifo_data 200 == rdata 209, que size:5, '{209,113,108,141,148}
+[GEN] wr_en:1, wdata:167, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:167, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:167, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:167, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 167, queue size:6, '{209,113,108,141,148,167}
+[GEN] wr_en:1, wdata:226, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:226, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:226, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:226, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 226, queue size:7, '{209,113,108,141,148,167,226}
+[GEN] wr_en:0, wdata: 59, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata: 59, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata: 59, full:0 || rd_en:1, rdata:113, empty:0
+[SCB] wr_en:0, wdata: 59, full:0 || rd_en:1, rdata:113, empty:0
+ --> FAIL! fifo_data 209 == rdata 113, que size:6, '{113,108,141,148,167,226}
+[GEN] wr_en:1, wdata: 86, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 86, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 86, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata: 86, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data  86, queue size:7, '{113,108,141,148,167,226,86}
+[GEN] wr_en:0, wdata:220, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:220, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:220, full:0 || rd_en:1, rdata:108, empty:0
+[SCB] wr_en:0, wdata:220, full:0 || rd_en:1, rdata:108, empty:0
+ --> FAIL! fifo_data 113 == rdata 108, que size:6, '{108,141,148,167,226,86}
+[GEN] wr_en:1, wdata: 22, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 22, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 22, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata: 22, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data  22, queue size:7, '{108,141,148,167,226,86,22}
+[GEN] wr_en:1, wdata: 55, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 55, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 55, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata: 55, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data  55, queue size:8, '{108,141,148,167,226,86,22,55}
+[GEN] wr_en:0, wdata:169, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:169, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:169, full:0 || rd_en:1, rdata:141, empty:0
+[SCB] wr_en:0, wdata:169, full:0 || rd_en:1, rdata:141, empty:0
+ --> FAIL! fifo_data 108 == rdata 141, que size:7, '{141,148,167,226,86,22,55}
+[GEN] wr_en:0, wdata: 68, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata: 68, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata: 68, full:0 || rd_en:1, rdata:148, empty:0
+[SCB] wr_en:0, wdata: 68, full:0 || rd_en:1, rdata:148, empty:0
+ --> FAIL! fifo_data 141 == rdata 148, que size:6, '{148,167,226,86,22,55}
+[GEN] wr_en:1, wdata:137, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:137, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:137, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:137, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 137, queue size:7, '{148,167,226,86,22,55,137}
+[GEN] wr_en:0, wdata: 93, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata: 93, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata: 93, full:0 || rd_en:1, rdata:167, empty:0
+[SCB] wr_en:0, wdata: 93, full:0 || rd_en:1, rdata:167, empty:0
+ --> FAIL! fifo_data 148 == rdata 167, que size:6, '{167,226,86,22,55,137}
+[GEN] wr_en:0, wdata: 99, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata: 99, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata: 99, full:0 || rd_en:1, rdata:226, empty:0
+[SCB] wr_en:0, wdata: 99, full:0 || rd_en:1, rdata:226, empty:0
+ --> FAIL! fifo_data 167 == rdata 226, que size:5, '{226,86,22,55,137}
+[GEN] wr_en:1, wdata:245, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:245, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:245, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:245, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 245, queue size:6, '{226,86,22,55,137,245}
+[GEN] wr_en:1, wdata:177, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:177, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:177, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:177, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 177, queue size:7, '{226,86,22,55,137,245,177}
+[GEN] wr_en:1, wdata:126, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:126, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:126, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:126, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 126, queue size:8, '{226,86,22,55,137,245,177,126}
+[GEN] wr_en:1, wdata:182, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:182, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:182, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:182, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 182, queue size:9, '{226,86,22,55,137,245,177,126,182}
+[GEN] wr_en:0, wdata:210, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:210, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:210, full:1 || rd_en:1, rdata: 86, empty:0
+[SCB] wr_en:0, wdata:210, full:1 || rd_en:1, rdata: 86, empty:0
+ --> FAIL! fifo_data 226 == rdata  86, que size:8, '{86,22,55,137,245,177,126,182}
+[GEN] wr_en:0, wdata: 44, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata: 44, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata: 44, full:0 || rd_en:1, rdata: 22, empty:0
+[SCB] wr_en:0, wdata: 44, full:0 || rd_en:1, rdata: 22, empty:0
+ --> FAIL! fifo_data  86 == rdata  22, que size:7, '{22,55,137,245,177,126,182}
+[GEN] wr_en:0, wdata:110, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:110, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:110, full:0 || rd_en:1, rdata: 55, empty:0
+[SCB] wr_en:0, wdata:110, full:0 || rd_en:1, rdata: 55, empty:0
+ --> FAIL! fifo_data  22 == rdata  55, que size:6, '{55,137,245,177,126,182}
+[GEN] wr_en:0, wdata:  8, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:  8, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:  8, full:0 || rd_en:1, rdata:137, empty:0
+[SCB] wr_en:0, wdata:  8, full:0 || rd_en:1, rdata:137, empty:0
+ --> FAIL! fifo_data  55 == rdata 137, que size:5, '{137,245,177,126,182}
+[GEN] wr_en:1, wdata:105, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata:105, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata:105, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata:105, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data 105, queue size:6, '{137,245,177,126,182,105}
+[GEN] wr_en:0, wdata: 19, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata: 19, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata: 19, full:0 || rd_en:1, rdata:245, empty:0
+[SCB] wr_en:0, wdata: 19, full:0 || rd_en:1, rdata:245, empty:0
+ --> FAIL! fifo_data 137 == rdata 245, que size:5, '{245,177,126,182,105}
+[GEN] wr_en:1, wdata: 18, full:0 || rd_en:0, rdata:  0, empty:0
+[DRV] wr_en:1, wdata: 18, full:0 || rd_en:0, rdata:  0, empty:0
+[MON] wr_en:1, wdata: 18, full:0 || rd_en:0, rdata:  0, empty:0
+[SCB] wr_en:1, wdata: 18, full:0 || rd_en:0, rdata:  0, empty:0
+ --> WRITE! fifo_data  18, queue size:6, '{245,177,126,182,105,18}
+[GEN] wr_en:0, wdata:128, full:0 || rd_en:1, rdata:  0, empty:0
+[DRV] wr_en:0, wdata:128, full:0 || rd_en:1, rdata:  0, empty:0
+[MON] wr_en:0, wdata:128, full:0 || rd_en:1, rdata:177, empty:0
+[SCB] wr_en:0, wdata:128, full:0 || rd_en:1, rdata:177, empty:0
+ --> FAIL! fifo_data 245 == rdata 177, que size:5, '{177,126,182,105,18}
+=======================================
+==            Final Report           ==
+=======================================
+Total Test :         100
+PASS Test  :          20
+FAIL Test  :          26
+WRITE CNT  :          54
+=======================================
+==      test bench is finished!      ==
+=======================================
+$finish called at time : 1055 ns : File "D:/ish/verilog/vivadoWS/20240523_FIFO_SystemVerilog_Verification/20240523_FIFO_SystemVerilog_Verification.srcs/sim_1/new/environment.sv" Line 41

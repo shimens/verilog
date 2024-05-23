@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ish/verilog/vivadoWS/20240523_FIFO_SystemVerilog_Verification/20240523_FIFO_SystemVerilog_Verification.srcs/sources_1/new/fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-311] analyzing module fifo_control_unit
