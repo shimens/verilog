@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat May 25 11:17:46 2024
+# Process ID: 15364
+# Current directory: D:/ish/verilog/vivadoWS/20240516_UpCounter_FSM/20240516_UpCounter_FSM.runs/ila_2_synth_1
+# Command line: vivado.exe -log ila_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ila_2.tcl
+# Log file: D:/ish/verilog/vivadoWS/20240516_UpCounter_FSM/20240516_UpCounter_FSM.runs/ila_2_synth_1/ila_2.vds
+# Journal file: D:/ish/verilog/vivadoWS/20240516_UpCounter_FSM/20240516_UpCounter_FSM.runs/ila_2_synth_1\vivado.jou
+#-----------------------------------------------------------
+source ila_2.tcl -notrace

@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/ish/verilog/vivadoWS/240526_stopwatch_systemverilog/240526_stopwatch_systemverilog.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/240526_stopwatch_systemverilog/240526_stopwatch_systemverilog.srcs/sim_1/new/tb_stopwatch.sv,1716713087,systemVerilog,,,,$unit_tb_stopwatch_sv;stopWatch_if;tb_stopWatch,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/240526_stopwatch_systemverilog/240526_stopwatch_systemverilog.srcs/sources_1/new/stopwatch.v,1716713054,verilog,,,,clkDiv;prjStopWatch;stopWatch,,uvm,,,,,,

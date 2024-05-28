@@ -1,0 +1,669 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+[GEN] selMode: 0, sw_digit: 0, minSet: 1, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 1, secSet: 0, TIME   0:  0
+[MON] selMode: 1, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[SCB] selMode: 1, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+SW_TIME           0:          0:          0:          0
+ --> sec_compare_PASS
+ --> miliSec_compare_PASS
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 1, secSet: 0, TIME   0:  0
+[SCB] selMode: 0, sw_digit: 0, minSet: 1, secSet: 0, TIME   0:  0
+SW_TIME           0:          0:          1:          0
+ --> SEC_FAIL!!!
+ --> miliSec_compare_PASS
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+SW_TIME           0:          0:          1:          0
+ --> SEC_FAIL!!!
+ --> miliSec_compare_PASS
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 1, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 1, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+SW_TIME           0:          0:          1:          1
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 1, TIME   1:  1
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 1, TIME   1:  1
+SW_TIME           0:          1:          1:          1
+ --> HOUR_FAIL!!!
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  2
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  2
+SW_TIME           0:          1:          1:          2
+ --> sec_compare_PASS
+ --> miliSec_compare_PASS
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  2
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  2
+SW_TIME           0:          1:          1:          2
+ --> sec_compare_PASS
+ --> miliSec_compare_PASS
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  1
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  1
+SW_TIME           0:          1:          1:          3
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  1
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  1
+SW_TIME           0:          1:          1:          3
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  1
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  1
+SW_TIME           0:          1:          1:          4
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   1:  4
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   1:  4
+SW_TIME           0:          1:          1:          4
+ --> HOUR_FAIL!!!
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 1, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 1, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  1
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  1
+SW_TIME           0:          1:          1:          5
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 1, TIME   1:  5
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 1, TIME   1:  5
+SW_TIME           0:          2:          1:          5
+ --> HOUR_FAIL!!!
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  6
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  6
+SW_TIME           0:          2:          1:          6
+ --> sec_compare_PASS
+ --> miliSec_compare_PASS
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 1, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 1, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  6
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  6
+SW_TIME           0:          2:          1:          6
+ --> sec_compare_PASS
+ --> miliSec_compare_PASS
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 1, TIME   1:  7
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 1, TIME   1:  7
+SW_TIME           0:          2:          1:          8
+ --> sec_compare_PASS
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  8
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  8
+SW_TIME           0:          2:          1:          8
+ --> sec_compare_PASS
+ --> miliSec_compare_PASS
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  9
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  9
+SW_TIME           0:          2:          1:          9
+ --> sec_compare_PASS
+ --> miliSec_compare_PASS
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  2
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  2
+SW_TIME           0:          2:          1:          9
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  2
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  2
+SW_TIME           0:          2:          1:         10
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 0, minSet: 1, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 1, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   1: 10
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   1: 10
+SW_TIME           0:          2:          1:         10
+ --> HOUR_FAIL!!!
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 1, secSet: 0, TIME   0:  2
+[SCB] selMode: 0, sw_digit: 0, minSet: 1, secSet: 0, TIME   0:  2
+SW_TIME           0:          2:          2:         11
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  2
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  2
+SW_TIME           0:          2:          2:         11
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 1, minSet: 1, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 1, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  2
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  2
+SW_TIME           0:          2:          2:         12
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 1, secSet: 0, TIME   0:  2
+[SCB] selMode: 0, sw_digit: 1, minSet: 1, secSet: 0, TIME   0:  2
+SW_TIME           1:          2:          2:         12
+ --> HOUR_FAIL!!!
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   1:  2
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   1:  2
+SW_TIME           1:          2:          2:         13
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2: 13
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2: 13
+SW_TIME           1:          2:          2:         13
+ --> HOUR_FAIL!!!
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  2
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  2
+SW_TIME           1:          2:          2:         14
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2: 14
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2: 14
+SW_TIME           1:          2:          2:         14
+ --> HOUR_FAIL!!!
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 1, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 1, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2: 15
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2: 15
+SW_TIME           1:          2:          2:         15
+ --> sec_compare_PASS
+ --> miliSec_compare_PASS
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 1, TIME   1:  2
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 1, TIME   1:  2
+SW_TIME           1:          2:          2:         16
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   1:  2
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   1:  2
+SW_TIME           1:          2:          2:         17
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2: 16
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2: 16
+SW_TIME           1:          2:          2:         17
+ --> HOUR_FAIL!!!
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  2
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  2
+SW_TIME           1:          2:          2:         18
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   1:  2
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   1:  2
+SW_TIME           1:          2:          2:         18
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2: 18
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2: 18
+SW_TIME           1:          2:          2:         19
+ --> HOUR_FAIL!!!
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 1, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 1, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  2
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  2
+SW_TIME           1:          2:          2:         19
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 1, TIME   2: 19
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 1, TIME   2: 19
+SW_TIME           1:          3:          2:         20
+ --> HOUR_FAIL!!!
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  3
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  3
+SW_TIME           1:          3:          2:         20
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   1:  3
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   1:  3
+SW_TIME           1:          3:          2:         21
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   1:  3
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   1:  3
+SW_TIME           1:          3:          2:         21
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2: 21
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2: 21
+SW_TIME           1:          3:          2:         22
+ --> HOUR_FAIL!!!
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2: 21
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2: 21
+SW_TIME           1:          3:          2:         22
+ --> sec_compare_PASS
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  3
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   1:  3
+SW_TIME           1:          3:          2:         23
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   1:  3
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   1:  3
+SW_TIME           1:          3:          2:         23
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 1, minSet: 1, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 1, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   1:  3
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   1:  3
+SW_TIME           1:          3:          2:         24
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 1, secSet: 0, TIME   1:  3
+[SCB] selMode: 0, sw_digit: 1, minSet: 1, secSet: 0, TIME   1:  3
+SW_TIME           2:          3:          2:         24
+ --> HOUR_FAIL!!!
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2: 24
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2: 24
+SW_TIME           2:          3:          2:         25
+ --> hour_compare_PASS
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  3
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  3
+SW_TIME           2:          3:          2:         25
+ --> sec_compare_PASS
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  3
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  3
+SW_TIME           2:          3:          2:         26
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  3
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  3
+SW_TIME           2:          3:          2:         26
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  3
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  3
+SW_TIME           2:          3:          2:         27
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  3
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  3
+SW_TIME           2:          3:          2:         27
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  3
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  3
+SW_TIME           2:          3:          2:         28
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 1, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 1, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  3
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  3
+SW_TIME           2:          3:          2:         28
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 1, TIME   2:  3
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 1, TIME   2:  3
+SW_TIME           2:          4:          2:         29
+ --> hour_compare_PASS
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2: 28
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2: 28
+SW_TIME           2:          4:          2:         29
+ --> hour_compare_PASS
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  4
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  4
+SW_TIME           2:          4:          2:         30
+ --> sec_compare_PASS
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 0, minSet: 1, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 1, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2: 29
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2: 29
+SW_TIME           2:          4:          2:         30
+ --> hour_compare_PASS
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 1, secSet: 0, TIME   2:  4
+[SCB] selMode: 0, sw_digit: 0, minSet: 1, secSet: 0, TIME   2:  4
+SW_TIME           2:          4:          3:         31
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   3: 30
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   3: 30
+SW_TIME           2:          4:          3:         31
+ --> HOUR_FAIL!!!
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  4
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  4
+SW_TIME           2:          4:          3:         32
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 1, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 1, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  4
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  4
+SW_TIME           2:          4:          3:         32
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 1, TIME   3: 32
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 1, TIME   3: 32
+SW_TIME           2:          5:          3:         33
+ --> HOUR_FAIL!!!
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  5
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  5
+SW_TIME           2:          5:          3:         33
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  5
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  5
+SW_TIME           2:          5:          3:         34
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   3: 33
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   3: 33
+SW_TIME           2:          5:          3:         34
+ --> HOUR_FAIL!!!
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  5
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  5
+SW_TIME           2:          5:          3:         35
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  5
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  5
+SW_TIME           2:          5:          3:         35
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   3: 35
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   3: 35
+SW_TIME           2:          5:          3:         36
+ --> HOUR_FAIL!!!
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  5
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  5
+SW_TIME           2:          5:          3:         36
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  5
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  5
+SW_TIME           2:          5:          3:         37
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  5
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  5
+SW_TIME           2:          5:          3:         37
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   3: 37
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   3: 37
+SW_TIME           2:          5:          3:         38
+ --> HOUR_FAIL!!!
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   3: 37
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   3: 37
+SW_TIME           2:          5:          3:         38
+ --> sec_compare_PASS
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  5
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  5
+SW_TIME           2:          5:          3:         39
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   3: 38
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   3: 38
+SW_TIME           2:          5:          3:         39
+ --> HOUR_FAIL!!!
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   3: 39
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   3: 39
+SW_TIME           2:          5:          3:         40
+ --> sec_compare_PASS
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   3: 39
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   3: 39
+SW_TIME           2:          5:          3:         40
+ --> sec_compare_PASS
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  5
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  5
+SW_TIME           2:          5:          3:         41
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  5
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  5
+SW_TIME           2:          5:          3:         41
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   3: 41
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   3: 41
+SW_TIME           2:          5:          3:         42
+ --> HOUR_FAIL!!!
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   3: 41
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   3: 41
+SW_TIME           2:          5:          3:         42
+ --> sec_compare_PASS
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 1, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 1, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   3: 42
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   3: 42
+SW_TIME           2:          5:          3:         43
+ --> sec_compare_PASS
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 1, TIME   2:  5
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 1, TIME   2:  5
+SW_TIME           2:          5:          3:         44
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 0, minSet: 1, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 1, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   3: 43
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   3: 43
+SW_TIME           2:          5:          3:         45
+ --> HOUR_FAIL!!!
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 1, secSet: 0, TIME   3: 43
+[SCB] selMode: 0, sw_digit: 0, minSet: 1, secSet: 0, TIME   3: 43
+SW_TIME           2:          5:          4:         45
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  5
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  5
+SW_TIME           2:          5:          4:         46
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  5
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  5
+SW_TIME           2:          5:          4:         46
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   4: 45
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   4: 45
+SW_TIME           2:          5:          4:         47
+ --> HOUR_FAIL!!!
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   4: 45
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   4: 45
+SW_TIME           2:          5:          4:         47
+ --> sec_compare_PASS
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  5
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  5
+SW_TIME           2:          5:          4:         48
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   4: 46
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   4: 46
+SW_TIME           2:          5:          4:         48
+ --> HOUR_FAIL!!!
+ --> MIN_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  5
+[SCB] selMode: 0, sw_digit: 0, minSet: 0, secSet: 0, TIME   2:  5
+SW_TIME           2:          5:          4:         49
+ --> SEC_FAIL!!!
+ --> MILISEC_FAIL!!!
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[MON] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  5
+[SCB] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   2:  5
+SW_TIME           2:          5:          4:         49
+ --> hour_compare_PASS
+ --> MIN_compare_PASS
+[GEN] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0
+[DRV] selMode: 0, sw_digit: 1, minSet: 0, secSet: 0, TIME   0:  0

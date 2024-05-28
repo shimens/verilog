@@ -43,6 +43,7 @@ module fifo #(
         .empty(empty),
         .raddr(w_raddr)
     );
+    
 endmodule
 
 

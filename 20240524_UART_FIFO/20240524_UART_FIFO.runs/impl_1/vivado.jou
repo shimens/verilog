@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri May 24 11:54:22 2024
+# Process ID: 8780
+# Current directory: D:/ish/verilog/vivadoWS/20240524_UART_FIFO/20240524_UART_FIFO.runs/impl_1
+# Command line: vivado.exe -log top_loop_test.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_loop_test.tcl -notrace
+# Log file: D:/ish/verilog/vivadoWS/20240524_UART_FIFO/20240524_UART_FIFO.runs/impl_1/top_loop_test.vdi
+# Journal file: D:/ish/verilog/vivadoWS/20240524_UART_FIFO/20240524_UART_FIFO.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top_loop_test.tcl -notrace

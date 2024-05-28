@@ -1,0 +1,2 @@
+ila_2.v,verilog,xil_defaultlib,../../../../20240516_UpCounter_FSM.gen/sources_1/ip/ila_2/sim/ila_2.v,incdir="../../../../20240516_UpCounter_FSM.gen/sources_1/ip/ila_2/hdl/verilog"
+glbl.v,Verilog,xil_defaultlib,glbl.v

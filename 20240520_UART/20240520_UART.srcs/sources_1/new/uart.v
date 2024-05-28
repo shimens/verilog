@@ -172,7 +172,6 @@ module transmitter (
             end
         endcase
     end
-
 endmodule
 
 module receiver (
@@ -266,5 +265,4 @@ module receiver (
             end
         endcase
     end
-
 endmodule

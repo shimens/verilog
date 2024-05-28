@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/ish/verilog/vivadoWS/20240524_UART_FIFO/20240524_UART_FIFO.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/20240524_UART_FIFO/20240524_UART_FIFO.srcs/sim_1/new/tb_uart_fifo.sv,1716517924,systemVerilog,,,,tb_uart_fifo,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/20240524_UART_FIFO/20240524_UART_FIFO.srcs/sources_1/imports/vivadoWS/20240520_UART/20240520_UART.srcs/sources_1/new/uart.v,1716517094,verilog,,D:/ish/verilog/vivadoWS/20240524_UART_FIFO/20240524_UART_FIFO.srcs/sources_1/new/uart_fifo.v,,baudrate_generator;receiver;transmitter;uart,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/20240524_UART_FIFO/20240524_UART_FIFO.srcs/sources_1/imports/vivadoWS/20240523_FIFO_SystemVerilog_Verification/20240523_FIFO_SystemVerilog_Verification.srcs/sources_1/new/fifo.v,1716517050,verilog,,D:/ish/verilog/vivadoWS/20240524_UART_FIFO/20240524_UART_FIFO.srcs/sources_1/imports/vivadoWS/20240520_UART/20240520_UART.srcs/sources_1/new/uart.v,,FIFO;fifo_control_unit;register_file,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/20240524_UART_FIFO/20240524_UART_FIFO.srcs/sources_1/new/uart_fifo.v,1716517086,verilog,,,,uart_fifo,,uvm,,,,,,

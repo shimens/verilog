@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../20240524_UART_FIFO.srcs/sources_1/imports/vivadoWS/20240523_FIFO_SystemVerilog_Verification/20240523_FIFO_SystemVerilog_Verification.srcs/sources_1/new/fifo.v" \
+"../../../../20240524_UART_FIFO.srcs/sources_1/imports/vivadoWS/20240520_UART/20240520_UART.srcs/sources_1/new/uart.v" \
+"../../../../20240524_UART_FIFO.srcs/sources_1/new/uart_fifo.v" \
+
+sv xil_defaultlib  \
+"../../../../20240524_UART_FIFO.srcs/sim_1/new/tb_uart_fifo.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
