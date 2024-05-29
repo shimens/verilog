@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../240528_DedicatedProcessor1.srcs/sources_1/imports/new/ControlUnit.v" \
+"../../../../240528_DedicatedProcessor1.srcs/sources_1/imports/new/DataPath.v" \
+"../../../../240528_DedicatedProcessor1.srcs/sources_1/imports/new/DedicatedProcessor.v" \
+"../../../../240528_DedicatedProcessor1.srcs/sources_1/imports/new/FNDController.v" \
+"../../../../240528_DedicatedProcessor1.srcs/sources_1/imports/new/TOP.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,11 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/ish/verilog/vivadoWS/240528_DedicatedProcessor1/240528_DedicatedProcessor1.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/ish/verilog/vivadoWS/240528_DedicatedProcessor1/240528_DedicatedProcessor1.srcs/sim_1/imports/new/tb_DedicatedProcessor.v,1716870501,verilog,,,,tb_DedicatedProcessor,,,,,,,,
+D:/ish/verilog/vivadoWS/240528_DedicatedProcessor1/240528_DedicatedProcessor1.srcs/sources_1/imports/new/ControlUnit.v,1716882925,verilog,,D:/ish/verilog/vivadoWS/240528_DedicatedProcessor1/240528_DedicatedProcessor1.srcs/sources_1/imports/new/DataPath.v,,ControlUnit,,,,,,,,
+D:/ish/verilog/vivadoWS/240528_DedicatedProcessor1/240528_DedicatedProcessor1.srcs/sources_1/imports/new/DataPath.v,1716883715,verilog,,D:/ish/verilog/vivadoWS/240528_DedicatedProcessor1/240528_DedicatedProcessor1.srcs/sources_1/imports/new/DedicatedProcessor.v,,DataPath;adder;comparator;mux_2x1;outBuf;register,,,,,,,,
+D:/ish/verilog/vivadoWS/240528_DedicatedProcessor1/240528_DedicatedProcessor1.srcs/sources_1/imports/new/DedicatedProcessor.v,1716883676,verilog,,D:/ish/verilog/vivadoWS/240528_DedicatedProcessor1/240528_DedicatedProcessor1.srcs/sim_1/imports/new/tb_DedicatedProcessor.v,,DedicatedProcessor,,,,,,,,
+D:/ish/verilog/vivadoWS/240528_DedicatedProcessor1/240528_DedicatedProcessor1.srcs/sources_1/imports/new/FNDController.v,1716874242,verilog,,D:/ish/verilog/vivadoWS/240528_DedicatedProcessor1/240528_DedicatedProcessor1.srcs/sources_1/imports/new/TOP.v,,BCDtoSEG;clkDiv;counter;decoder;digitSplitter;fndController;mux,,,,,,,,
+D:/ish/verilog/vivadoWS/240528_DedicatedProcessor1/240528_DedicatedProcessor1.srcs/sources_1/imports/new/TOP.v,1716875119,verilog,,,,TOP,,,,,,,,
