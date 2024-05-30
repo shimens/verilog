@@ -34,24 +34,12 @@ module DataPath (
         .rdata2(w_rdata2)
     );
 
-    // adder U_Adder (
-    //     .a(w_rdata1),
-    //     .b(w_rdata2),
-    //     .y(w_ALUResult)
-    // );
-
     ALU U_ALU (
         .a(w_rdata1),
         .b(w_rdata2),
         .opCode(opCode),
         .y(w_ALUResult)
     );
-
-    // comparator U_Comp (
-    //     .a (w_rdata1),
-    //     .b (8'd10),
-    //     .le(LE10)
-    // );
 
     register U_OutReg (
         .clk  (clk),
@@ -97,14 +85,6 @@ module mux_2x1 (
     end
 endmodule
 
-// module comparator (
-//     input  [7:0] a,
-//     input  [7:0] b,
-//     output       le
-// );
-//     assign le = (a <= b);
-// endmodule
-
 module register (
     input              clk,
     input              reset,
@@ -120,14 +100,6 @@ module register (
         end
     end : register
 endmodule
-
-// module adder (
-//     input  [7:0] a,
-//     input  [7:0] b,
-//     output [7:0] y
-// );
-//     assign y = (a + b);
-// endmodule
 
 module ALU (
     input        [7:0] a,
