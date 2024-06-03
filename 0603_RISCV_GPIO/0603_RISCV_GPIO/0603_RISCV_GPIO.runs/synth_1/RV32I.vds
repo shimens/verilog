@@ -1,0 +1,221 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Jun  3 14:28:51 2024
+# Process ID: 12884
+# Current directory: C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.runs/synth_1
+# Command line: vivado.exe -log RV32I.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RV32I.tcl
+# Log file: C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.runs/synth_1/RV32I.vds
+# Journal file: C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source RV32I.tcl -notrace
+Command: synth_design -top RV32I -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3388
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1135.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'RV32I' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'CPU_Core' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/CPU_Core.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'ControlUnit' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/ControlUnit.sv:5]
+INFO: [Synth 8-6155] done synthesizing module 'ControlUnit' (1#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/ControlUnit.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'DataPath' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataPath.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataPath.sv:124]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (2#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataPath.sv:124]
+INFO: [Synth 8-6157] synthesizing module 'Register' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataPath.sv:157]
+INFO: [Synth 8-6155] done synthesizing module 'Register' (3#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataPath.sv:157]
+INFO: [Synth 8-6157] synthesizing module 'mux_2x1' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataPath.sv:276]
+INFO: [Synth 8-226] default block is never used [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataPath.sv:284]
+INFO: [Synth 8-6155] done synthesizing module 'mux_2x1' (4#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataPath.sv:276]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataPath.sv:175]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (5#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataPath.sv:175]
+INFO: [Synth 8-6157] synthesizing module 'mux_4x1' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataPath.sv:254]
+INFO: [Synth 8-226] default block is never used [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataPath.sv:265]
+INFO: [Synth 8-6155] done synthesizing module 'mux_4x1' (6#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataPath.sv:254]
+INFO: [Synth 8-6157] synthesizing module 'adder' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataPath.sv:211]
+INFO: [Synth 8-6155] done synthesizing module 'adder' (7#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataPath.sv:211]
+INFO: [Synth 8-6157] synthesizing module 'extend' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataPath.sv:223]
+INFO: [Synth 8-6155] done synthesizing module 'extend' (8#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataPath.sv:223]
+INFO: [Synth 8-6155] done synthesizing module 'DataPath' (9#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataPath.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'CPU_Core' (10#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/CPU_Core.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'DataMemory' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataMemory.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'DataMemory' (11#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataMemory.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMemory' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/InstructionMemory.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMemory' (12#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/InstructionMemory.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'bus_interconnector' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/bus_interconnector.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'decoder' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/bus_interconnector.sv:30]
+INFO: [Synth 8-6155] done synthesizing module 'decoder' (13#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/bus_interconnector.sv:30]
+INFO: [Synth 8-6157] synthesizing module 'mux' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/bus_interconnector.sv:46]
+INFO: [Synth 8-6155] done synthesizing module 'mux' (14#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/bus_interconnector.sv:46]
+INFO: [Synth 8-6155] done synthesizing module 'bus_interconnector' (15#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/bus_interconnector.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'GPO' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/GPO.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'GPO' (16#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/GPO.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'RV32I' (17#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv:3]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1135.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1135.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1135.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1135.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 3     
+	   3 Input   32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 4     
+	   4 Input   32 Bit        Muxes := 1     
+	  14 Input   32 Bit        Muxes := 1     
+	   8 Input    9 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   4 Input    3 Bit        Muxes := 1     
+	   8 Input    2 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1135.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1135.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1135.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 1135.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 1135.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 1135.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 1135.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 1135.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 1135.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |OBUF |     4|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     4|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 1135.258 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 1135.258 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 1135.258 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1135.258 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1135.258 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: f141de42
+INFO: [Common 17-83] Releasing license: Synthesis
+46 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 1135.258 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.runs/synth_1/RV32I.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file RV32I_utilization_synth.rpt -pb RV32I_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jun  3 14:29:12 2024...

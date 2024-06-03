@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jun  3 18:31:21 2024
+# Process ID: 6048
+# Current directory: D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.runs/impl_1
+# Command line: vivado.exe -log RV32I.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source RV32I.tcl -notrace
+# Log file: D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.runs/impl_1/RV32I.vdi
+# Journal file: D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source RV32I.tcl -notrace

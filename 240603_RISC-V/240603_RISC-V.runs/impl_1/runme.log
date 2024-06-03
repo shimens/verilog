@@ -1,0 +1,61 @@
+
+*** Running vivado
+    with args -log RV32I.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source RV32I.tcl -notrace
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source RV32I.tcl -notrace
+Command: link_design -top RV32I -part xc7a35tcpg236-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1103.027 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 86 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/constrs_1/imports/FPGA_KImMinJi/MY_Basys-3-Master.xdc]
+Finished Parsing XDC File [D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/constrs_1/imports/FPGA_KImMinJi/MY_Basys-3-Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1103.027 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 44 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 12 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 32 instances
+
+7 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1103.027 ; gain = 0.000
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U_CPU_Core/U_DataPath/U_PC/B4[0] has multiple drivers: U_CPU_Core/U_DataPath/U_PC/g0_b27/O, y_carry__1_i_3/O, y_carry__1_i_2/O, and y_carry__1_i_4/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U_CPU_Core/U_DataPath/U_PC/out[10] has multiple drivers: U_CPU_Core/U_DataPath/U_PC/RegFile_reg_r2_0_31_0_5_i_5/O, and U_CPU_Core/U_DataPath/U_PC/g0_b19/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U_CPU_Core/U_DataPath/U_PC/out[11] has multiple drivers: U_CPU_Core/U_DataPath/U_PC/RegFile_reg_r2_0_31_0_5_i_4/O, and U_CPU_Core/U_DataPath/U_PC/g0_b20/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U_CPU_Core/U_DataPath/U_PC/out[12] has multiple drivers: U_CPU_Core/U_DataPath/U_PC/RegFile_reg_r2_0_31_0_5_i_3/O, and U_CPU_Core/U_DataPath/U_PC/g0_b21/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U_CPU_Core/U_DataPath/U_PC/out[13] has multiple drivers: U_CPU_Core/U_DataPath/U_PC/RegFile_reg_r2_0_31_0_5_i_2/O, and U_CPU_Core/U_DataPath/U_PC/g0_b22/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U_CPU_Core/U_DataPath/U_PC/out[14] has multiple drivers: U_CPU_Core/U_DataPath/U_PC/RegFile_reg_r2_0_31_0_5_i_1/O, and U_CPU_Core/U_DataPath/U_PC/g0_b23/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U_CPU_Core/U_DataPath/U_PC/out[15] has multiple drivers: U_CPU_Core/U_DataPath/U_PC/g0_b24/O, and U_CPU_Core/U_DataPath/U_PC/result0_carry__0_i_10/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U_CPU_Core/U_DataPath/U_PC/out[16] has multiple drivers: U_CPU_Core/U_DataPath/U_PC/g0_b25/O, and U_CPU_Core/U_DataPath/U_PC/result0_carry__0_i_9/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U_CPU_Core/U_DataPath/U_PC/out[17] has multiple drivers: U_CPU_Core/U_DataPath/U_PC/g0_b26/O, and U_CPU_Core/U_DataPath/U_PC/result0_carry__1_i_30/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net w_instrMemData[31] has multiple drivers: U_CPU_Core/U_DataPath/U_PC/g0_b28/O, U_CPU_Core/U_DataPath/U_PC/result0_carry__1_i_13/O, U_CPU_Core/U_DataPath/U_PC/result0_carry__1_i_10/O, U_CPU_Core/U_DataPath/U_PC/result0_carry__1_i_12/O, U_CPU_Core/U_DataPath/U_PC/result0_carry__1_i_18/O, U_CPU_Core/U_DataPath/U_PC/result0_carry__1_i_15/O, U_CPU_Core/U_DataPath/U_PC/result0_carry__1_i_11/O, U_CPU_Core/U_DataPath/U_PC/result0_carry__1_i_17/O, U_CPU_Core/U_DataPath/U_PC/result0_carry__1_i_14/O, U_CPU_Core/U_DataPath/U_PC/result0_carry__1_i_16/O, U_CPU_Core/U_DataPath/U_PC/result0_carry__1_i_25/O, U_CPU_Core/U_DataPath/U_PC/result0_carry__1_i_20/O, U_CPU_Core/U_DataPath/U_PC/result0_carry__1_i_21/O, U_CPU_Core/U_DataPath/U_PC/result0_carry__1_i_23/O, U_CPU_Core/U_DataPath/U_PC/result0_carry__1_i_24/O... and (the first 15 of 22 listed).
+INFO: [Project 1-461] DRC finished with 10 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.616 . Memory (MB): peak = 1103.027 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+12 Infos, 0 Warnings, 0 Critical Warnings and 11 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Mon Jun  3 18:31:30 2024...

@@ -1,0 +1,756 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:33 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 1648
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon Jun 03 11:40:24 KST 2024
+Time zone: 	Korean Standard Time (Asia/Seoul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 2560x1440
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2021.1/tps/win64/jre11.0.2
+Java executable: 	C:/Xilinx/Vivado/2021.1/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	tb0410
+User home directory: C:/Users/tb041
+User working directory: C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO
+User country: 	KR
+User language: 	ko
+User locale: 	ko_KR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2021.1
+RDI_DATADIR: C:/Xilinx/Vivado/2021.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2021.1/bin
+
+Vivado preferences file: C:/Users/tb041/AppData/Roaming/Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: C:/Users/tb041/AppData/Roaming/Xilinx/Vivado/2021.1/
+Vivado layouts directory: C:/Users/tb041/AppData/Roaming/Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/vivado.log
+Vivado journal file: 	C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/vivado.jou
+Engine tmp dir: 	C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/.Xil/Vivado-1648-Yoga-Pro
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2021.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2021.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2021.1
+
+
+GUI allocated memory:	365 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,152 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\tb041\Documents\FPGA_Harman\0603_RISCV_GPIO\0603_RISCV_GPIO.xpr. Version: Vivado v2021.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 77 MB (+78236kb) [00:00:08]
+// [Engine Memory]: 1,152 MB (+1056250kb) [00:00:08]
+// [GUI Memory]: 98 MB (+18459kb) [00:00:09]
+// [GUI Memory]: 110 MB (+7018kb) [00:00:09]
+// [GUI Memory]: 123 MB (+7833kb) [00:00:10]
+// WARNING: HEventQueue.dispatchEvent() is taking  2217 ms.
+// Tcl Message: open_project C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0603_RISCV_GPIO' since last save. INFO: [filemgmt 56-1] Board Part Repository Path: Directory not found as 'C:/Users/AppData/Roaming/Xilinx/Vivado/2021.1/xhub/board_store/xilinx_board_store'; using path 'C:/Users/tb041/AppData/Roaming/Xilinx/Vivado/2021.1/xhub/board_store/xilinx_board_store' instead. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,152 MB. GUI used memory: 63 MB. Current time: 6/3/24, 11:40:25 AM KST
+// Project name: 0603_RISCV_GPIO; location: C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bz
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+dismissFileChooser();
+// 'g' command handler elapsed time: 7 seconds
+// [GUI Memory]: 137 MB (+8526kb) [00:00:18]
+dismissDialog("Add Sources"); // c
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+// Elapsed time: 11 seconds
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+setFileChooser("C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new/CPU_Core.sv");
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 9 seconds
+// [GUI Memory]: 144 MB (+77kb) [00:00:38]
+// [GUI Memory]: 162 MB (+11264kb) [00:00:38]
+dismissDialog("Add Sources"); // c
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// c (cs): Add Sources: addNotify
+// bz (c):  Add Sources  : addNotify
+// Tcl Message: import_files -norecurse C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new/CPU_Core.sv 
+dismissDialog("Add Sources"); // bz
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+setFileChooser("C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new/DataMemory.sv");
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+setFileChooser("C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new/InstructionMemory.sv");
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VSourceFile ; 2 ; InstructionMemory.sv ; xil_defaultlib ; C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new", 1, "InstructionMemory.sv", 2, false, false, false, true, false); // bQ - Popup Trigger
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VSourceFile ; 2 ; InstructionMemory.sv ; xil_defaultlib ; C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new", 1, "InstructionMemory.sv", 2, false, false, false, true, false); // bQ - Popup Trigger
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VSourceFile ; 2 ; InstructionMemory.sv ; xil_defaultlib ; C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new", 1, "InstructionMemory.sv", 2, false, false, false, true, false); // bQ - Popup Trigger
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VSourceFile ; 2 ; InstructionMemory.sv ; xil_defaultlib ; C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new", 1, "InstructionMemory.sv", 2, false, false, false, true, false); // bQ - Popup Trigger
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VSourceFile ; 2 ; InstructionMemory.sv ; xil_defaultlib ; C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new", 1, "InstructionMemory.sv", 2, false, false, false, true, false); // bQ - Popup Trigger
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VSourceFile ; 2 ; InstructionMemory.sv ; xil_defaultlib ; C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new", 1, "InstructionMemory.sv", 2, false, false, false, true, false); // bQ - Popup Trigger
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VSourceFile ; 2 ; InstructionMemory.sv ; xil_defaultlib ; C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new", 1, "InstructionMemory.sv", 2); // bQ
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VSourceFile ; 2 ; InstructionMemory.sv ; xil_defaultlib ; C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new", 1, "InstructionMemory.sv", 2, false, false, false, true, false); // bQ - Popup Trigger
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VSourceFile ; 2 ; InstructionMemory.sv ; xil_defaultlib ; C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new", 1, "InstructionMemory.sv", 2, false, false, false, true, false); // bQ - Popup Trigger
+selectMenu(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // ak
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VSourceFile ; 2 ; InstructionMemory.sv ; xil_defaultlib ; C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new", 1, "InstructionMemory.sv", 2, false, false, false, true, false); // bQ - Popup Trigger
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VSourceFile ; 2 ; InstructionMemory.sv ; xil_defaultlib ; C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new", 1, "InstructionMemory.sv", 2, false, false, false, true, false); // bQ - Popup Trigger
+selectMenu(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // ak
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 24 seconds
+dismissDialog("Add Sources"); // c
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -norecurse {C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new/InstructionMemory.sv C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new/DataMemory.sv} 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+// Elapsed time: 157 seconds
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "bus_"); // aa
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "SystemVerilog", 2); // cm
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "bus_interconnector"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Tcl Command: 'file mkdir C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new'
+dismissDialog("Create Source File"); // F
+// Tcl Message: file mkdir C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new 
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 22 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/bus_interconnector.sv w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/bus_interconnector.sv 
+// I (cs): Define Module: addNotify
+applyEnter(PAResourceAtoD.DefineModulesDialog_ENTITY_NAME, "bus_interconnector"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // I
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,152 MB. GUI used memory: 89 MB. Current time: 6/3/24, 12:10:29 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,152 MB. GUI used memory: 79 MB. Current time: 6/3/24, 12:40:30 PM KST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,152 MB. GUI used memory: 79 MB. Current time: 6/3/24, 1:10:30 PM KST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+// Elapsed time: 5381 seconds
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "rv32"); // aa
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "Verilog Header", 1); // cm
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "SystemVerilog", 2); // cm
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "RV32I"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectCheckBox(PAResourceQtoS.SrcChooserPanel_MAKE_LOCAL_COPY_OF_THESE_FILES_INTO, "Copy sources into project", false); // g: FALSE
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 11 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv 
+// I (cs): Define Module: addNotify
+setText(PAResourceAtoD.DefineModulesDialog_ENTITY_NAME, "RV32I", true); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // I
+applyEnter(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, (String) null); // o
+applyEnter(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, (String) null); // o
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,152 MB. GUI used memory: 79 MB. Current time: 6/3/24, 1:40:30 PM KST
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+// Elapsed time: 2171 seconds
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "GPO"); // aa
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "Verilog Header", 1); // cm
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectCheckBox(PAResourceQtoS.SrcChooserPanel_MAKE_LOCAL_COPY_OF_THESE_FILES_INTO, "Copy sources into project", false); // g: FALSE
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 8 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/GPO.sv w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/GPO.sv 
+// I (cs): Define Module: addNotify
+applyEnter(PAResourceAtoD.DefineModulesDialog_ENTITY_NAME, "GPO"); // aa
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // I
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,152 MB. GUI used memory: 78 MB. Current time: 6/3/24, 2:10:32 PM KST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 1842 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // o - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// bz (cs):  Open Elaborated Design : addNotify
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: RV32I 
+// TclEventType: ELABORATE_START
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35tcpg236-1 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1523.391 ; gain = 262.504 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'RV32I' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv:3] INFO: [Synth 8-6157] synthesizing module 'CPU_Core' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/CPU_Core.sv:3] 
+// Tcl Message: ERROR: [Synth 8-439] module 'ControlUnit' not found [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/CPU_Core.sv:23] ERROR: [Synth 8-6156] failed synthesizing module 'CPU_Core' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/CPU_Core.sv:3] ERROR: [Synth 8-6156] failed synthesizing module 'RV32I' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv:3] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1596.773 ; gain = 335.887 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: 3 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details  
+// 'dU' command handler elapsed time: 16 seconds
+// W (cs): Critical Messages: addNotify
+// Elapsed time: 16 seconds
+dismissDialog("Open Elaborated Design"); // bz
+applyEnter(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, (String) null); // o
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // W
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aK
+selectTab((HResource) null, (HResource) null, "Messages", 4); // aK
+maximizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // az
+unMaximizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // az
+selectTab((HResource) null, (HResource) null, "Messages", 4); // aK
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // g: FALSE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+// Elapsed time: 79 seconds
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+// Elapsed time: 21 seconds
+setFileChooser("C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new/ControlUnit.sv");
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+setFileChooser("C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new/defines.sv");
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 27 seconds
+dismissDialog("Add Sources"); // c
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -norecurse {C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new/defines.sv C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new/ControlUnit.sv} 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // o - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// bz (cs):  Open Elaborated Design : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: RV32I 
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1596.773 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'RV32I' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv:3] INFO: [Synth 8-6157] synthesizing module 'CPU_Core' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/CPU_Core.sv:3] INFO: [Synth 8-6157] synthesizing module 'ControlUnit' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/ControlUnit.sv:5] INFO: [Synth 8-6155] done synthesizing module 'ControlUnit' (1#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/ControlUnit.sv:5] 
+// Tcl Message: ERROR: [Synth 8-439] module 'DataPath' not found [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/CPU_Core.sv:38] ERROR: [Synth 8-6156] failed synthesizing module 'CPU_Core' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/CPU_Core.sv:3] ERROR: [Synth 8-6156] failed synthesizing module 'RV32I' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv:3] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1596.773 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: 4 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details  
+// W (cs): Critical Messages: addNotify
+dismissDialog("Open Elaborated Design"); // bz
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // W
+// HMemoryUtils.trashcanNow. Engine heap size: 1,203 MB. GUI used memory: 80 MB. Current time: 6/3/24, 2:23:58 PM KST
+selectButton(PAResourceItoN.MsgView_CLEAR_MESSAGES_RESULTING_FROM_USER_EXECUTED, "Messages_cleanUpMessages"); // E
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // o - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// bz (cs):  Open Elaborated Design : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: RV32I 
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aK
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 76, 200); // dS
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1617.691 ; gain = 0.848 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'RV32I' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv:3] INFO: [Synth 8-6157] synthesizing module 'CPU_Core' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/CPU_Core.sv:3] INFO: [Synth 8-6157] synthesizing module 'ControlUnit' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/ControlUnit.sv:5] INFO: [Synth 8-6155] done synthesizing module 'ControlUnit' (1#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/ControlUnit.sv:5] 
+// Tcl Message: ERROR: [Synth 8-439] module 'DataPath' not found [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/CPU_Core.sv:38] ERROR: [Synth 8-6156] failed synthesizing module 'CPU_Core' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/CPU_Core.sv:3] ERROR: [Synth 8-6156] failed synthesizing module 'RV32I' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv:3] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1617.977 ; gain = 1.133 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: 4 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details  
+// [Engine Memory]: 1,217 MB (+7724kb) [02:43:55]
+// W (cs): Critical Messages: addNotify
+dismissDialog("Open Elaborated Design"); // bz
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // W
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aK
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Synth 8-439] module 'DataPath' not found [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/CPU_Core.sv:38]. ]", 2, false); // ah
+// HMemoryUtils.trashcanNow. Engine heap size: 1,225 MB. GUI used memory: 81 MB. Current time: 6/3/24, 2:24:13 PM KST
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+setFileChooser("C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new/DataPath.sv");
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 4 seconds
+dismissDialog("Add Sources"); // c
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -norecurse C:/Users/tb041/Documents/FPGA_Harman/0531_RISCV_R_TYPE/0530_RISCV_R_TYPE.srcs/sources_1/new/DataPath.sv 
+selectButton(PAResourceItoN.MsgView_CLEAR_MESSAGES_RESULTING_FROM_USER_EXECUTED, "Messages_cleanUpMessages"); // E
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // o - Node
+// TclEventType: FILE_SET_CHANGE
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// bz (cs):  Open Elaborated Design : addNotify
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: RV32I 
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1638.500 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: ERROR: [Synth 8-448] named port connection 'instrMemRAddr' does not exist for instance 'U_CPU_Core' of module 'CPU_Core' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv:19] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'DataMemory' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataMemory.sv:3] 
+// Tcl Message: ERROR: [Synth 8-6156] failed synthesizing module 'DataMemory' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataMemory.sv:3] ERROR: [Synth 8-6156] failed synthesizing module 'RV32I' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv:3] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1638.500 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: 24 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details  
+// 'dU' command handler elapsed time: 4 seconds
+// W (cs): Critical Messages: addNotify
+dismissDialog("Open Elaborated Design"); // bz
+applyEnter(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, (String) null); // o
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // W
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Synth 8-448] named port connection 'instrMemRAddr' does not exist for instance 'U_CPU_Core' of module 'CPU_Core' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv:19]. ]", 2, false); // ah
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 57 seconds
+selectButton(PAResourceItoN.MsgView_CLEAR_MESSAGES_RESULTING_FROM_USER_EXECUTED, "Messages_cleanUpMessages"); // E
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // o - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// bz (cs):  Open Elaborated Design : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: RV32I 
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1638.891 ; gain = 0.391 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: ERROR: [Synth 8-448] named port connection 'instrMemRAddr' does not exist for instance 'U_CPU_Core' of module 'CPU_Core' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv:19] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'DataMemory' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataMemory.sv:3] 
+// Tcl Message: ERROR: [Synth 8-6156] failed synthesizing module 'DataMemory' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/imports/new/DataMemory.sv:3] ERROR: [Synth 8-6156] failed synthesizing module 'RV32I' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv:3] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1638.906 ; gain = 0.406 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: 24 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details  
+// 'dU' command handler elapsed time: 4 seconds
+// W (cs): Critical Messages: addNotify
+dismissDialog("Open Elaborated Design"); // bz
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // W
+// Elapsed time: 28 seconds
+selectButton(PAResourceItoN.MsgView_CLEAR_MESSAGES_RESULTING_FROM_USER_EXECUTED, "Messages_cleanUpMessages"); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // o - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// bz (cs):  Open Elaborated Design : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: RV32I 
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1640.680 ; gain = 1.773 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: ERROR: [Synth 8-439] module 'BUS_Interconnector' not found [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv:37] ERROR: [Synth 8-6156] failed synthesizing module 'RV32I' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv:3] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1640.680 ; gain = 1.773 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: 27 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details  
+// 'dU' command handler elapsed time: 4 seconds
+// W (cs): Critical Messages: addNotify
+dismissDialog("Open Elaborated Design"); // bz
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // W
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectButton(PAResourceItoN.MsgView_CLEAR_MESSAGES_RESULTING_FROM_USER_EXECUTED, "Messages_cleanUpMessages"); // E
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // o - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// bz (cs):  Open Elaborated Design : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: RV32I 
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1640.996 ; gain = 0.316 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'bus_interconnector' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/bus_interconnector.sv:3] INFO: [Synth 8-6157] synthesizing module 'decoder' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/bus_interconnector.sv:30] INFO: [Synth 8-6155] done synthesizing module 'decoder' (13#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/bus_interconnector.sv:30] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'mux' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/bus_interconnector.sv:46] INFO: [Synth 8-6155] done synthesizing module 'mux' (14#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/bus_interconnector.sv:46] INFO: [Synth 8-6155] done synthesizing module 'bus_interconnector' (15#1) [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/bus_interconnector.sv:3] 
+// Tcl Message: ERROR: [Synth 8-448] named port connection 'slave_sel' does not exist for instance 'U_BUS_InterConn' of module 'bus_interconnector' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv:39] ERROR: [Synth 8-448] named port connection 'master_rdata' does not exist for instance 'U_BUS_InterConn' of module 'bus_interconnector' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv:43] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'GPO' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/GPO.sv:3] 
+// Tcl Message: ERROR: [Synth 8-6156] failed synthesizing module 'GPO' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/GPO.sv:3] ERROR: [Synth 8-6156] failed synthesizing module 'RV32I' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv:3] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1640.996 ; gain = 0.316 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: 34 Infos, 2 Warnings, 0 Critical Warnings and 5 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details  
+// 'dU' command handler elapsed time: 5 seconds
+// W (cs): Critical Messages: addNotify
+dismissDialog("Open Elaborated Design"); // bz
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // W
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 60 seconds
+selectButton(PAResourceItoN.MsgView_CLEAR_MESSAGES_RESULTING_FROM_USER_EXECUTED, "Messages_cleanUpMessages"); // E
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // o - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// bz (cs):  Open Elaborated Design : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: RV32I 
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1641.867 ; gain = 0.871 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: ERROR: [Synth 8-448] named port connection 'master_rdata' does not exist for instance 'U_BUS_InterConn' of module 'bus_interconnector' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv:43] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'GPO' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/GPO.sv:3] 
+// Tcl Message: ERROR: [Synth 8-6156] failed synthesizing module 'GPO' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/GPO.sv:3] ERROR: [Synth 8-6156] failed synthesizing module 'RV32I' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv:3] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1641.867 ; gain = 0.871 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: 34 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details  
+// 'dU' command handler elapsed time: 5 seconds
+// W (cs): Critical Messages: addNotify
+dismissDialog("Open Elaborated Design"); // bz
+applyEnter(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, (String) null); // o
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // W
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Synth 8-448] named port connection 'master_rdata' does not exist for instance 'U_BUS_InterConn' of module 'bus_interconnector' [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/sources_1/new/RV32I.sv:43]. ]", 2, false); // ah
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // o - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// bz (cs):  Open Elaborated Design : addNotify
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: RV32I 
+// TclEventType: ELABORATE_START
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a
+// TclEventType: ELABORATE_FINISH
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 1,285 MB (+7823kb) [02:48:13]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,287 MB. GUI used memory: 81 MB. Current time: 6/3/24, 2:28:27 PM KST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,370 MB (+22153kb) [02:48:14]
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1753 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1643.609 ; gain = 1.742 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1643.609 ; gain = 1.742 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1646.574 ; gain = 4.707 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1646.574 ; gain = 4.707 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1646.574 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1774.961 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1835.523 ; gain = 193.656 
+// Tcl Message: 38 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1835.523 ; gain = 193.656 
+dismissDialog("Open Elaborated Design"); // bz
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // F
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 18, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bz (cs):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 12 
+// Tcl Message: [Mon Jun  3 14:28:49 2024] Launched synth_1... Run output will be captured here: C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// [GUI Memory]: 182 MB (+11721kb) [02:48:36]
+// TclEventType: RUN_STATUS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,420 MB. GUI used memory: 114 MB. Current time: 6/3/24, 2:28:53 PM KST
+// PAPropertyPanels.initPanels (U_GPO (GPO)) elapsed time: 0.2s
+// Elapsed time: 15 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_NETLIST, "Netlist"); // az
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Synthesis Completed: addNotify
+// Elapsed time: 11 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Synthesis Completed"); // ag
+// Elapsed time: 74 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bz (cs):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 12 
+// Tcl Message: [Mon Jun  3 14:30:31 2024] Launched impl_1... Run output will be captured here: C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Implementation Completed: addNotify
+// Elapsed time: 60 seconds
+dismissDialog("Implementation Completed"); // ag
+selectButton(PAResourceItoN.NetlistSchematicView_SHOW_IO_PORTS_IN_THIS_SCHEMATIC, "6 I/O Ports"); // h
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, "Add or create constraints"); // a
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files"); // a
+// HMemoryUtils.trashcanNow. Engine heap size: 1,438 MB. GUI used memory: 122 MB. Current time: 6/3/24, 2:31:43 PM KST
+setFileChooser("C:/Users/tb041/Documents/FPGA_Harman/MY_Basys-3-Master.xdc");
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 9 seconds
+// [Engine Memory]: 1,441 MB (+1971kb) [02:51:35]
+dismissDialog("Add Sources"); // c
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 -norecurse C:/Users/tb041/Documents/FPGA_Harman/MY_Basys-3-Master.xdc 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -fileset constrs_1 C:/Users/tb041/Documents/FPGA_Harman/MY_Basys-3-Master.xdc 
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 55 seconds
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h
+// bz (cs):  Reloading : addNotify
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,444 MB. GUI used memory: 119 MB. Current time: 6/3/24, 2:32:46 PM KST
+// Engine heap size: 1,444 MB. GUI used memory: 119 MB. Current time: 6/3/24, 2:32:46 PM KST
+// Tcl Message: refresh_design 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,444 MB. GUI used memory: 97 MB. Current time: 6/3/24, 2:32:48 PM KST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1453 ms.
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/constrs_1/imports/FPGA_Harman/MY_Basys-3-Master.xdc] Finished Parsing XDC File [C:/Users/tb041/Documents/FPGA_Harman/0603_RISCV_GPIO/0603_RISCV_GPIO.srcs/constrs_1/imports/FPGA_Harman/MY_Basys-3-Master.xdc] Completed Processing XDC Constraints  
+dismissDialog("Reloading"); // bz

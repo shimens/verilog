@@ -1,0 +1,52 @@
+
+*** Running vivado
+    with args -log RV32I.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source RV32I.tcl -notrace
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source RV32I.tcl -notrace
+Command: link_design -top RV32I -part xc7a35tcpg236-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1106.461 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 65 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1106.461 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 44 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 12 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 32 instances
+
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U_CPU_Core/U_DataPath/U_PC/UNCONN_OUT has multiple drivers: U_CPU_Core/U_DataPath/U_PC/RegFile_reg_r2_0_31_0_5_i_1/O, and U_CPU_Core/U_DataPath/U_PC/RegFile_reg_r2_0_31_0_5_i_2/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U_CPU_Core/U_DataPath/U_PC/w_InstrMemData[10] has multiple drivers: U_CPU_Core/U_DataPath/U_PC/RegFile_reg_r2_0_31_0_5_i_4/O, and U_CPU_Core/U_DataPath/U_PC/RegFile_reg_r2_0_31_0_5_i_3/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U_CPU_Core/U_DataPath/U_PC/w_InstrMemData[8] has multiple drivers: U_CPU_Core/U_DataPath/U_PC/RegFile_reg_r2_0_31_0_5_i_8/O, and U_CPU_Core/U_DataPath/U_PC/RegFile_reg_r2_0_31_0_5_i_7/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net U_CPU_Core/U_DataPath/U_PC/w_InstrMemData[9] has multiple drivers: U_CPU_Core/U_DataPath/U_PC/RegFile_reg_r2_0_31_0_5_i_6/O, and U_CPU_Core/U_DataPath/U_PC/RegFile_reg_r2_0_31_0_5_i_5/O.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net w_InstrMemData[30] has multiple drivers: U_CPU_Core/U_DataPath/U_PC/result0_carry__1_i_9/O, and result0_carry__1_i_10/O.
+INFO: [Project 1-461] DRC finished with 5 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.660 . Memory (MB): peak = 1106.461 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+11 Infos, 0 Warnings, 0 Critical Warnings and 6 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Mon Jun  3 14:28:13 2024...

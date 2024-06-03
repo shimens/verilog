@@ -1,0 +1,15 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/sim_1/imports/new/tb_RV32I.sv,1717403806,systemVerilog,,,,tb_RV32I,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/sources_1/imports/new/CPU_Core.sv,1717403707,systemVerilog,,D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/sources_1/imports/new/ControlUnit.sv,,CPU_Core,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/sources_1/imports/new/ControlUnit.sv,1717407804,systemVerilog,,D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/sources_1/imports/new/DataMemory.sv,D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/sources_1/imports/new/defines.sv,ControlUnit,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/sources_1/imports/new/DataMemory.sv,1717403836,systemVerilog,,D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/sources_1/imports/new/DataPath.sv,,DataMemory,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/sources_1/imports/new/DataPath.sv,1717405855,systemVerilog,,D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/sources_1/new/GPO.sv,D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/sources_1/imports/new/defines.sv,DataPath;Register;RegisterFile;adder;alu;extend;mux_2x1;mux_3x1;mux_4x1;mux_5x1,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/sources_1/imports/new/InstructionMemory.sv,1717407843,systemVerilog,,D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/sources_1/imports/new/RV32I.sv,,InstructionMemory,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/sources_1/imports/new/RV32I.sv,1717406898,systemVerilog,,D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/sim_1/imports/new/tb_RV32I.sv,,RV32I,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/sources_1/imports/new/defines.sv,1717119358,verilog,,,,,,,,,,,,
+D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/sources_1/new/BUS_Interconnector.sv,1717403999,systemVerilog,,D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/sources_1/imports/new/CPU_Core.sv,,BUS_interconntor;decoder;mux,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/sources_1/new/GPO.sv,1717404007,systemVerilog,,D:/ish/verilog/vivadoWS/240603_RISC-V/240603_RISC-V.srcs/sources_1/imports/new/InstructionMemory.sv,,GPO,,uvm,,,,,,
