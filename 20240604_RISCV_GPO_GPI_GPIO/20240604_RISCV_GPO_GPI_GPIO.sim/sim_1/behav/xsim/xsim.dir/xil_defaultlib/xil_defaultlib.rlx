@@ -1,0 +1,15 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/ish/verilog/vivadoWS/20240604_RISCV_GPO_GPI_GPIO/20240604_RISCV_GPO_GPI_GPIO.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/20240604_RISCV_GPO_GPI_GPIO/20240604_RISCV_GPO_GPI_GPIO.srcs/sim_1/new/tb_RISCV.sv,1717488534,systemVerilog,,,,tb_RISCV,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/20240604_RISCV_GPO_GPI_GPIO/20240604_RISCV_GPO_GPI_GPIO.srcs/sources_1/imports/new/ControlUnit.v,1717473795,verilog,,D:/ish/verilog/vivadoWS/20240604_RISCV_GPO_GPI_GPIO/20240604_RISCV_GPO_GPI_GPIO.srcs/sources_1/imports/new/DataPath.v,D:/ish/verilog/vivadoWS/20240604_RISCV_GPO_GPI_GPIO/20240604_RISCV_GPO_GPI_GPIO.srcs/sources_1/imports/new/RV32I_define.v,ControlUnit,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/20240604_RISCV_GPO_GPI_GPIO/20240604_RISCV_GPO_GPI_GPIO.srcs/sources_1/imports/new/DataPath.v,1717479318,verilog,,D:/ish/verilog/vivadoWS/20240604_RISCV_GPO_GPI_GPIO/20240604_RISCV_GPO_GPI_GPIO.srcs/sources_1/new/GPI.v,D:/ish/verilog/vivadoWS/20240604_RISCV_GPO_GPI_GPIO/20240604_RISCV_GPO_GPI_GPIO.srcs/sources_1/imports/new/RV32I_define.v,ALU;Adder;DataPath;ImmGen;ROM;RegFile;mux_2x1;register;shifter,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/20240604_RISCV_GPO_GPI_GPIO/20240604_RISCV_GPO_GPI_GPIO.srcs/sources_1/imports/new/GPO.v,1717463285,verilog,,D:/ish/verilog/vivadoWS/20240604_RISCV_GPO_GPI_GPIO/20240604_RISCV_GPO_GPI_GPIO.srcs/sources_1/imports/new/RAM.v,,GPO,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/20240604_RISCV_GPO_GPI_GPIO/20240604_RISCV_GPO_GPI_GPIO.srcs/sources_1/imports/new/RAM.v,1717463285,verilog,,D:/ish/verilog/vivadoWS/20240604_RISCV_GPO_GPI_GPIO/20240604_RISCV_GPO_GPI_GPIO.srcs/sources_1/imports/new/RV32I.v,,RAM,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/20240604_RISCV_GPO_GPI_GPIO/20240604_RISCV_GPO_GPI_GPIO.srcs/sources_1/imports/new/RV32I.v,1717463285,verilog,,D:/ish/verilog/vivadoWS/20240604_RISCV_GPO_GPI_GPIO/20240604_RISCV_GPO_GPI_GPIO.srcs/sources_1/imports/new/RV32I_MCU.v,,RV32I,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/20240604_RISCV_GPO_GPI_GPIO/20240604_RISCV_GPO_GPI_GPIO.srcs/sources_1/imports/new/RV32I_MCU.v,1717485549,verilog,,,,RV32I_MCU;decoder_bus;mux_bus,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/20240604_RISCV_GPO_GPI_GPIO/20240604_RISCV_GPO_GPI_GPIO.srcs/sources_1/imports/new/RV32I_define.v,1717463286,verilog,,,,,,,,,,,,
+D:/ish/verilog/vivadoWS/20240604_RISCV_GPO_GPI_GPIO/20240604_RISCV_GPO_GPI_GPIO.srcs/sources_1/new/GPI.v,1717476441,verilog,,D:/ish/verilog/vivadoWS/20240604_RISCV_GPO_GPI_GPIO/20240604_RISCV_GPO_GPI_GPIO.srcs/sources_1/new/GPIO.v,,GPI,,uvm,,,,,,
+D:/ish/verilog/vivadoWS/20240604_RISCV_GPO_GPI_GPIO/20240604_RISCV_GPO_GPI_GPIO.srcs/sources_1/new/GPIO.v,1717488984,verilog,,D:/ish/verilog/vivadoWS/20240604_RISCV_GPO_GPI_GPIO/20240604_RISCV_GPO_GPI_GPIO.srcs/sources_1/imports/new/GPO.v,,GPIO,,uvm,,,,,,

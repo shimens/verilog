@@ -1,0 +1,118 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Jun  4 17:18:51 2024
+| Host         : DESKTOP-7CFQ9ND running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file RV32I_MCU_control_sets_placed.rpt
+| Design       : RV32I_MCU
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    40 |
+|    Minimum number of control sets                        |    40 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    12 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    40 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    39 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               4 |            1 |
+| No           | No                    | Yes                    |              32 |           12 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |            1192 |          503 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------------+--------------------------------------------------+------------------+------------------+----------------+--------------+
+|               Clock Signal               |                   Enable Signal                  | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
++------------------------------------------+--------------------------------------------------+------------------+------------------+----------------+--------------+
+|  U_CPUCore/U_DP/U_PC/IDR_reg[3]_i_4_0[0] |                                                  |                  |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_27[0]          | reset_IBUF       |               17 |             32 |         1.88 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_28[0]          | reset_IBUF       |               18 |             32 |         1.78 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_37[0]          | reset_IBUF       |               10 |             32 |         3.20 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_40[0]          | reset_IBUF       |               20 |             32 |         1.60 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_38[0]          | reset_IBUF       |               15 |             32 |         2.13 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_48[0]          | reset_IBUF       |               18 |             32 |         1.78 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_54[0]          | reset_IBUF       |               15 |             32 |         2.13 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_57[0]          | reset_IBUF       |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_44[0]          | reset_IBUF       |               14 |             32 |         2.29 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_51[0]          | reset_IBUF       |                9 |             32 |         3.56 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_55[0]          | reset_IBUF       |               14 |             32 |         2.29 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_41[0]          | reset_IBUF       |               15 |             32 |         2.13 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_43[0]          | reset_IBUF       |               14 |             32 |         2.29 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_47[0]          | reset_IBUF       |               11 |             32 |         2.91 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_49[0]          | reset_IBUF       |               16 |             32 |         2.00 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_59[0]          | reset_IBUF       |               17 |             32 |         1.88 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_52[0]          | reset_IBUF       |               17 |             32 |         1.88 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_45[0]          | reset_IBUF       |               14 |             32 |         2.29 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_50[0]          | reset_IBUF       |               13 |             32 |         2.46 |
+|  clk_IBUF_BUFG                           |                                                  | reset_IBUF       |               12 |             32 |         2.67 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_46[0]          | reset_IBUF       |               14 |             32 |         2.29 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_53[0]          | reset_IBUF       |               20 |             32 |         1.60 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_4[0]           | reset_IBUF       |               18 |             32 |         1.78 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_39[0]          | reset_IBUF       |               18 |             32 |         1.78 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_42[0]          | reset_IBUF       |               11 |             32 |         2.91 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_56[0]          | reset_IBUF       |               16 |             32 |         2.00 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_58[0]          | reset_IBUF       |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_61[0]          | reset_IBUF       |               14 |             32 |         2.29 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_62[0]          | reset_IBUF       |               17 |             32 |         1.88 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_60[0]          | reset_IBUF       |               16 |             32 |         2.00 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_63[0]          | reset_IBUF       |               15 |             32 |         2.13 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/MODER                        | reset_IBUF       |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/E[0]                         | reset_IBUF       |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/gpoRegMap[0][31]_i_2__0_0[0] | reset_IBUF       |                9 |             32 |         3.56 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/gpoRegMap[0][31]_i_2_0[0]    | reset_IBUF       |                5 |             32 |         6.40 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/o_data_reg[2]_36[0]          | reset_IBUF       |               14 |             32 |         2.29 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/gpoRegMap[0][31]_i_2__0_1[0] | reset_IBUF       |                9 |             36 |         4.00 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/gpoRegMap[0][31]_i_2_1[0]    | reset_IBUF       |                8 |             36 |         4.50 |
+|  clk_IBUF_BUFG                           | U_CPUCore/U_DP/U_PC/reset                        |                  |               32 |            128 |         4.00 |
++------------------------------------------+--------------------------------------------------+------------------+------------------+----------------+--------------+
+
+
